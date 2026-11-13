@@ -1,0 +1,150 @@
+[
+	{
+		"map_name": "sm_buildsystem_stairs_f_ebc",
+		"good_path": "sm_buildsystem_stairs_f/model.prefab/",
+		"show_name": "楼梯04",
+		"type": "projectResourceInfo"
+	},
+	{
+		"type": "prefabInfo",
+		"importType": "deco",
+		"sourceInfo": ""
+	},
+	{
+		"type": "prefabMesh",
+		"uuid": "03vx16bn-l8hr-76gf-r3bf-o6zui75h13x2",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		},
+		"prefabPath": "deco/buildsystem/sm_buildsystem_stairs_e01/model.prefab",
+		"coveredSockets": []
+	},
+	{
+		"type": "prefabMesh",
+		"uuid": "yeuta6zg-z4gh-lqub-n4ea-pds86wwvv70v",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		},
+		"prefabPath": "deco/buildsystem/sm_buildsystem_stairs_e02/model.prefab",
+		"coveredSockets": []
+	},
+	{
+		"type": "prefabMesh",
+		"uuid": "bshheolb-ip54-bhjo-hpbz-lrs4h3ma6hpq",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		},
+		"prefabPath": "deco/buildsystem/sm_buildsystem_stairs_e01_1/model.prefab",
+		"coveredSockets": []
+	},
+	{
+		"type": "prefabMesh",
+		"uuid": "0drchk6k-ejh5-80nc-w32j-rm7y1w07ulvd",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		},
+		"prefabPath": "deco/buildsystem/sm_buildsystem_stairs_e01_2/model.prefab",
+		"coveredSockets": []
+	},
+	{
+		"type": "prefabMesh",
+		"uuid": "rk1jldd3-doko-o0tc-6tsn-y5kkw6qon8hx",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		},
+		"prefabPath": "deco/buildsystem/sm_buildsystem_stairs_e02_1/model.prefab",
+		"coveredSockets": []
+	},
+	{
+		"type": "prefabMesh",
+		"uuid": "qzbrpfku-btof-ws6k-9rar-yxp6rfoeg2vh",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": -1.0,
+			"z": 1.0
+		},
+		"prefabPath": "deco/buildsystem/sm_buildsystem_stairs_e02_2/model.prefab",
+		"coveredSockets": []
+	},
+	{
+		"type": "occludingCamera",
+		"OccludingCameraOption": 2,
+		"NearClipDistance": 0.0
+	}
+]

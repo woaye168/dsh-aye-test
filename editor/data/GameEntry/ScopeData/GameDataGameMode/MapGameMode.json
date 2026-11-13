@@ -1,0 +1,31 @@
+﻿{
+  "$id": "$01KK11M1W4BC6GPW8T03FV5E3S",
+  "__editor__": {
+    "canvas": {
+      "entry": {
+        "$this.自定义渲染": {
+          "Position": "347 -73"
+        }
+      }
+    }
+  },
+  "自定义渲染": {
+    "$inherit": "$01KVSCR7KVAV01XC9YVR4PGGTZ.Root" /*$gamesparkcore.ScopeDataTemplate.GameDataRenderConfig.渲染配置模板.Root*/,
+    "Name": "自定义渲染",
+    "OcclusionCullingMode": "Focus"
+  },
+  "Root": {
+    "$type": "GameCore.GameSystem.Data.GameDataGameMode",
+    "DefaultScene": "$GameDataScene.new_scene.Root",
+    "DisplayInfo": "$01KFHX6W527T0K2D074Z8D3QB8.Root" /*$gamesparkcore.ScopeData.GameDataRule.DefaultDisplayInfo.Root*/,
+    "ExperienceGrant": "$01KFHX6W524XH9Y3GFKGXHYA8X.Root" /*$gamesparkcore.ScopeData.GameDataRule.DefaultExperienceGrant.Root*/,
+    "Gameplay": "$01KFHYDMVE43GSGM4GKNGF12KD.Root" /*$gamesparkcore.ScopeData.GameDataGameplay.Default.Root*/,
+    "GameUI": "$GameDataGameUI.Default.Root",
+    "Name": "当前地图游戏模式",
+    "PlayerSettings": "$GameDataPlayerSettings.PlayerSettings.Root",
+    "RenderConfig": "$this.自定义渲染",
+    "SceneList": [
+      "$GameDataScene.new_scene.Root"
+    ]
+  }
+}

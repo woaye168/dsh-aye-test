@@ -1,0 +1,247 @@
+﻿{
+  "$id": "$01K60KASF3TH5R83Q479MM6357",
+  "__editor__": {
+    "canvas": {
+      "entry": {
+        "$this.Actor_WerewolfAttackSound": {
+          "Position": "40 891"
+        },
+        "$this.Actor_WerewolfClawAttackEffect": {
+          "Position": "40 1249"
+        },
+        "$this.Actor_WerewolfClawHitEffect": {
+          "Position": "40 1463"
+        },
+        "$this.Actor_WerewolfDeathSound": {
+          "Position": "40 1561"
+        },
+        "$this.Animation_WerewolfMeleeAttackAnim": {
+          "Position": "511 40"
+        },
+        "$this.Cooldown_WerewolfMeleeAttackCooldown": {
+          "Position": "511 146"
+        },
+        "$this.Effect_WerewolfMeleeAttackDamage": {
+          "Position": "511 288"
+        },
+        "$this.Model_Werewolf": {
+          "Position": "40 1919"
+        },
+        "$this.Particle_WerewolfClawAttackEffect": {
+          "Position": "511 741"
+        },
+        "$this.Particle_WerewolfClawHitEffect": {
+          "Position": "511 847"
+        },
+        "$this.Sound_WerewolfAttackSound": {
+          "Position": "511 599"
+        },
+        "$this.Sound_WerewolfDeathSound": {
+          "Position": "511 953"
+        }
+      }
+    }
+  },
+  "Ability_WerewolfMeleeAttack": {
+    "$type": "GameCore.AbilitySystem.Data.GameDataAbilityExecute",
+    "AbilityActiveFlags": {
+      "AllowEnqueueInCooldown": true
+    },
+    "AbilityExecuteFlags": {
+      "IsAttack": true
+    },
+    "AcquireSettings": {
+      "Enabled": true,
+      "TargetingFilters": [
+        {
+          "Excluded": [
+            "GameCore.BaseType.UnitState.Dead",
+            "GameCore.BaseType.UnitState.Invulnerable"
+          ],
+          "Required": [
+            "GameCore.BaseType.UnitRelationship.Enemy"
+          ]
+        }
+      ]
+    },
+    "ActorArray": [
+      "$this.Actor_WerewolfClawAttackEffect"
+    ],
+    "Animation": [
+      "$this.Animation_WerewolfMeleeAttackAnim"
+    ],
+    "Cost": {
+      "Cooldown": "$this.Cooldown_WerewolfMeleeAttackCooldown"
+    },
+    "Description": "狼人用锋利的爪子攻击单个敌人，造成物理伤害",
+    "DisplayName": "爪击",
+    "Effect": "$this.Effect_WerewolfMeleeAttackDamage",
+    "LogExecutionFailure": true,
+    "Name": "爪击",
+    "Range": 150,
+    "TargetingIndicatorInfo": {
+      "CursorRadius": 96,
+      "VectorHighlightLimit": 1,
+      "VectorLineWidth": 72
+    },
+    "TargetType": "Unit",
+    "Time": {
+      "Backswing": "00:00:00.3000000",
+      "Channel": "00:00:00.1000000",
+      "Preswing": "00:00:00.2000000"
+    }
+  },
+  "Actor_WerewolfAttackSound": {
+    "$type": "GameCore.ActorSystem.Data.GameDataActorSound",
+    "Name": "狼人攻击音效组件",
+    "Sound": [
+      {
+        "Link": "$this.Sound_WerewolfAttackSound",
+        "Weight": 1.0
+      }
+    ]
+  },
+  "Actor_WerewolfClawAttackEffect": {
+    "$type": "GameCore.ActorSystem.Data.GameDataActorParticle",
+    "AutoPlay": true,
+    "ForceOneShot": true,
+    "KillOnFinish": true,
+    "Name": "狼人爪击攻击特效",
+    "Particle": "$this.Particle_WerewolfClawAttackEffect"
+  },
+  "Actor_WerewolfClawHitEffect": {
+    "$type": "GameCore.ActorSystem.Data.GameDataActorParticle",
+    "AutoPlay": true,
+    "ForceOneShot": true,
+    "KillOnFinish": true,
+    "Name": "狼人爪击受击特效",
+    "Particle": "$this.Particle_WerewolfClawHitEffect"
+  },
+  "Actor_WerewolfDeathSound": {
+    "$type": "GameCore.ActorSystem.Data.GameDataActorSound",
+    "Name": "狼人死亡音效组件",
+    "Sound": [
+      {
+        "Link": "$this.Sound_WerewolfDeathSound",
+        "Weight": 1.0
+      }
+    ],
+    "Volume": 1.0
+  },
+  "Animation_WerewolfMeleeAttackAnim": {
+    "$type": "GameCore.ModelAnimation.Data.GameDataAnimationSimple",
+    "File": "attack",
+    "IsLooping": false,
+    "Name": "狼人近战攻击动画"
+  },
+  "Cooldown_WerewolfMeleeAttackCooldown": {
+    "$type": "GameCore.CooldownSystem.Data.GameDataCooldownActive",
+    "Name": "狼人近战攻击冷却",
+    "Time": "00:00:01.5000000"
+  },
+  "Effect_WerewolfMeleeAttackDamage": {
+    "$type": "GameCore.Execution.Data.GameDataEffectDamage",
+    "ActorArray": [
+      "$this.Actor_WerewolfClawHitEffect"
+    ],
+    "Amount": 60,
+    "Name": "狼人爪击伤害",
+    "Type": "$01KFFV9K06XZ7360AC9MH1YQMH.Root" /*$gamesparkcore.ScopeData.GameDataDamageType.Physical.Root*/
+  },
+  "Model_Werewolf": {
+    "$type": "GameCore.ResourceType.Data.GameDataModel",
+    "AnimationMappings": [
+      {
+        "AnimationAlias": "Spellcast",
+        "AnimationRaw": "Spell"
+      },
+      {
+        "AnimationAlias": "idle",
+        "AnimationRaw": "idle"
+      },
+      {
+        "AnimationAlias": "move",
+        "AnimationRaw": "walk"
+      },
+      {
+        "AnimationAlias": "attack",
+        "AnimationRaw": "Attack"
+      },
+      {
+        "AnimationAlias": "born",
+        "AnimationRaw": "born"
+      }
+    ],
+    "Asset": "characters/monster/sk_werewolf/model.prefab",
+    "Name": "狼人模型",
+    "Radius": 60,
+    "ShadowSetting": {
+      "ShadowType": "DeviceDependentShadow"
+    }
+  },
+  "Particle_WerewolfClawAttackEffect": {
+    "$type": "GameCore.ResourceType.Data.GameDataParticle",
+    "Asset": "effect/effect_new/effect_claw/eff_claw_001/particle.effect",
+    "Name": "狼人爪击攻击粒子"
+  },
+  "Particle_WerewolfClawHitEffect": {
+    "$type": "GameCore.ResourceType.Data.GameDataParticle",
+    "Asset": "effect/effect_new/effect_hit/eff_hit_29/particle.effect",
+    "Name": "狼人爪击受击粒子"
+  },
+  "Root": {
+    "$inherit": "$01KP5J6DF1DA9BKKCRE2FPHCCZ.Root" /*$gamesparkcore.ScopeDataTemplate.GameDataUnit.MonsterUnitTemplate.Root*/,
+    "Abilities": [
+      "$this.Ability_WerewolfMeleeAttack"
+    ],
+    "ActorArray": [
+      "$this.Actor_WerewolfDeathSound"
+    ],
+    "AttackableRadius": 60,
+    "CollisionRadius": 40,
+    "DeathRemovalDelay": "00:00:05",
+    "DynamicCollisionMask": "Unit | Hero",
+    "Filter": [
+      "Unit"
+    ],
+    "Model": "$this.Model_Werewolf",
+    "MovementController": "$014HHW6Z1S6EMRYS23ZTS516AZ.Root" /*$gamesparkcore.ScopeData.GameDataUnitMovementController.Generic3DMovementController.Root*/,
+    "Name": "狼人",
+    "Properties": {
+      "$01KFFZHYT6W7BQ45XCXR5ZTTRG.Root": 8 /*$gamesparkcore.ScopeData.GameDataUnitProperty.Armor.Root*/,
+      "$01KFFZHYT82PKR6J85N5NBRQH5.Root": 800 /*$gamesparkcore.ScopeData.GameDataUnitProperty.LifeMax.Root*/,
+      "$01KFFZHYT8H0SZ63A38J0KATDN.Root": 1200 /*$gamesparkcore.ScopeData.GameDataUnitProperty.TurningSpeed.Root*/,
+      "$01KFFZHYT8H4B21B0VVT9NM2FR.Root": 350 /*$gamesparkcore.ScopeData.GameDataUnitProperty.AttackRange.Root*/,
+      "$01KFFZHYT8KJ5FX83AEFJWQSDN.Root": 5 /*$gamesparkcore.ScopeData.GameDataUnitProperty.MagicResistance.Root*/,
+      "$01KFFZHYT8N8284H2RVPAEMEF8.Root": 500 /*$gamesparkcore.ScopeData.GameDataUnitProperty.Sight.Root*/,
+      "$01KFFZHYT8QQPJ8M4SNRZCHWHN.Root": 320 /*$gamesparkcore.ScopeData.GameDataUnitProperty.MoveSpeed.Root*/,
+      "$01KFFZHYT8YTYNBBRM4GZA98MR.Root": 200 /*$gamesparkcore.ScopeData.GameDataUnitProperty.ManaMax.Root*/,
+      "$01KFFZHYT8ZSD6SRAPBTZ0DCMH.Root": 60 /*$gamesparkcore.ScopeData.GameDataUnitProperty.AttackDamage.Root*/
+    },
+    "StatusBarSetting": {
+      "DefaultStatusBar": "$01KFJ99XY2D1B5KD3XXF86HJ1S.Root" /*$gamesparkcore.ScopeData.GameDataStatusBar.EnemyNormalNone.Root*/,
+      "OverrideByRelationShip": {
+        "Alliance": "$01KFJ99XY2CBE182C5RC9BVY8N.Root" /*$gamesparkcore.ScopeData.GameDataStatusBar.AllyNormalNone.Root*/,
+        "Enemy": "$01KFJ99XY2D1B5KD3XXF86HJ1S.Root" /*$gamesparkcore.ScopeData.GameDataStatusBar.EnemyNormalNone.Root*/,
+        "Neutral": "$01KFJ99XY2MKNVHF123QWPT3X3.Root" /*$gamesparkcore.ScopeData.GameDataStatusBar.NeutralNormalNone.Root*/
+      }
+    },
+    "TacticalAI": "$01KFG9VFPMQZSEJFPAPQW648F2.Root" /*$gamesparkcore.ScopeData.GameDataAIThinkTree.Default.Root*/,
+    "UpdateFlags": {
+      "AllowMover": true,
+      "Turnable": true,
+      "Walkable": true
+    },
+    "VitalProperties": []
+  },
+  "Sound_WerewolfAttackSound": {
+    "$type": "GameCore.ResourceType.Data.GameDataSound",
+    "Asset": "sound/a5_epicsfx/weapons/Weapons_Melee_57.ogg",
+    "Name": "狼人攻击音效资源"
+  },
+  "Sound_WerewolfDeathSound": {
+    "$type": "GameCore.ResourceType.Data.GameDataSound",
+    "Asset": "sound/a2_sfx/action/deathaction/action_death_wolf_vo.ogg",
+    "Name": "狼人死亡音效资源"
+  }
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"map_name": "sm_xingchenhuayecai_a_01_2ja",
+		"good_path": "sm_xingchenhuayecai_a_01/model.prefab/",
+		"show_name": "星辰花椰菜不可走",
+		"type": "projectResourceInfo"
+	},
+	{
+		"type": "prefabInfo",
+		"importType": "deco",
+		"sourceInfo": ""
+	},
+	{
+		"type": "staticMesh",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"staticMesh": "deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/model/m.mdl",
+		"materials": [
+			"deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/materials/sm_xingchenhuayecai_a_01.material"
+		],
+		"tag": "",
+		"uuid": "m8cbxsvg-ntwj-gl5y-yo3e-l27q2fu9ivks"
+	},
+	{
+		"type": "basicInfo",
+		"navMeshOption": 1
+	}
+]

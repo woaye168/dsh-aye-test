@@ -1,0 +1,40 @@
+﻿{
+  "$id": "$01M3147A5CQKK376M2MQTHKAYW",
+  "Root": {
+    "$type": "GameUI.Data.GameDataGameUI",
+    "DefaultLoadingUI": "$01M01QPAH368PYGJHPXEZWSFKW.Root" /*$gamesparkcore.ScopeData.GameDataLoadingUI.Default.Root*/,
+    "Name": "项目UI配置",
+    "ShowDefaultLoading": true,
+    "StandardUIBaseZIndex": 0,
+    "StandardUIRenderingOrder": [
+      "Joystick",
+      "Map",
+      "Minimap",
+      "Hotbar",
+      "StatusBar",
+      "CharacterSheet",
+      "Inventory",
+      "Quest",
+      "QuestLog",
+      "Crafting",
+      "TalentTree",
+      "Leaderboards",
+      "Settings",
+      "Shop",
+      "Party",
+      "Social",
+      "Achievement",
+      "Chat",
+      "Dialogue",
+      "Notifications",
+      "Tutorial",
+      "Reward",
+      "MainMenu",
+      "ConfirmDialog",
+      "ErrorDialog",
+      "Loading"
+    ],
+    "StandardUIZIndexStep": 100,
+    "UseTopLeftContentAlignmentDefaults": true
+  }
+}

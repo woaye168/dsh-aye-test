@@ -1,0 +1,19 @@
+﻿{
+  "$id": "$01KD83TKZS0BJYWVWVES7TEG08",
+  "__editor__": {},
+  "HeroModel": {
+    "UnitLocomotionAnimationProfile": "$this.LocomotionAnimationProfile"
+  },
+  "LocomotionAnimationProfile": {
+    "Idle": {
+      "Animation": "idle"
+    },
+    "Land": {
+      "Animation": ""
+    },
+    "Move": {
+      "Animation": "move"
+    }
+  },
+  "Root": {}
+}

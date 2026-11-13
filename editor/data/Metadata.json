@@ -1,0 +1,99 @@
+﻿{
+  "Timestamp": 1794528919,
+  "CacheFields": "EntryInfo.json:$hash,DisplayName,Icon,Name,UIAuthoring;$inherit,$type",
+  "$GameEntry.ScopeData.GameDataGameMode.MapGameMode": {
+    "$id": "$01KK11M1W4BC6GPW8T03FV5E3S",
+    "$ref": "$01K49SNEYNFNM5D908MFPHJN9E,$01K4PKZB2W7KXGW5ZYK3CSJXM7,$01KFHX6W524XH9Y3GFKGXHYA8X,$01KFHX6W527T0K2D074Z8D3QB8,$01KFHYDMVE43GSGM4GKNGF12KD,$01KVSCR7KVAV01XC9YVR4PGGTZ,$01M3147A5CQKK376M2MQTHKAYW",
+    "__editor__": {},
+    "自定义渲染": {
+      "$inherit": "$01KVSCR7KVAV01XC9YVR4PGGTZ.Root"
+    },
+    "Root": {
+      "$type": "GameCore.GameSystem.Data.GameDataGameMode"
+    }
+  },
+  "$GameEntry.ScopeData.GameDataGameUI.Default": {
+    "$id": "$01M3147A5CQKK376M2MQTHKAYW",
+    "$ref": "$01M01QPAH368PYGJHPXEZWSFKW",
+    "Root": {
+      "$type": "GameUI.Data.GameDataGameUI"
+    }
+  },
+  "$GameEntry.ScopeData.GameDataPlayerSettings.PlayerSettings": {
+    "$id": "$01K49SNEYNFNM5D908MFPHJN9E",
+    "Root": {
+      "$type": "GameCore.PlayerAndUsers.Data.GameDataPlayerSettings"
+    }
+  },
+  "$GameEntry.ScopeData.GameDataScene.new_scene": {
+    "$id": "$01K4PKZB2W7KXGW5ZYK3CSJXM7",
+    "$ref": "$01K60KASF3TH5R83Q479MM6357,$01KD83TKZS0BJYWVWVES7TEG08,$01KJSGZE83VCET7WP7DTXNJH4S,$01KKRHB98YJKHC0SMPTQWEA7KC",
+    "__editor__": {},
+    "Root": {
+      "$inherit": "$01KKRHB98YJKHC0SMPTQWEA7KC.Root"
+    }
+  },
+  "$GameEntry.ScopeData.GameDataUnit.WereWolfUnit": {
+    "$id": "$01K60KASF3TH5R83Q479MM6357",
+    "$ref": "$014HHW6Z1S6EMRYS23ZTS516AZ,$01KFFV9K06XZ7360AC9MH1YQMH,$01KFFZHYT6W7BQ45XCXR5ZTTRG,$01KFFZHYT82PKR6J85N5NBRQH5,$01KFFZHYT8H0SZ63A38J0KATDN,$01KFFZHYT8H4B21B0VVT9NM2FR,$01KFFZHYT8KJ5FX83AEFJWQSDN,$01KFFZHYT8N8284H2RVPAEMEF8,$01KFFZHYT8QQPJ8M4SNRZCHWHN,$01KFFZHYT8YTYNBBRM4GZA98MR,$01KFFZHYT8ZSD6SRAPBTZ0DCMH,$01KFG9VFPMQZSEJFPAPQW648F2,$01KFJ99XY2CBE182C5RC9BVY8N,$01KFJ99XY2D1B5KD3XXF86HJ1S,$01KFJ99XY2MKNVHF123QWPT3X3,$01KP5J6DF1DA9BKKCRE2FPHCCZ",
+    "__editor__": {},
+    "Ability_WerewolfMeleeAttack": {
+      "$type": "GameCore.AbilitySystem.Data.GameDataAbilityExecute"
+    },
+    "Actor_WerewolfAttackSound": {
+      "$type": "GameCore.ActorSystem.Data.GameDataActorSound"
+    },
+    "Actor_WerewolfClawAttackEffect": {
+      "$type": "GameCore.ActorSystem.Data.GameDataActorParticle"
+    },
+    "Actor_WerewolfClawHitEffect": {
+      "$type": "GameCore.ActorSystem.Data.GameDataActorParticle"
+    },
+    "Actor_WerewolfDeathSound": {
+      "$type": "GameCore.ActorSystem.Data.GameDataActorSound"
+    },
+    "Animation_WerewolfMeleeAttackAnim": {
+      "$type": "GameCore.ModelAnimation.Data.GameDataAnimationSimple"
+    },
+    "Cooldown_WerewolfMeleeAttackCooldown": {
+      "$type": "GameCore.CooldownSystem.Data.GameDataCooldownActive"
+    },
+    "Effect_WerewolfMeleeAttackDamage": {
+      "$type": "GameCore.Execution.Data.GameDataEffectDamage"
+    },
+    "Model_Werewolf": {
+      "$type": "GameCore.ResourceType.Data.GameDataModel"
+    },
+    "Particle_WerewolfClawAttackEffect": {
+      "$type": "GameCore.ResourceType.Data.GameDataParticle"
+    },
+    "Particle_WerewolfClawHitEffect": {
+      "$type": "GameCore.ResourceType.Data.GameDataParticle"
+    },
+    "Root": {
+      "$inherit": "$01KP5J6DF1DA9BKKCRE2FPHCCZ.Root"
+    },
+    "Sound_WerewolfAttackSound": {
+      "$type": "GameCore.ResourceType.Data.GameDataSound"
+    },
+    "Sound_WerewolfDeathSound": {
+      "$type": "GameCore.ResourceType.Data.GameDataSound"
+    }
+  },
+  "$gamesparkcore.ScopeData.GameDataCamera.DefaultCamera": {
+    "$id": "$01KJSGZE83VCET7WP7DTXNJH4S",
+    "__editor__": {},
+    "Root": {}
+  },
+  "$gamesparkcore.ScopeData.GameDataCamera.MoveableCamera": {
+    "$id": "$01KJSH1F94WDF8XQ8E5UYOKJ5T",
+    "Root": {}
+  },
+  "$gamesparkcore.ScopeData.GameDataUnit.Controlled3DHeroSample": {
+    "$id": "$01KD83TKZS0BJYWVWVES7TEG08",
+    "__editor__": {},
+    "HeroModel": {},
+    "LocomotionAnimationProfile": {},
+    "Root": {}
+  }
+}

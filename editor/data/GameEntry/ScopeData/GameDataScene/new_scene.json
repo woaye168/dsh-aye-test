@@ -1,0 +1,66 @@
+﻿{
+  "$id": "$01K4PKZB2W7KXGW5ZYK3CSJXM7",
+  "__editor__": {},
+  "Root": {
+    "$inherit": "$01KKRHB98YJKHC0SMPTQWEA7KC.Root" /*$gamesparkcore.ScopeDataTemplate.GameDataScene.SceneTemplate.Root*/,
+    "DefaultCamera": "$01KJSGZE83VCET7WP7DTXNJH4S.Root" /*$gamesparkcore.ScopeData.GameDataCamera.DefaultCamera.Root*/,
+    "HostedSceneTag": "new_scene",
+    "Name": "默认场景",
+    "Path": "new_scene",
+    "PlacedPlayerObjects": {
+      "1579575009": {
+        "$type": "GameCore.SceneSystem.Data.Struct.PlacedUnit",
+        "Facing": 90,
+        "HiddenInEditor": false,
+        "IsMainUnit": true,
+        "Link": "$01KD83TKZS0BJYWVWVES7TEG08.Root" /*$gamesparkcore.ScopeData.GameDataUnit.Controlled3DHeroSample.Root*/,
+        "LockedInEditor": false,
+        "OwnerPlayerId": 1,
+        "Position": {
+          "X": 2673.0276,
+          "Y": 1869.639,
+          "Z": 0
+        },
+        "SyncedRandomIndex": -1,
+        "SyncedScale": 1,
+        "TriggerGetter": false,
+        "UniqueId": 1579575009,
+        "UseDefaultAI": false
+      },
+      "1579575010": {
+        "$type": "GameCore.SceneSystem.Data.Struct.PlacedUnit",
+        "Facing": -90,
+        "HiddenInEditor": false,
+        "IsMainUnit": false,
+        "Link": "$GameDataUnit.WereWolfUnit.Root",
+        "LockedInEditor": false,
+        "OwnerPlayerId": 3,
+        "Position": {
+          "X": 3845.6404,
+          "Y": 4313.6934,
+          "Z": 0
+        },
+        "SyncedRandomIndex": -1,
+        "SyncedScale": 1,
+        "TriggerGetter": false,
+        "UniqueId": 1579575010,
+        "UseDefaultAI": true
+      }
+    },
+    "PlacedSceneShapes": {},
+    "RenderScenery": true,
+    "Size": {
+      "X": 8192,
+      "Y": 8192
+    },
+    "SpaceModel": "Volumetric3D",
+    "TerrainBoundaryCollisionWidthInTiles": 0,
+    "TerrainEdgeStyle": "CrackBorder",
+    "TerrainModel": "DiscreteTileTerrain",
+    "Vision": {
+      "Mode": "Normal",
+      "ObserverPolicy": "MainControlledUnit",
+      "UseMainUnitAsLocalVisionFocus": true
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+    "is_backup_prefab_info":true,
+    "project_resources":{
+    "p_16fa_sm_bs_yingdizhuangshiwuzu03_4wb_z1d4":{
+    "good_path":"sm_bs_yingdizhuangshiwuzu03/model.prefab/",
+    "map_name":"sm_bs_yingdizhuangshiwuzu03_4wb",
+    "path":"deco/buildsystem/prefab/p_16fa_sm_bs_yingdizhuangshiwuzu03_4wb_z1d4/model.prefab",
+    "project_res_id":"p_16fa_sm_bs_yingdizhuangshiwuzu03_4wb_z1d4",
+    "show_name":"野外营地装饰物组03"
+},
+    "p_16fa_sm_buildsystem_stairs_d_ebc_mrxc":{
+    "good_path":"sm_buildsystem_stairs_d/model.prefab/",
+    "map_name":"sm_buildsystem_stairs_d_ebc",
+    "path":"deco/buildsystem/p_16fa_sm_buildsystem_stairs_d_ebc_mrxc/model.prefab",
+    "project_res_id":"p_16fa_sm_buildsystem_stairs_d_ebc_mrxc",
+    "show_name":"楼梯02不生成"
+},
+    "p_16fa_sm_buildsystem_stairs_f_ebc_nu3p":{
+    "good_path":"sm_buildsystem_stairs_f/model.prefab/",
+    "map_name":"sm_buildsystem_stairs_f_ebc",
+    "path":"deco/buildsystem/p_16fa_sm_buildsystem_stairs_f_ebc_nu3p/model.prefab",
+    "project_res_id":"p_16fa_sm_buildsystem_stairs_f_ebc_nu3p",
+    "show_name":"楼梯04"
+},
+    "p_16fa_sm_diban_11_vcy_uyvj":{
+    "good_path":"sm_diban_11/model.prefab/",
+    "map_name":"sm_diban_11_vcy",
+    "path":"deco/low_poly/chufang/p_16fa_sm_diban_11_vcy_uyvj/model.prefab",
+    "project_res_id":"p_16fa_sm_diban_11_vcy_uyvj",
+    "show_name":"地板_11不可走"
+},
+    "p_16fa_sm_tieta_03_vcy_7k9q":{
+    "good_path":"sm_tieta_03/model.prefab/",
+    "map_name":"sm_tieta_03_vcy",
+    "path":"deco/low_poly/chufang/p_16fa_sm_tieta_03_vcy_7k9q/model.prefab",
+    "project_res_id":"p_16fa_sm_tieta_03_vcy_7k9q",
+    "show_name":"铁塔顶部"
+},
+    "p_16fa_sm_tieta_03_vcy_k5hj":{
+    "good_path":"sm_tieta_03/model.prefab/",
+    "map_name":"sm_tieta_03_vcy",
+    "path":"deco/low_poly/chufang/p_16fa_sm_tieta_03_vcy_k5hj/model.prefab",
+    "project_res_id":"p_16fa_sm_tieta_03_vcy_k5hj",
+    "show_name":"铁塔顶部"
+},
+    "p_16fa_sm_ts_roadblock_b_jwb_9qb2":{
+    "good_path":"sm_ts_roadblock_b/model.prefab/",
+    "map_name":"sm_ts_roadblock_b_jwb",
+    "path":"deco/ts/p_16fa_sm_ts_roadblock_b_jwb_9qb2/model.prefab",
+    "project_res_id":"p_16fa_sm_ts_roadblock_b_jwb_9qb2",
+    "show_name":"路障04x"
+},
+    "p_16fa_sm_xingchenhuayecai_a_01_2ja_24e4":{
+    "good_path":"sm_xingchenhuayecai_a_01/model.prefab/",
+    "map_name":"sm_xingchenhuayecai_a_01_2ja",
+    "path":"deco/low_poly/nongchang/p_16fa_sm_xingchenhuayecai_a_01_2ja_24e4/model.prefab",
+    "project_res_id":"p_16fa_sm_xingchenhuayecai_a_01_2ja_24e4",
+    "show_name":"星辰花椰菜不可走"
+}
+}
+}

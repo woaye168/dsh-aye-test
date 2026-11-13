@@ -1,0 +1,38 @@
+[
+	{
+		"map_name": "sm_tieta_03_vcy",
+		"good_path": "sm_tieta_03/model.prefab/",
+		"show_name": "铁塔顶部",
+		"type": "projectResourceInfo"
+	},
+	{
+		"type": "prefabInfo",
+		"importType": "deco",
+		"sourceInfo": ""
+	},
+	{
+		"type": "staticMesh",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"staticMesh": "deco/low_poly/chufang/sm_tieta_03/model/m.mdl",
+		"materials": [
+			"deco/low_poly/chufang/sm_tieta_03/materials/sm_tieta_03.material"
+		],
+		"tag": "",
+		"uuid": "d39x66ow-xb9b-gwl6-gb8r-0eslon3yw52z"
+	}
+]

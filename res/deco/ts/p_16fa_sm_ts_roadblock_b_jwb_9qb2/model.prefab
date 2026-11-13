@@ -1,0 +1,136 @@
+[
+	{
+		"map_name": "sm_ts_roadblock_b_jwb",
+		"good_path": "sm_ts_roadblock_b/model.prefab/",
+		"show_name": "路障04x",
+		"type": "projectResourceInfo"
+	},
+	{
+		"type": "prefabInfo",
+		"importType": "deco",
+		"sourceInfo": ""
+	},
+	{
+		"type": "staticMesh",
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"rotation": {
+			"w_": 1.0,
+			"x_": 0.0,
+			"y_": 0.0,
+			"z_": 0.0
+		},
+		"scale": {
+			"x": 1.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"staticMesh": "deco/ts/sm_ts_roadblock_b/model/m.mdl",
+		"materials": [
+			"deco/ts/sm_ts_roadblock_a/materials/sm_ts_roadblock_a.material"
+		],
+		"tag": "",
+		"uuid": "hpikj7rd-nn3g-66it-0ddp-4bhikw8kr4tf"
+	},
+	{
+		"type": "basicInfo",
+		"navMeshOption": 1,
+		"collisionCenters": [
+			{
+				"x": 0,
+				"y": 4
+			},
+			{
+				"x": 0,
+				"y": 3
+			},
+			{
+				"x": -1,
+				"y": 3
+			},
+			{
+				"x": -1,
+				"y": 2
+			},
+			{
+				"x": 0,
+				"y": 2
+			},
+			{
+				"x": 0,
+				"y": 1
+			},
+			{
+				"x": 0,
+				"y": 0
+			},
+			{
+				"x": 0,
+				"y": -1
+			},
+			{
+				"x": -1,
+				"y": 0
+			},
+			{
+				"x": -1,
+				"y": 1
+			},
+			{
+				"x": -1,
+				"y": -1
+			},
+			{
+				"x": -1,
+				"y": -2
+			},
+			{
+				"x": 0,
+				"y": -2
+			},
+			{
+				"x": 0,
+				"y": -3
+			},
+			{
+				"x": 0,
+				"y": -4
+			},
+			{
+				"x": 1,
+				"y": 3
+			},
+			{
+				"x": 1,
+				"y": 2
+			},
+			{
+				"x": 1,
+				"y": 1
+			},
+			{
+				"x": 1,
+				"y": 0
+			},
+			{
+				"x": 1,
+				"y": -1
+			},
+			{
+				"x": 1,
+				"y": -2
+			},
+			{
+				"x": 1,
+				"y": -3
+			},
+			{
+				"x": -1,
+				"y": -3
+			}
+		]
+	}
+]

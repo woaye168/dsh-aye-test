@@ -1,0 +1,2 @@
+characters/general/sk_basic2/model.prefab
+characters/monster/sk_werewolf/model.prefab

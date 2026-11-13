@@ -1,0 +1,22 @@
+{
+  "Date": "2026-11-13 08:15:21.383",
+  "LastModifiedTimestamp": 1794528921383,
+  "Libs": {
+    "global_default": {
+      "LastModifiedTimestamp": 1794300190947,
+      "Path": "D:\\sce_new\\Update\\editor-pd.spark.xd.com\\Res\\_m\\maps\\global_default\\85\\global_default"
+    },
+    "script": {
+      "LastModifiedTimestamp": 0,
+      "Path": "D:\\sce_new\\Res\\maps/unit_movement_3d_template_0"
+    },
+    "gamesystemui": {
+      "LastModifiedTimestamp": 1786001678701,
+      "Path": "D:\\sce_new\\Update\\editor-pd.spark.xd.com\\Res\\_m\\maps\\gamesystemui\\37\\GameSystemUI"
+    },
+    "gamesparkcore": {
+      "LastModifiedTimestamp": 1789647749688,
+      "Path": "D:\\sce_new\\Update\\editor-pd.spark.xd.com\\Res\\_m\\maps\\gamesparkcore\\33\\gamesparkcore"
+    }
+  }
+}

@@ -1,0 +1,1143 @@
+[
+	{
+		"StableId": "td_330ce7529f128923da6f8d489d34c0db",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_stairs_f/model.prefab",
+		"ScenePath": "",
+		"DecoName": "楼梯04",
+		"Position3D": {
+			"x": 2936.315185546875,
+			"y": 3938.2998046875,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999970197677612,
+			"y": 0.9999970197677612,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/4",
+		"Type": 2
+	},
+	{
+		"StableId": "td_30d19a621ade13a39ac97382a9535a98",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_stairs_f/model.prefab",
+		"ScenePath": "",
+		"DecoName": "楼梯04",
+		"Position3D": {
+			"x": 5493.90234375,
+			"y": 5458.6298828125,
+			"z": 468.228759765625
+		},
+		"Quat": {
+			"w": 0.9999920129776001,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 2.5331974029541016e-7
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 0.000029028071367065422,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999997615814209,
+			"y": 0.9999997615814209,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/5",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_2d4fba7f724ee0b652e9d3a9521f7b5c",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_road_f07/model.prefab",
+		"ScenePath": "",
+		"DecoName": "地板01_8",
+		"Position3D": {
+			"x": 4216.24267578125,
+			"y": 4182.4580078125,
+			"z": 500.0
+		},
+		"Quat": {
+			"w": -0.7070983648300171,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7070993185043335
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": -89.99878692626953,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 0.9993932843208313,
+			"y": 0.9993932843208313,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/6",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_01a6a293a73a172260339c3033b01256",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_road_f07/model.prefab",
+		"ScenePath": "",
+		"DecoName": "地板01_8",
+		"Position3D": {
+			"x": 4214.8740234375,
+			"y": 5712.8095703125,
+			"z": 500.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999969601631165,
+			"y": 0.9999969601631165,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/7",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_a0efae4fea0381c83d295c4339f66df8",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_road_f05/model.prefab",
+		"ScenePath": "",
+		"DecoName": "地板01_6",
+		"Position3D": {
+			"x": 5753.91015625,
+			"y": 4190.66015625,
+			"z": 980.0
+		},
+		"Quat": {
+			"w": -0.7071033716201782,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.707103431224823
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": -89.99945068359375,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 0.9997424483299255,
+			"y": 0.9997424483299255,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/8",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_32cc3b9efbb27b70629f76900a14fc66",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_road_f/model.prefab",
+		"ScenePath": "",
+		"DecoName": "地板01_2",
+		"Position3D": {
+			"x": 4732.78125,
+			"y": 4188.484375,
+			"z": 980.0
+		},
+		"Quat": {
+			"w": 1.0,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 0.0,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999998807907104,
+			"y": 0.9999998807907104,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/9",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_23cd88c606973d1b7cafb8a64e5f0998",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_road_f/model.prefab",
+		"ScenePath": "",
+		"DecoName": "地板01_2",
+		"Position3D": {
+			"x": 4221.91064453125,
+			"y": 4188.1220703125,
+			"z": 980.0
+		},
+		"Quat": {
+			"w": 1.0,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 0.0,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 0.9999998807907104,
+			"y": 0.9999998807907104,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/10",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_5f3af2f52f8b54d0bed0f913bfaa2cca",
+		"FullPrefabName": "deco/low_poly/chufang/sm_qiangmen/model.prefab",
+		"ScenePath": "",
+		"DecoName": "墙门框",
+		"Position3D": {
+			"x": 3947.4677734375,
+			"y": 4190.8798828125,
+			"z": 980.0
+		},
+		"Quat": {
+			"w": 1.0,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 0.0,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999998807907104,
+			"y": 1.5704398155212402,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/11",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_ec82a5a736db4716368ff6f977b4bdf2",
+		"FullPrefabName": "deco/ts_prop/sci_fi_base/sm_building_01_stairs_a/model.prefab",
+		"ScenePath": "",
+		"DecoName": "楼梯01",
+		"Position3D": {
+			"x": 3843.388427734375,
+			"y": 2865.20458984375,
+			"z": 761.712646484375
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/12",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_344a03a773866396d2cc3ad49a79a889",
+		"FullPrefabName": "deco/ts_prop/sci_fi_base/sm_concrete_wall1_stairs1_a/model.prefab",
+		"ScenePath": "",
+		"DecoName": "混凝土楼梯",
+		"Position3D": {
+			"x": 3986.68798828125,
+			"y": 2446.022216796875,
+			"z": 0.0001220703125
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/13",
+		"Type": 2
+	},
+	{
+		"StableId": "td_ba5205d6601f65c8927d407f644a6ed7",
+		"FullPrefabName": "deco/ts_prop/sci_fi_base/sm_catwalk1_stairs1_a/model.prefab",
+		"ScenePath": "",
+		"DecoName": "走道楼梯",
+		"Position3D": {
+			"x": 3223.49853515625,
+			"y": 1884.5430908203125,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/14",
+		"Type": 2
+	},
+	{
+		"StableId": "td_5ebe7449b35f6386a4f3f83cbb5cef48",
+		"FullPrefabName": "deco/ts/sm_stairs01/model.prefab",
+		"ScenePath": "",
+		"DecoName": "科技楼梯",
+		"Position3D": {
+			"x": 2702.8330078125,
+			"y": 2071.926513671875,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/17",
+		"Type": 2
+	},
+	{
+		"StableId": "td_8d98a4e8531d5a127db83e59bf345ffa",
+		"FullPrefabName": "deco/ts_prop/sci_fi_base/sm_building_04_stairs_long/model.prefab",
+		"ScenePath": "",
+		"DecoName": "建筑楼梯01",
+		"Position3D": {
+			"x": 2936.3037109375,
+			"y": 2803.71630859375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/18",
+		"Type": 2
+	},
+	{
+		"StableId": "td_12ac8267bdd3abe83ff3934586dafd4c",
+		"FullPrefabName": "deco/ts_prop/sci_fi_base/sm_building_04_stairs_short/model.prefab",
+		"ScenePath": "",
+		"DecoName": "建筑楼梯02",
+		"Position3D": {
+			"x": 3491.337646484375,
+			"y": 2381.522705078125,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/19",
+		"Type": 2
+	},
+	{
+		"StableId": "td_bf6c2e8d3e3415e8cd183183b0fafcdd",
+		"FullPrefabName": "deco/ts_prop/sci_fi_base/sm_metal_wall_sloping_ladder_a/model.prefab",
+		"ScenePath": "",
+		"DecoName": "金属墙壁倾斜楼梯",
+		"Position3D": {
+			"x": 1811.815185546875,
+			"y": 1769.5419921875,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/20",
+		"Type": 2
+	},
+	{
+		"StableId": "td_7a8a47ed6dd8f4adf5881e164dba05ea",
+		"FullPrefabName": "deco/ds/sm_ds_stairs_str_256_11/model.prefab",
+		"ScenePath": "",
+		"DecoName": "楼梯",
+		"Position3D": {
+			"x": 1971.2962646484375,
+			"y": 2007.4981689453125,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/21",
+		"Type": 2
+	},
+	{
+		"StableId": "td_65497f62dd6dce1267785ae1f6b07ded",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_stairs_c/model.prefab",
+		"ScenePath": "",
+		"DecoName": "楼梯01",
+		"Position3D": {
+			"x": 4467.59521484375,
+			"y": 1207.161865234375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/16",
+		"Type": 2
+	},
+	{
+		"StableId": "td_4d42967a5053029b36f908a64760b46a",
+		"FullPrefabName": "deco/buildsystem/sm_buildsystem_stairs_d/model.prefab",
+		"ScenePath": "",
+		"DecoName": "楼梯02",
+		"Position3D": {
+			"x": 2863.98583984375,
+			"y": 1075.0771484375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999977350234985,
+			"y": 0.9999977350234985,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/15",
+		"Type": 2
+	},
+	{
+		"StableId": "td_34b3944819ed79fe24b258c7e7c1937d",
+		"FullPrefabName": "deco/ts/sm_ts_roadblock_b/model.prefab",
+		"ScenePath": "",
+		"DecoName": "路障04",
+		"Position3D": {
+			"x": 1169.8486328125,
+			"y": 3316.439208984375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999979734420776,
+			"y": 0.9999979734420776,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/22",
+		"Type": 2
+	},
+	{
+		"StableId": "td_4862cd20cf722fdfb78818b086dca3d7",
+		"FullPrefabName": "deco/ts/sm_ts_roadblock_b/model.prefab",
+		"ScenePath": "",
+		"DecoName": "路障04",
+		"Position3D": {
+			"x": 1397.775146484375,
+			"y": 3359.68408203125,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.5555698871612549,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.8314692378044128
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 112.49995422363281,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.999975323677063,
+			"y": 0.999975323677063,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/23",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_d229e3a9681b58802a1de105864df948",
+		"FullPrefabName": "deco/ts/p_16fa_sm_ts_roadblock_b_jwb_9qb2/model.prefab",
+		"ScenePath": "",
+		"DecoName": "路障04x",
+		"Position3D": {
+			"x": 1907.70458984375,
+			"y": 3241.997314453125,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999979734420776,
+			"y": 0.9999979734420776,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/24",
+		"Type": 2
+	},
+	{
+		"StableId": "td_cd9711adb5cd6fb1400f8303114ddf10",
+		"FullPrefabName": "deco/ts/p_16fa_sm_ts_roadblock_b_jwb_9qb2/model.prefab",
+		"ScenePath": "",
+		"DecoName": "路障04x",
+		"Position3D": {
+			"x": 2140.760498046875,
+			"y": 3241.9970703125,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999979734420776,
+			"y": 0.9999979734420776,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/25",
+		"Type": 2
+	},
+	{
+		"StableId": "td_33e65fcdc79a8e28ec7a69b2c4e23df0",
+		"FullPrefabName": "deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/model.prefab",
+		"ScenePath": "",
+		"DecoName": "星辰花椰菜",
+		"Position3D": {
+			"x": 4793.02978515625,
+			"y": 2332.21337890625,
+			"z": -0.000004166489816270769
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999988079071045,
+			"y": 0.9999988079071045,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/26",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_b3bbe692a5d650eb10dae31e38aa14b3",
+		"FullPrefabName": "deco/low_poly/nongchang/p_16fa_sm_xingchenhuayecai_a_01_2ja_24e4/model.prefab",
+		"ScenePath": "",
+		"DecoName": "星辰花椰菜不可走",
+		"Position3D": {
+			"x": 5038.40576171875,
+			"y": 2361.762451171875,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.7071067690849304,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.7071067094802856
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 89.99999237060547,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 0.9999988079071045,
+			"y": 0.9999988079071045,
+			"z": 1.0
+		},
+		"Group": "",
+		"Rank": "默认场景/27",
+		"NoAdsorbent": true,
+		"Type": 2
+	},
+	{
+		"StableId": "td_b75d915dea8aeced93724c8855f4b8fb",
+		"FullPrefabName": "deco/dungeon/plant/sm_dg_guanmu_05_05/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1280.7315673828125,
+			"y": 3967.318115234375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.8008213043212891,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.5989032983779907
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 73.5827865600586,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 1.2850112915039063,
+			"y": 1.2850112915039063,
+			"z": 1.2850123643875122
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2642,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 47.017730712890625,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_f06713b721610bf671dc3f8d61f4aa0c",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_c/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1261.6031494140625,
+			"y": 4019.935302734375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.28616204857826233,
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.9581812620162964
+		},
+		"Rotator": {
+			"Pitch": -0.0,
+			"Yaw": -146.7433624267578,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 1.3028533458709717,
+			"y": 1.3028533458709717,
+			"z": 1.3028534650802612
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2643,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": -146.74337768554688,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_50e08820a22c2c2464b2658d3e5f3796",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_a/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1280.9085693359375,
+			"y": 4095.582275390625,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.8206653594970703,
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.5714091062545776
+		},
+		"Rotator": {
+			"Pitch": -0.0,
+			"Yaw": -69.69709777832031,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 0.9382946491241455,
+			"y": 0.9382946491241455,
+			"z": 0.9382945895195007
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2644,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": -24.69710350036621,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_54d408767ba4ac3af15f895809f6d775",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_d/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1463.06494140625,
+			"y": 4094.920654296875,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": -0.8992206454277039,
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.4374977946281433
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 51.88871383666992,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 1.579519510269165,
+			"y": 1.579519510269165,
+			"z": 1.5794976949691772
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 3031,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_63675cb6cd9b9d4649cc48f0660f6001",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_c/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1478.0059814453125,
+			"y": 3974.702880859375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": -0.18714997172355652,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.9823313355445862
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": -158.42698669433594,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 1.713901162147522,
+			"y": 1.713901162147522,
+			"z": 1.713901162147522
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 3029,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_583cafd747944103c266bb1023b7bddd",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_a/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1484.9228515625,
+			"y": 4030.586181640625,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": -0.054455045610666275,
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.9985162615776062
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 173.75682067871094,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 1.1111671924591064,
+			"y": 1.1111671924591064,
+			"z": 1.11116361618042
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 3030,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_f640e4532cb67969ee92a732e8547757",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_b/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1430.561279296875,
+			"y": 4087.815185546875,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.5740062594413757,
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.8188508749008179
+		},
+		"Rotator": {
+			"Pitch": -0.0,
+			"Yaw": -109.93985748291016,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 0.8486208319664001,
+			"y": 0.8486208319664001,
+			"z": 0.8486220836639404
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2902,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_b48c9a6623719e17139b0632480444b2",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_b/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1410.98291015625,
+			"y": 3904.320068359375,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.47954055666923523,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.8775197863578796
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 122.689208984375,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 1.1145095825195313,
+			"y": 1.1145095825195313,
+			"z": 1.114505410194397
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2899,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_ea9292bcdf51288b26098f0768772027",
+		"FullPrefabName": "deco/chinoiserie/sm_ch_littlestone_b/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1361.8236083984375,
+			"y": 4093.486572265625,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.6558833718299866,
+			"x": 0.0,
+			"y": 0.0,
+			"z": -0.7548621892929077
+		},
+		"Rotator": {
+			"Pitch": -0.0,
+			"Yaw": -98.02666473388672,
+			"Roll": 0.0
+		},
+		"Scale": {
+			"x": 1.0727612972259521,
+			"y": 1.0727612972259521,
+			"z": 1.0727622509002686
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2773,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	},
+	{
+		"StableId": "td_5e696201582812bd28da4303d4fbc0f6",
+		"FullPrefabName": "deco/dungeon/plant/sm_dg_guanmu_05_06/model.prefab",
+		"ScenePath": "",
+		"DecoName": "",
+		"Position3D": {
+			"x": 1344.0,
+			"y": 3904.0,
+			"z": 0.0
+		},
+		"Quat": {
+			"w": 0.48401761054992676,
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.8750582337379456
+		},
+		"Rotator": {
+			"Pitch": 0.0,
+			"Yaw": 122.1037368774414,
+			"Roll": -0.0
+		},
+		"Scale": {
+			"x": 1.0079195499420166,
+			"y": 1.0079195499420166,
+			"z": 1.0079195499420166
+		},
+		"Group": "",
+		"Rank": "",
+		"Type": 3,
+		"Index": 2770,
+		"TexDecoClass": {
+			"StyleName": "editor/texturestyle/field.json",
+			"MaterialName": "midpic/field/materials/m_yw_mud_a.material",
+			"ClassName": "rock",
+			"SrcDirection": 0.0,
+			"BoundaryOffset": {
+				"X": 0.0,
+				"Y": 0.0
+			}
+		}
+	}
+]

@@ -1,0 +1,12 @@
+{
+  "characters/general/sk_basic2/model.prefab": [
+    "anim/human/barehanded_anim/hand_07/jump_kong.ani",
+    "anim/human/barehanded_anim/hand_07/jump_qi.ani",
+    "idle",
+    "move"
+  ],
+  "characters/monster/sk_werewolf/model.prefab": [
+    "attack"
+  ],
+  "eqpt/weapon/sm_dr_sword_04_02/model.prefab": []
+}

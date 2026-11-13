@@ -1,0 +1,7 @@
+# IFile Resource Manifest
+# Generated: 2026-07-08 16:04:30
+# Project: GameEntry
+# Total Resources: 2
+
+idle
+move

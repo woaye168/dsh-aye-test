@@ -1,0 +1,1 @@
+{"debug_settings":{"show_info_panel":false},"mainview_settings":{"editor_resolution_rate_index":1}}

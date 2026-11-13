@@ -1,0 +1,36 @@
+M:System.Threading.Tasks.Task.Delay(System.Int32);Use Game.Delay instead. 
+M:System.Threading.Tasks.Task.Delay(System.Int32,System.Threading.CancellationToken);Use Game.Delay instead. 
+M:System.Threading.Tasks.Task.Delay(System.TimeSpan);Use Game.Delay instead. 
+M:System.Threading.Tasks.Task.Delay(System.TimeSpan,System.Threading.CancellationToken);Use Game.Delay instead.
+M:System.Threading.Tasks.Task.Run(System.Action);Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run(System.Action,System.Threading.CancellationToken);Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run(System.Func{System.Threading.Tasks.Task});Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken);Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run``1(System.Func{``0});Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run``1(System.Func{``0},System.Threading.CancellationToken);Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}});Do not use Task.Run(). Call async functions directly or use await. 
+M:System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken);Do not use Task.Run(). Call async functions directly or use await.
+F:System.Threading.Tasks.TaskCreationOptions.RunContinuationsAsynchronously;Do not use TaskCreationOptions.RunContinuationsAsynchronously in WASI projects. It schedules continuations through ThreadPool, which is not supported; use the default TaskCompletionSource constructor and await normally.
+M:System.Threading.CancellationTokenSource.#ctor(System.Int32);Do not create timed CancellationTokenSource instances in Wasm; this initializes System.Threading.TimerQueue. Use a GameCore tick-driven awaitable and cancel explicitly.
+M:System.Threading.CancellationTokenSource.#ctor(System.TimeSpan);Do not create timed CancellationTokenSource instances in Wasm; this initializes System.Threading.TimerQueue. Use a GameCore tick-driven awaitable and cancel explicitly.
+M:System.Threading.CancellationTokenSource.#ctor(System.TimeSpan,System.TimeProvider);Do not create timed CancellationTokenSource instances in Wasm; this initializes System.Threading.TimerQueue. Use a GameCore tick-driven awaitable and cancel explicitly.
+M:System.Threading.CancellationTokenSource.CancelAfter(System.Int32);Do not use CancellationTokenSource.CancelAfter in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable and call Cancel explicitly.
+M:System.Threading.CancellationTokenSource.CancelAfter(System.TimeSpan);Do not use CancellationTokenSource.CancelAfter in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable and call Cancel explicitly.
+M:System.Threading.Tasks.Task.Delay(System.TimeSpan,System.TimeProvider);Do not use Task.Delay in Wasm; it schedules through System.Threading.TimerQueue. Use Game.Delay instead.
+M:System.Threading.Tasks.Task.Delay(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken);Do not use Task.Delay in Wasm; it schedules through System.Threading.TimerQueue. Use Game.Delay instead.
+M:System.Threading.Tasks.Task.WaitAsync(System.TimeSpan);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task.WaitAsync(System.TimeSpan,System.Threading.CancellationToken);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task.WaitAsync(System.TimeSpan,System.TimeProvider);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task.WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task`1.WaitAsync(System.TimeSpan);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task`1.WaitAsync(System.TimeSpan,System.Threading.CancellationToken);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task`1.WaitAsync(System.TimeSpan,System.TimeProvider);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.Tasks.Task`1.WaitAsync(System.TimeSpan,System.TimeProvider,System.Threading.CancellationToken);Do not use Task.WaitAsync timeout overloads in Wasm; they schedule through System.Threading.TimerQueue. Use a GameCore tick-driven awaitable instead.
+M:System.Threading.PeriodicTimer.#ctor(System.TimeSpan);Do not use PeriodicTimer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+M:System.Threading.PeriodicTimer.#ctor(System.TimeSpan,System.TimeProvider);Do not use PeriodicTimer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+M:System.Threading.Timer.#ctor(System.Threading.TimerCallback);Do not use System.Threading.Timer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+M:System.Threading.Timer.#ctor(System.Threading.TimerCallback,System.Object,System.Int32,System.Int32);Do not use System.Threading.Timer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+M:System.Threading.Timer.#ctor(System.Threading.TimerCallback,System.Object,System.Int64,System.Int64);Do not use System.Threading.Timer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+M:System.Threading.Timer.#ctor(System.Threading.TimerCallback,System.Object,System.TimeSpan,System.TimeSpan);Do not use System.Threading.Timer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+M:System.Threading.Timer.#ctor(System.Threading.TimerCallback,System.Object,System.UInt32,System.UInt32);Do not use System.Threading.Timer in Wasm; it schedules through System.Threading.TimerQueue. Use a GameCore tick-driven timer instead.
+

@@ -1,0 +1,62 @@
+{
+	"formatVersion": 1,
+	"mode": "projection",
+	"scenePath": "new_scene",
+	"source": {
+		"path": "scene/new_scene/map.acmap",
+		"acmapHash": "4d28b186aea9d0874f12490ef684ccbf"
+	},
+	"projectionHash": "161049ee3b893568c893f442e1d7de0e",
+	"map": {
+		"width": 32,
+		"height": 32,
+		"level": 1
+	},
+	"layers": {
+		"height": {
+			"file": "height.png",
+			"width": 33,
+			"height": 33,
+			"encoding": "rgba8-le-u32-int",
+			"origin": "top-left"
+		},
+		"surface": {
+			"file": "surface.png",
+			"width": 33,
+			"height": 33,
+			"encoding": "rgba8-le-u32-enum",
+			"origin": "top-left"
+		},
+		"edge_h": {
+			"file": "edge_h.png",
+			"width": 32,
+			"height": 33,
+			"encoding": "rgba8-le-u32-int",
+			"origin": "top-left"
+		},
+		"edge_v": {
+			"file": "edge_v.png",
+			"width": 33,
+			"height": 32,
+			"encoding": "rgba8-le-u32-int",
+			"origin": "top-left"
+		},
+		"style": {
+			"file": "style.png",
+			"width": 32,
+			"height": 32,
+			"encoding": "rgba8-le-u32-palette-index",
+			"origin": "top-left"
+		}
+	},
+	"decorations": {
+		"file": "decorations.json",
+		"format": "StaticDecorationAttribute-json-array-v2"
+	},
+	"stylePalette": [
+		{
+			"tileSet": "me_tiles_field",
+			"internalStyle": ""
+		}
+	]
+}
