@@ -1,0 +1,41 @@
+{
+  "tool": "debug.ping",
+  "runtime": "client",
+  "source": "runtime_debug_tool_registry",
+  "protocol_version": 1,
+  "runtime_tool_api_version": 6,
+  "session_id": "30dd92f6a32b4a61b048b4567325f6f7",
+  "startup_arguments": {
+    "editor_server_debug": true,
+    "client_only": false,
+    "debug": false,
+    "game": "",
+    "map_path": "D:\\sce_new\\agent-worktrees\\sce-run-evidence-4431882210a8"
+  },
+  "platform": "Windows",
+  "startup_state": {
+    "game_started": true,
+    "loading_visible": false
+  },
+  "registered_tool_count": 25,
+  "runtime_identity_source": "native_gameplay",
+  "game": "p_kykj",
+  "project_id": "p_kykj",
+  "game_session_id": "7707575269935939588",
+  "local_player_id": 1,
+  "debug_test_mode": true,
+  "editor_server_debug": true,
+  "debug": true,
+  "client_only": false,
+  "map_path": "D:\\sce_new\\agent-worktrees\\sce-run-evidence-4431882210a8",
+  "target_id": "gameplay:1",
+  "gameplay_uuid": 1,
+  "runtime_instance_id": "e57cb145024dc443deec96c7bc68d253",
+  "runtime_port": 18900,
+  "slot_id": "",
+  "player_id": "100",
+  "is_editor_game": false,
+  "host_connected": true,
+  "host_connection_status": "connected",
+  "launch_id": "h3-48880-1794559710638244-2"
+}

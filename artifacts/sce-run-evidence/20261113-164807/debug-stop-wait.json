@@ -1,0 +1,22 @@
+{
+  "operation_id": "9f8f7df2a6c6439f9b286b7f40951144",
+  "kind": "stop",
+  "state": "stopped",
+  "phase": "stopped",
+  "message": "Debug session stopped with verified cleanup.",
+  "created_at": "2026-11-13T09:22:53.1100631+00:00",
+  "updated_at": "2026-11-13T09:22:54.1712176+00:00",
+  "project_generation": 1,
+  "session_active": false,
+  "stop_requested": false,
+  "cleanup_pending": false,
+  "cleanup_verified": true,
+  "host_session_may_have_been_requested": false,
+  "target_operation_id": "b0020528eafa4b9f9c9c86c4e7948fd9",
+  "completed_at": "2026-11-13T09:22:54.1712176+00:00",
+  "ownership": "unowned",
+  "owner_session_id": null,
+  "owner": null,
+  "success": true,
+  "timed_out": false
+}

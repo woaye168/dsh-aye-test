@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "exitCode": 0,
+  "project": "D:\\sce_new\\agent-worktrees\\sce-run-evidence-4431882210a8",
+  "artifacts": [
+    {
+      "path": "src\\bin\\Server-Debug\\net9.0\\GameEntry.dll",
+      "exists": true,
+      "sha256": "1A4E5CB2766545837AC59608869341019D019276144AA8B78DFA6BEF9C088740"
+    },
+    {
+      "path": "src\\bin\\Client-Debug\\net9.0\\GameEntry.dll",
+      "exists": true,
+      "sha256": "D41CF6C0463D9128897950AEB615DA63BB8D635EAAA9E98EA43FC1BE611A5813"
+    },
+    {
+      "path": "AppBundle\\managed\\GameEntry.dll",
+      "exists": true,
+      "sha256": "1A4E5CB2766545837AC59608869341019D019276144AA8B78DFA6BEF9C088740"
+    },
+    {
+      "path": "ui\\AppBundle\\managed\\GameEntry.dll",
+      "exists": true,
+      "sha256": "D41CF6C0463D9128897950AEB615DA63BB8D635EAAA9E98EA43FC1BE611A5813"
+    }
+  ],
+  "finishedAt": "2026-11-13T16:37:47.7766902+08:00"
+}

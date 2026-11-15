@@ -1,0 +1,19 @@
+{
+  "tool": "debug.list_targets",
+  "count": 1,
+  "targets": [
+    {
+      "target_id": "gameplay:1",
+      "gameplay_uuid": 1,
+      "slot_id": "",
+      "player_id": "100",
+      "launch_id": "h3-48880-1794559710638244-2",
+      "game_session_id": "7707575269935939588",
+      "is_foreground": true,
+      "is_editor_game": false,
+      "ready": true,
+      "host_connected": true,
+      "host_connection_status": "connected"
+    }
+  ]
+}

@@ -29,3 +29,13 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$SCRIPT" -ProjectPath "
 脚本使用项目现有 `BuildAndCopy.bat`，分别构建 Server-Debug 和 Client-Debug，并返回 DLL 与 AppBundle 的 SHA-256。
 
 真实游戏调试仍应遵循项目生成的 `AGENTS.md`、Headless Editor 和 Runtime MCP 指南，不能用编译成功代替运行验证。
+
+## 运行证据
+
+真实 SCE 连服运行（`debug_start`）后，提交供人工审核的 PR 应保存同一次运行的以下证据：
+
+- 截图：客户端实际游戏画面。
+- 日志：当前客户端与服务端运行时日志（`logs/client`、`logs/server` 下的最新文件），不是项目根目录的构建日志。
+- `motor.snapshot`：Runtime MCP 采集的服务端物理 Motor 连续帧。
+
+完成后使用本次调试操作的 `debug_stop` 停止运行，并确认客户端与清理结果。

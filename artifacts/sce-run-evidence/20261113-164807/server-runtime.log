@@ -1,0 +1,133 @@
+[remote][16:48:34_664][debug][0][wasm][InitializationDiagnostic] Game.Initialization: runtime logger configured
+[remote][16:48:34_665][info][0][wasm]Game runtime initialization started. Session: 7707575269935939588
+[remote][16:48:34_665][debug][0][wasm][InitializationDiagnostic] Game.Initialization: before OnRegisterGameClasses
+[remote][16:48:34_691][info][0][wasm]🎮 Debug Cheat System initializing...
+[remote][16:48:34_691][info][0][wasm]✅ Debug Cheat System initialized successfully
+[remote][16:48:34_691][info][0][wasm]🎯 Debug Cheat System auto-initialized
+[remote][16:48:34_691][info][0][wasm]🎮 Debug Cheat System Initializer registered
+[remote][16:48:34_692][info][0][wasm]📋 QuestSystem registered
+[remote][16:48:34_710][info][0][wasm]TypedMessageHandler initialized with 0 message types
+[remote][16:48:34_719][debug][0][wasm][InitializationDiagnostic] Game.Initialization: after OnRegisterGameClasses
+[remote][16:48:34_719][debug][0][wasm][InitializationDiagnostic] Game.Initialization: before OnGameDataInitialization
+[remote][16:48:34_723][info][0][wasm]🎨 正在初始化基本形状系统...
+[remote][16:48:34_735][info][0][wasm]✅ 基本形状系统初始化完成，共创建 9 种形状
+[remote][16:48:34_736][info][0][wasm]📋 QuestManager initialized
+[remote][16:48:34_737][info][0][wasm]📋 QuestManager event listeners registered
+[remote][16:48:34_738][info][0][wasm]📚 ChapterManager initialized
+[remote][16:48:34_738][info][0][wasm]📋 QuestSystem initialized (with ChapterManager)
+[remote][16:48:34_883][info][0][wasm]3D unit movement controller locomotion patch applied at GameDataInitialization: model=$gamesparkcore.ScopeData.GameDataUnit.Controlled3DHeroSample.HeroModel, profile=$GameEntry.ScopeData.GameDataUnitLocomotionAnimationProfile.Controlled3DHeroSamplePatch.Root.
+[remote][16:48:34_901][debug][0][wasm][InitializationDiagnostic] Game.Initialization: after OnGameDataInitialization
+[remote][16:48:34_901][debug][0][wasm][InitializationDiagnostic] Game.Initialization: GameMode state linkNull=False, linkDataNull=False, defaultDataNull=False
+[remote][16:48:34_902][debug][0][wasm][InitializationDiagnostic] Game.Initialization: GameMode validation completed
+[remote][16:48:34_904][info][0][wasm]ServerChannelManager initialized
+[remote][16:48:34_905][info][0][wasm]AdminOperationMessageManager initialized
+[remote][16:48:34_905][info][0][wasm]PaymentServer initialized with IPaymentChannelProvider
+[remote][16:48:34_907][info][0][wasm]Ads initialized with IAdVerificationChannelProvider
+[remote][16:48:34_922][info][0][wasm]Scene 默认场景 registered
+[remote][16:48:34_922][info][0][wasm]Game Mode: GameLink<GameDataGameMode>: $GameEntry.ScopeData.GameDataGameMode.MapGameMode.Root OnGameTriggerInitialization
+[remote][16:48:34_925][debug][0][wasm]Registered message handler for DualEndEventEnvelope: Handler_DualEndEventEnvelope_0
+[remote][16:48:34_926][debug][0][wasm]Registered message handler for SkillTestRequest: SkillTestRequest
+[remote][16:48:34_926][debug][0][wasm]Registered message handler for SkillTestRequestFragment: SkillTestRequestFragment
+[remote][16:48:34_929][debug][0][wasm]Registered message handler for SkillTestConfigurationAcknowledgement: SkillTestPrepared
+[remote][16:48:34_930][debug][0][wasm]Registered message handler for GameplaySnapshotRequest: GameplaySnapshotRequest
+[remote][16:48:34_931][debug][0][wasm]Registered message handler for ChatMessage: ServerChatMessageHandler
+[remote][16:48:34_931][info][0][wasm]MailSystemServer: RegisterServerMessageHandlers
+[remote][16:48:34_931][debug][0][wasm]Registered message handler for MailInboxQueryRequest: ServerMailInboxQueryHandler
+[remote][16:48:34_932][debug][0][wasm]Registered message handler for MailActionRequest: ServerMailActionHandler
+[remote][16:48:34_933][info][0][wasm]ShopSystemServer: RegisterServerMessageHandlers
+[remote][16:48:34_933][debug][0][wasm]Registered message handler for ShopPurchaseRequest: ServerShopPurchaseHandler
+[remote][16:48:34_933][debug][0][wasm]Registered message handler for ShopItemsQueryRequest: ServerShopItemsQueryHandler
+[remote][16:48:34_933][debug][0][wasm]Registered message handler for ResourceQueryRequest: ServerResourceQueryHandler
+[remote][16:48:34_934][debug][0][wasm]Registered message handler for ShopOrderQueryRequest: ServerShopOrderQueryHandler
+[remote][16:48:34_934][debug][0][wasm]Registered message handler for PeriodClaimRequest: ServerPeriodClaimHandler
+[remote][16:48:34_938][info][0][wasm]Attempting to load default scene for game mode 当前地图游戏模式
+[remote][16:48:34_938][info][0][wasm]Loading default scene 默认场景
+[remote][16:48:34_947][trace][0][wasm]game_on_load_scene:-472682756
+[remote][16:48:34_948][info][0][wasm]Default scene 默认场景 loaded: True
+[remote][16:48:35_403][info][7][wasm]CloudDataManager: Service marked as initialized.
+[remote][16:48:35_403][info][7][wasm]OperationMailManager: Service marked as initialized.
+[remote][16:48:35_411][info][7][wasm]CloudDataManager: Provider initialized successfully.
+[remote][16:48:37_488][info][70][wasm]Game Starting...
+[remote][16:48:37_491][info][70][wasm]Scene 默认场景 is loading placed objects
+[remote][16:48:37_548][info][70][wasm]Subscribed to channel ChatSystem-World
+[remote][16:48:37_551][info][70][wasm]Hello World!
+[remote][16:48:37_551][info][70][wasm]This is running on the server side.
+[remote][16:48:38_000][info][70][wasm]3D pathing motor test ground probe: phase=初始化为寻路模式, unit=7, origin=(2673.0,1869.6,1000.5), maxDistance=3000, hitCount=1
+[remote][16:48:38_002][info][70][wasm]3D pathing motor test ground probe hit: phase=初始化为寻路模式, unit=7, index=0, pos=(2673.0,1869.6,0.0), distance=1000.5, normal=(0.00,0.00,1.00), bodyLayer=4, bodyMask=4294967295
+[remote][16:48:38_003][info][70][wasm]3D pathing motor test status report:
+状态快照: t=2.08s  触发=初始化为寻路模式
+玩家: 1  单位: 7
+移动模式: 3D寻路  物理Motor: 否  着地: 是
+跳跃: 可跳=否  空中追加跳跃可用=否
+额外空中跳跃: 0 / 5  剩余空中跳跃: 0
+单位坐标: X=2673.0  Y=1869.6  Z=0.5
+速度向量: X=0.0  Y=0.0  Z=0.0
+移动速度: 350  跳跃初速: 650
+胶囊: 半径=40.0  高度=180.0  台阶=45.0  坡度=45.0
+向下射线: 起点=(2673.0, 1869.6, 1000.5)，最大距离=3000.0，命中=1
+  [0] Z=0.0  距离=1000.5  法线=(0.00, 0.00, 1.00)  layer=4  mask=4294967295
+
+[remote][16:48:38_003][warn][70][wasm]3D pathing motor test failed to send status report to player 1.
+[remote][16:48:54_162][info][559][wasm]Subscribed to payment channel for user 100
+[remote][16:48:54_232][info][561][wasm]3D pathing motor test ground probe: phase=刷新快照, unit=7, origin=(2673.0,1869.6,1000.5), maxDistance=3000, hitCount=1
+[remote][16:48:54_233][info][561][wasm]3D pathing motor test ground probe hit: phase=刷新快照, unit=7, index=0, pos=(2673.0,1869.6,0.0), distance=1000.5, normal=(0.00,0.00,1.00), bodyLayer=4, bodyMask=4294967295
+[remote][16:48:54_233][info][561][wasm]3D pathing motor test status report:
+状态快照: t=18.81s  触发=刷新快照
+玩家: 1  单位: 7
+移动模式: 3D寻路  物理Motor: 否  着地: 是
+跳跃: 可跳=否  空中追加跳跃可用=否
+额外空中跳跃: 0 / 5  剩余空中跳跃: 0
+单位坐标: X=2673.0  Y=1869.6  Z=0.5
+速度向量: X=0.0  Y=0.0  Z=0.0
+移动速度: 350  跳跃初速: 650
+胶囊: 半径=40.0  高度=180.0  台阶=45.0  坡度=45.0
+向下射线: 起点=(2673.0, 1869.6, 1000.5)，最大距离=3000.0，命中=1
+  [0] Z=0.0  距离=1000.5  法线=(0.00, 0.00, 1.00)  layer=4  mask=4294967295
+
+[remote][16:48:56_167][info][620][wasm]OperationMailManager: Provider initialized successfully.
+[remote][17:01:55_695][info][24184][wasm]3D pathing motor test ground probe: phase=已切换到物理角色模式, unit=7, origin=(2673.0,1869.6,1000.5), maxDistance=3000, hitCount=1
+[remote][17:01:55_696][info][24184][wasm]3D pathing motor test ground probe hit: phase=已切换到物理角色模式, unit=7, index=0, pos=(2673.0,1869.6,0.0), distance=1000.5, normal=(0.00,0.00,1.00), bodyLayer=4, bodyMask=4294967295
+[remote][17:01:55_696][info][24184][wasm]3D pathing motor test status report:
+状态快照: t=800.26s  触发=已切换到物理角色模式
+玩家: 1  单位: 7
+移动模式: 物理角色  物理Motor: 是  着地: 是
+跳跃: 可跳=是  空中追加跳跃可用=否
+额外空中跳跃: 0 / 5  剩余空中跳跃: 0
+单位坐标: X=2673.0  Y=1869.6  Z=0.5
+速度向量: X=0.0  Y=0.0  Z=0.0
+移动速度: 350  跳跃初速: 650
+胶囊: 半径=40.0  高度=180.0  台阶=45.0  坡度=45.0
+向下射线: 起点=(2673.0, 1869.6, 1000.5)，最大距离=3000.0，命中=1
+  [0] Z=0.0  距离=1000.5  法线=(0.00, 0.00, 1.00)  layer=4  mask=4294967295
+
+[remote][17:15:26_408][info][48697][wasm]3D pathing motor test ground probe: phase=已切回寻路模式, unit=7, origin=(2673.0,1869.6,1000.5), maxDistance=3000, hitCount=1
+[remote][17:15:26_409][info][48697][wasm]3D pathing motor test ground probe hit: phase=已切回寻路模式, unit=7, index=0, pos=(2673.0,1869.6,0.0), distance=1000.5, normal=(0.00,0.00,1.00), bodyLayer=4, bodyMask=4294967295
+[remote][17:15:26_409][info][48697][wasm]3D pathing motor test status report:
+状态快照: t=1610.99s  触发=已切回寻路模式
+玩家: 1  单位: 7
+移动模式: 3D寻路  物理Motor: 否  着地: 是
+跳跃: 可跳=否  空中追加跳跃可用=否
+额外空中跳跃: 0 / 5  剩余空中跳跃: 0
+单位坐标: X=2673.0  Y=1869.6  Z=0.5
+速度向量: X=0.0  Y=0.0  Z=0.0
+移动速度: 350  跳跃初速: 650
+胶囊: 半径=40.0  高度=180.0  台阶=45.0  坡度=45.0
+向下射线: 起点=(2673.0, 1869.6, 1000.5)，最大距离=3000.0，命中=1
+  [0] Z=0.0  距离=1000.5  法线=(0.00, 0.00, 1.00)  layer=4  mask=4294967295
+
+[remote][17:15:27_105][info][48718][wasm]3D pathing motor test ground probe: phase=已切换到物理角色模式, unit=7, origin=(2673.0,1869.6,1000.5), maxDistance=3000, hitCount=1
+[remote][17:15:27_105][info][48718][wasm]3D pathing motor test ground probe hit: phase=已切换到物理角色模式, unit=7, index=0, pos=(2673.0,1869.6,0.0), distance=1000.5, normal=(0.00,0.00,1.00), bodyLayer=4, bodyMask=4294967295
+[remote][17:15:27_105][info][48718][wasm]3D pathing motor test status report:
+状态快照: t=1611.68s  触发=已切换到物理角色模式
+玩家: 1  单位: 7
+移动模式: 物理角色  物理Motor: 是  着地: 是
+跳跃: 可跳=是  空中追加跳跃可用=否
+额外空中跳跃: 0 / 5  剩余空中跳跃: 0
+单位坐标: X=2673.0  Y=1869.6  Z=0.5
+速度向量: X=0.0  Y=0.0  Z=0.0
+移动速度: 350  跳跃初速: 650
+胶囊: 半径=40.0  高度=180.0  台阶=45.0  坡度=45.0
+向下射线: 起点=(2673.0, 1869.6, 1000.5)，最大距离=3000.0，命中=1
+  [0] Z=0.0  距离=1000.5  法线=(0.00, 0.00, 1.00)  layer=4  mask=4294967295
+
+[remote][17:17:53_464][info][53143][wasm]Unsubscribed from payment channel for user 100

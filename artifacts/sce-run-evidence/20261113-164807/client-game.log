@@ -1,0 +1,1717 @@
+[2026-11-13 16_48_46_490][0] INFO: Opened log file D:/sce_new/logs/game/game-2026-11-13 16_48_46_481__h3-48880-1794559710638244-2-42268.log
+[2026-11-13 16_48_46_490][0] INFO: =======Git Info=======
+[2026-11-13 16_48_46_490][0] INFO: ======================
+[2026-11-13 16_48_46_490][0] INFO: Headless debug client log instance. file[D:/sce_new/logs/game/game-2026-11-13 16_48_46_481__h3-48880-1794559710638244-2-42268.log] launch_id[h3-48880-1794559710638244-2] client_id[] pid[42268].
+[2026-11-13 16_48_46_491][0] INFO: CrashUpload configured. pid[42268] type[Themis] adapterInitialized[true] binary_version[213] platform[Windows] environment[pd] server_arg[editor-pd.spark.xd.com] res_server_arg[<not set>] update_path[editor-pd.spark.xd.com] logFile[D:/sce_new/logs/game/game-2026-11-13 16_48_46_481__h3-48880-1794559710638244-2-42268.log].
+[2026-11-13 16_48_46_491][0] INFO: EDITOR_SERVER_DEBUG SetApiversion 2000
+[2026-11-13 16_48_46_491][0] INFO: Set UpdateIp to editor-pd.spark.xd.com
+[2026-11-13 16_48_46_491][0] INFO: Engine initialize begin.
+[2026-11-13 16_48_46_491][0] INFO: enable MSAA
+[2026-11-13 16_48_46_507][0] INFO: Created 15 worker threads
+[2026-11-13 16_48_46_507][0] INFO: Engine resourcePrefixPath: D:/sce_new/, resource: ResCache
+[2026-11-13 16_48_46_507][0] INFO: Added resource path D:/sce_new/ResCache/
+[2026-11-13 16_48_46_507][0] INFO: Now resource dir: 
+[2026-11-13 16_48_46_507][0] INFO: 0 - D:/sce_new/ResCache/
+[2026-11-13 16_48_46_507][0] INFO: Engine resourcePrefixPath: D:/sce_new/, resource: Res
+[2026-11-13 16_48_46_507][0] INFO: Added resource path D:/sce_new/Res/
+[2026-11-13 16_48_46_507][0] INFO: Now resource dir: 
+[2026-11-13 16_48_46_507][0] INFO: 0 - D:/sce_new/ResCache/
+[2026-11-13 16_48_46_507][0] INFO: 1 - D:/sce_new/Res/
+[2026-11-13 16_48_46_508][0] INFO: Added resource path D:/sce_new/Update/editor-pd.spark.xd.com/Res/
+[2026-11-13 16_48_46_508][0] INFO: Now resource dir: 
+[2026-11-13 16_48_46_508][0] INFO: 0 - D:/sce_new/ResCache/
+[2026-11-13 16_48_46_508][0] INFO: 1 - D:/sce_new/Res/
+[2026-11-13 16_48_46_508][0] INFO: 2 - D:/sce_new/Update/editor-pd.spark.xd.com/Res/
+[2026-11-13 16_48_46_583][0] INFO: SetModel bgfx::reset width[2040] height[1080]
+[2026-11-13 16_48_46_583][0] INFO: computeShaderSupport 1,caps->supported:4,aps->supported & BGFX_CAPS_INDEX32:4096
+[2026-11-13 16_48_46_583][0] INFO: [TextureCapabilities] format=RGBA8 linear=1 srgb=1 caps=0x00007edb
+[2026-11-13 16_48_46_583][0] INFO: [TextureCapabilities] format=ASTC4x4 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_583][0] INFO: [TextureCapabilities] format=ASTC5x5 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_583][0] INFO: [TextureCapabilities] format=ASTC6x6 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_583][0] INFO: [TextureCapabilities] format=ETC2 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_583][0] INFO: [TextureCapabilities] format=ETC2A linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_583][0] INFO: Detected 3 GPUs
+[2026-11-13 16_48_46_583][0] INFO: GPU 0 Name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_46_583][0] INFO: GPU 1 Name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_46_583][0] INFO: GPU 2 Name: Microsoft Basic Render Driver
+[2026-11-13 16_48_46_583][0] INFO: Selected GPU name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_46_583][0] INFO: Renderer Type: Direct3D 11
+[2026-11-13 16_48_46_583][0] INFO: CheckFeatureSupport=> _R32I=1, _R32U=1, _R32F=1, _RGBA16F=1, _RGBA32F=1, MaxTextureSizeLimit=16384
+[2026-11-13 16_48_46_583][0] INFO: Initialized input
+[2026-11-13 16_48_46_583][0] INFO: Initialized user interface
+[2026-11-13 16_48_46_614][0] ERROR: Unknown texture unit name environment
+[2026-11-13 16_48_46_615][0] ERROR: [ShaderError] Try to compile fake shader:shaders/blgl/uncompileddisplay/vs_display.glsl
+[2026-11-13 16_48_46_615][0] ERROR: Fake shader
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Shader bytecode not found after cache lookup: source[shaders/blgl/uncompileddisplay/vs_display.glsl] variant[vs_display()] bytecode[dx11/vs_display_00000000.vs] md5Entry[no] package[] uiPackage[shadercache_windows_ui]
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Try to compile fake shader:shaders/blgl/uncompileddisplay/vs_display.glsl
+[2026-11-13 16_48_46_616][0] ERROR: Fake shader
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Shader bytecode not found after cache lookup: source[shaders/blgl/uncompileddisplay/vs_display.glsl] variant[vs_display(AMBIENT DIRLIGHT PERPIXEL)] bytecode[dx11/vs_display_f4c862b8.vs] md5Entry[no] package[] uiPackage[shadercache_windows_ui]
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Try to compile fake shader:shaders/blgl/uncompileddisplay/ps_display.glsl
+[2026-11-13 16_48_46_616][0] ERROR: Fake shader
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Shader bytecode not found after cache lookup: source[shaders/blgl/uncompileddisplay/ps_display.glsl] variant[ps_display()] bytecode[dx11/ps_display_00000000.fs] md5Entry[no] package[] uiPackage[shadercache_windows_ui]
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Try to compile fake shader:shaders/blgl/uncompileddisplay/ps_display.glsl
+[2026-11-13 16_48_46_616][0] ERROR: Fake shader
+[2026-11-13 16_48_46_616][0] ERROR: [ShaderError] Shader bytecode not found after cache lookup: source[shaders/blgl/uncompileddisplay/ps_display.glsl] variant[ps_display(AMBIENT DIRLIGHT PERPIXEL)] bytecode[dx11/ps_display_f4c862b8.fs] md5Entry[no] package[] uiPackage[shadercache_windows_ui]
+[2026-11-13 16_48_46_616][0] INFO: Initialized renderer
+[2026-11-13 16_48_46_651][0] INFO: Audio output detail requestedMs=100 requestedMixRate=44100 desiredFreq=44100 desiredSamples=4096 desiredBufferMs=92.880 desiredChannels=2 obtainedFreq=44100 obtainedSamples=441 obtainedBufferMs=10.000 obtainedChannels=2 obtainedSize=1764 fragmentSize=441 fragmentMs=10.000 sampleSize=4 driver=wasapi
+[2026-11-13 16_48_46_651][0] INFO: Set audio mode 44100 Hz stereo interpolated
+[2026-11-13 16_48_46_651][0] INFO: Initialized graphics & audio output.
+[2026-11-13 16_48_46_651][0] INFO: Initialized engine
+[2026-11-13 16_48_46_651][0] INFO: Device Max Storage Block Binding Range: 16
+[2026-11-13 16_48_46_658][0] INFO: Open Game Profiler Server.
+[2026-11-13 16_48_46_660][0] INFO: Load particle template material: engineres/particle/common/materials/alphamaterial.material.
+[2026-11-13 16_48_46_676][0] INFO: Load particle template material: engineres/particle/common/materials/alphamesh.material.
+[2026-11-13 16_48_46_682][0] INFO: Load particle template material: engineres/particle/common/materials/defaultmesh.material.
+[2026-11-13 16_48_46_686][0] INFO: Load particle template material: engineres/particle/common/materials/defaultmeshrgba.material.
+[2026-11-13 16_48_46_687][0] ERROR: Could not find resource textures/stars.png
+[2026-11-13 16_48_46_693][0] INFO: Load particle template material: engineres/particle/common/materials/defaultsprite.material.
+[2026-11-13 16_48_46_693][0] INFO: Load particle template material: engineres/particle/common/materials/empty.material.
+[2026-11-13 16_48_46_704][0] INFO: SetModel bgfx::reset width[1280] height[720]
+[2026-11-13 16_48_46_704][0] INFO: computeShaderSupport 1,caps->supported:4,aps->supported & BGFX_CAPS_INDEX32:4096
+[2026-11-13 16_48_46_704][0] INFO: [TextureCapabilities] format=RGBA8 linear=1 srgb=1 caps=0x00007edb
+[2026-11-13 16_48_46_704][0] INFO: [TextureCapabilities] format=ASTC4x4 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_704][0] INFO: [TextureCapabilities] format=ASTC5x5 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_704][0] INFO: [TextureCapabilities] format=ASTC6x6 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_704][0] INFO: [TextureCapabilities] format=ETC2 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_704][0] INFO: [TextureCapabilities] format=ETC2A linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_46_704][0] INFO: Detected 3 GPUs
+[2026-11-13 16_48_46_704][0] INFO: GPU 0 Name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_46_704][0] INFO: GPU 1 Name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_46_704][0] INFO: GPU 2 Name: Microsoft Basic Render Driver
+[2026-11-13 16_48_46_704][0] INFO: Selected GPU name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_46_704][0] INFO: Renderer Type: Direct3D 11
+[2026-11-13 16_48_46_704][0] INFO: CheckFeatureSupport=> _R32I=1, _R32U=1, _R32F=1, _RGBA16F=1, _RGBA32F=1, MaxTextureSizeLimit=16384
+[2026-11-13 16_48_46_711][0] ERROR: Could not open file D:/sce_new/User/game_settings-editor-pd.spark.xd.com.json
+[2026-11-13 16_48_47_759][0] INFO: LuaLoader::SetStartupPageInfo page[startup] pagePath[startup/application]
+[2026-11-13 16_48_47_759][0] INFO: LuaState::OpenLuaState - lua_seed = [-1], lua_seed_str = [-1]
+[2026-11-13 16_48_47_760][0] INFO: InitBasepath[maps/]
+[2026-11-13 16_48_47_766][0] INFO: PathSearcher::_ExportAPI to L: 0x3c5c0802a98
+[2026-11-13 16_48_47_834][0] INFO: ==> Begin Load Startup Page Atlas
+[2026-11-13 16_48_47_834][0] INFO: 
+LoadingCostTime=>LoadLibAtlas(this:000003C5C01A9C40)(libName:startup) Begin: 0.000
+LoadingCostTime=>LoadLibAtlas(this:000003C5C01A9C40)(libName:startup) End
+
+[2026-11-13 16_48_47_834][0] INFO: <== End Load Startup Page Atlas
+[2026-11-13 16_48_47_834][0] INFO: ==> StateGame Open Wasmtime
+[2026-11-13 16_48_47_835][0] INFO: CreateDebugGame, lua_seed = [-1]
+[2026-11-13 16_48_47_837][0] INFO: LuaRandom, luaSeed:[-1]
+[2026-11-13 16_48_47_837][0] INFO: LuaState::OpenLuaState - lua_seed = [-1], lua_seed_str = [-1]
+[2026-11-13 16_48_47_837][0] INFO: InitBasepath[maps/]
+[2026-11-13 16_48_47_838][0] INFO: PathSearcher::_ExportAPI to L: 0x3c5c0808598
+[2026-11-13 16_48_47_840][0] INFO: ==> StateGame Open Lua
+[2026-11-13 16_48_47_840][0] INFO: [Game:1]Host Network: Create KCP Network. useStreamMode: 0
+[2026-11-13 16_48_47_840][0] INFO: [Compress(0000000000000000)] [ZCompress:initialize] zcompress initializing..
+[2026-11-13 16_48_47_840][0] INFO: [Compress(0000000000000000)] initialize frequency finished.
+[2026-11-13 16_48_47_840][0] INFO: [Compress(0000000000000000)] rebuild huffman tree finished.
+[2026-11-13 16_48_47_841][0] INFO: Found shadercache pak file [D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/shadercache_editor_dxbc/8/shadercache_editor_dxbc/shadercache_editor_dxbc.pak].
+[2026-11-13 16_48_47_841][0] INFO: PackageFile::Open, D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/shadercache_editor_dxbc/8/shadercache_editor_dxbc/shadercache_editor_dxbc.pak, 0
+[2026-11-13 16_48_48_188][0] INFO: Added resource package shadercache_editor_dxbc
+[2026-11-13 16_48_48_188][0] INFO: Shadercache package updated.
+[2026-11-13 16_48_48_188][0] ERROR: Cannot find shadercache ui pak file [].
+[2026-11-13 16_48_48_208][0] INFO: version 101, expected 101
+[2026-11-13 16_48_48_490][0] INFO: shaderdict Load Succeed! D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/shadercache_editor_dxbc/8/shadercache_editor_dxbc/dx11/dict
+[2026-11-13 16_48_48_509][0] INFO: ShaderVariation::LoadMd5Map size:4282891
+[2026-11-13 16_48_48_510][0] INFO: Found shadercache overlay pak file [D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/shadercache_editor_dxbc_extra.pak].
+[2026-11-13 16_48_48_510][0] INFO: PackageFile::Open, D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/shadercache_editor_dxbc_extra.pak, 0
+[2026-11-13 16_48_48_518][0] INFO: Added resource package shadercache_editor_dxbc_extra
+[2026-11-13 16_48_48_518][0] INFO: Shadercache overlay package [shadercache_editor_dxbc_extra] updated.
+[2026-11-13 16_48_48_518][0] INFO: version 101, expected 101
+[2026-11-13 16_48_48_520][0] INFO: ShaderCache overlay dict Load Succeed! D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/dict
+[2026-11-13 16_48_48_520][0] INFO: ShaderCache overlay [shadercache_editor_dxbc_extra] merging 739 index entries.
+[2026-11-13 16_48_48_524][0] INFO: ShaderCache overlay [shadercache_editor_dxbc_extra] index merge completed in 4.344 ms.
+[2026-11-13 16_48_48_524][0] INFO: ShaderCache overlay [shadercache_editor_dxbc_extra] loaded, md5 size:739
+[2026-11-13 16_48_48_524][0] INFO: ========> 初始化完毕 <==========
+[2026-11-13 16_48_48_527][1] INFO: RuntimeMcpBridge listen on 127.0.0.1:18900
+[2026-11-13 16_48_48_898][1] INFO: GetSystemLanguage: zh_CN
+[2026-11-13 16_48_49_184][1] INFO: Added resource path D:/sce_new/imagecache/
+[2026-11-13 16_48_49_184][1] INFO: Now resource dir: 
+[2026-11-13 16_48_49_184][1] INFO: 0 - D:/sce_new/ResCache/
+[2026-11-13 16_48_49_184][1] INFO: 1 - D:/sce_new/Res/
+[2026-11-13 16_48_49_184][1] INFO: 2 - D:/sce_new/Update/editor-pd.spark.xd.com/Res/
+[2026-11-13 16_48_49_184][1] INFO: 3 - D:/sce_new/imagecache/
+[2026-11-13 16_48_49_545][1] ERROR: RemoveDirectoryW D:\sce_new\ResCache\shadercache_editor_dxbc\dx11 failed, error code: 2
+[2026-11-13 16_48_49_551][1] ERROR: remove(SHFileOperationW) dir [D:/sce_new/ResCache/shadercache_editor_dxbc/dx11/] failed, error code [2].
+[2026-11-13 16_48_50_100][1] INFO: SetRenderQuality to 3
+[2026-11-13 16_48_50_100][1] INFO: RENDER_QUALITY change from 3 to 3
+[2026-11-13 16_48_50_101][1] INFO: SetRenderQuality: stack traceback:
+	[C]: in field 'set_render_quality'
+	base/device_settings.lua:109: in function '@base/device_settings.apply_renderer_default_settings'
+	startup/entrance/main.lua:43: in main chunk
+	[C]: in upvalue 'require'
+	base/preload/reload.lua:27: in function '@common/preload/reload.raw_include'
+	[C]: in global 'include'
+	startup/entrance/init.lua:13: in local 'init'
+	startup/entrance/init.lua:96: in main chunk
+	[C]: in upvalue 'require'
+	base/preload/reload.lua:27: in function '@common/preload/reload.raw_include'
+	[C]: in global 'include'
+	startup/main.lua:18: in main chunk
+	[C]: in function 'require'
+	[string "..."]:3: in function <[string "..."]:2>
+[2026-11-13 16_48_50_101][1] INFO: SetParticleLodLevel 0
+[2026-11-13 16_48_50_101][1] INFO: SetCustomBinary: wineditor
+[2026-11-13 16_48_50_162][1] ERROR: Could not find resource d:/sce_new/user/setting.json
+[2026-11-13 16_48_50_167][1] INFO: SetParticleLodLevel 0
+[2026-11-13 16_48_50_172][1] INFO: SetModel bgfx::reset width[1280] height[720]
+[2026-11-13 16_48_50_172][1] INFO: computeShaderSupport 1,caps->supported:4,aps->supported & BGFX_CAPS_INDEX32:4096
+[2026-11-13 16_48_50_172][1] INFO: [TextureCapabilities] format=RGBA8 linear=1 srgb=1 caps=0x00007edb
+[2026-11-13 16_48_50_173][1] INFO: [TextureCapabilities] format=ASTC4x4 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_50_173][1] INFO: [TextureCapabilities] format=ASTC5x5 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_50_173][1] INFO: [TextureCapabilities] format=ASTC6x6 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_50_173][1] INFO: [TextureCapabilities] format=ETC2 linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_50_173][1] INFO: [TextureCapabilities] format=ETC2A linear=0 srgb=1 caps=0x00000124
+[2026-11-13 16_48_50_173][1] INFO: Detected 3 GPUs
+[2026-11-13 16_48_50_173][1] INFO: GPU 0 Name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_50_173][1] INFO: GPU 1 Name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_50_173][1] INFO: GPU 2 Name: Microsoft Basic Render Driver
+[2026-11-13 16_48_50_173][1] INFO: Selected GPU name: AMD Radeon(TM) 8060S Graphics
+[2026-11-13 16_48_50_173][1] INFO: Renderer Type: Direct3D 11
+[2026-11-13 16_48_50_173][1] INFO: CheckFeatureSupport=> _R32I=1, _R32U=1, _R32F=1, _RGBA16F=1, _RGBA32F=1, MaxTextureSizeLimit=16384
+[2026-11-13 16_48_50_176][1] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_50_176][1] INFO: SetParticleLodLevel 0
+[2026-11-13 16_48_50_188][1] ERROR: Cannot find image by unique name : image/basic/radius_4.png
+[2026-11-13 16_48_50_200][1] ERROR: Cannot find image by unique name : image/设置界面/设置弹出框底-右.png
+[2026-11-13 16_48_50_200][1] ERROR: Cannot find image by unique name : image/设置界面/左侧底.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : image/设置界面/左侧按钮2.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : image/设置界面/字-基础设置1.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : 设置界面/左侧分割线.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : image/设置界面/字-音效设置2.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : image/设置界面/小标.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : image/设置界面/字-粒子质量.png
+[2026-11-13 16_48_50_201][1] ERROR: Cannot find image by unique name : image/设置界面/内容按钮1.png
+[2026-11-13 16_48_50_202][1] ERROR: Cannot find image by unique name : image/设置界面/内容按钮2.png
+[2026-11-13 16_48_50_202][1] ERROR: Cannot find image by unique name : image/设置界面/字-垂直同步.png
+[2026-11-13 16_48_50_202][1] ERROR: Cannot find image by unique name : image/设置界面/字-分辨率.png
+[2026-11-13 16_48_50_202][1] ERROR: Cannot find image by unique name : image/设置界面/进度条2.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/滑块1.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/字-功能设置.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/字-自动合成.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/字-锁定恢复.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/字-音效设置1.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/字-游戏音乐.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/进度条1.png
+[2026-11-13 16_48_50_203][1] ERROR: Cannot find image by unique name : image/设置界面/字-游戏音效.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : image/设置界面/关闭按钮1.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : image/设置界面/关闭按钮2.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : 设置界面/退出按钮1.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : 设置界面/退出按钮2.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : image/设置界面/通用按钮.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : image/设置界面/通用按钮2.png
+[2026-11-13 16_48_50_204][1] ERROR: Cannot find image by unique name : image/设置界面/红点.png
+[2026-11-13 16_48_50_205][1] ERROR: Cannot find image by unique name : image/弹框.png
+[2026-11-13 16_48_50_205][1] ERROR: Cannot find image by unique name : image/顶栏 (2).png
+[2026-11-13 16_48_50_205][1] ERROR: Cannot find image by unique name : image/弹框叉.png
+[2026-11-13 16_48_50_206][1] ERROR: Cannot find image by unique name : image/发送验证码框.png
+[2026-11-13 16_48_50_207][1] ERROR: Cannot find image by unique name : image/注册.png
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed vertex shader ui(VERTEXCOLOR)
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed pixel shader ui(OPACITY VERTEXCOLOR)
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed vertex shader ui(DIFFMAP GAMMA_IN_SHADERING)
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed pixel shader ui(DIFFMAP GAMMA_IN_SHADERING OPACITY)
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed vertex shader ui(DIFFMAP)
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed pixel shader ui(DIFFMAP OPACITY)
+[2026-11-13 16_48_50_235][1] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/DA2DE439
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed vertex shader ui(ALPHAMAP VERTEXCOLOR)
+[2026-11-13 16_48_50_235][1] INFO: Loaded cached compressed pixel shader ui(ALPHAMAP OPACITY VERTEXCOLOR)
+[2026-11-13 16_48_50_235][1] INFO: BXLOG:D:\BuildPC\NE_pd\Urho\engine\Source\ThirdParty\bgfx-all\bgfx\src\bgfx.cpp (2910): Renderer initialization: requested=Direct3D 11, candidates=6.
+
+[2026-11-13 16_48_50_235][1] INFO: BXLOG:D:\BuildPC\NE_pd\Urho\engine\Source\ThirdParty\bgfx-all\bgfx\src\bgfx.cpp (2914): Renderer initialization: attempting Direct3D 11 (1/6).
+
+[2026-11-13 16_48_50_235][1] INFO: BXLOG:D:\BuildPC\NE_pd\Urho\engine\Source\ThirdParty\bgfx-all\bgfx\src\renderer_d3d11.cpp (921): D3D11 CreateDevice: HRESULT=0x00000000, adapter=0xa90ecb10, PCI=1002:1586, driverType=0, flags=0x21, maxFeatureLevel=0xc100, featureLevelCount=6, selectedFeatureLevel=0xc100.
+
+[2026-11-13 16_48_50_235][1] INFO: BXLOG:D:\BuildPC\NE_pd\Urho\engine\Source\ThirdParty\bgfx-all\bgfx\src\dxgi_ex.cpp (417): Swap chain Width: 2040, Height: 1080
+
+[2026-11-13 16_48_50_235][1] INFO: BXLOG:D:\BuildPC\NE_pd\Urho\engine\Source\ThirdParty\bgfx-all\bgfx\src\bgfx.cpp (2920): Renderer initialization: selected=Direct3D 11, fallback=no.
+
+[2026-11-13 16_48_50_238][2] INFO: [Game:1]=============> StartGame - 1 <=============
+[2026-11-13 16_48_50_238][2] INFO: [Game:1]Connect to game host server, ip : 106.14.95.227, port : 12235
+[2026-11-13 16_48_50_238][2] INFO: [Game:1]Host Network: Change Connect Type To 3, Destroy Old Network.
+[2026-11-13 16_48_50_249][2] INFO: [Game:1]Host Network: Create KCP Network. useStreamMode: 0
+[2026-11-13 16_48_50_249][2] INFO: [Compress(0000000000000000)] [ZCompress:initialize] zcompress initializing..
+[2026-11-13 16_48_50_249][2] INFO: [Compress(0000000000000000)] initialize frequency finished.
+[2026-11-13 16_48_50_249][2] INFO: [Compress(0000000000000000)] rebuild huffman tree finished.
+[2026-11-13 16_48_50_249][2] INFO: [Game:1]Using 0 type to connect.
+[2026-11-13 16_48_50_249][2] INFO: [Game:1]start recording replay
+[2026-11-13 16_48_50_249][2] INFO: [Game:1]NetManager::StartReplay, version:[2], git_info:[Editor: pd, 42b57ed5f; SCEView: pd, d42598a; Client: pd, cae730e85; U: pd, 950fa2e3b; Common: pd, b9108ee8; BuildTime: 2026-11-11_20_36_43], lua_seed:[-1]
+[2026-11-13 16_48_50_249][2] INFO: [Game:1]StorageSettings.. offScreenShadowEnabled:1, postProcessEnabled:1, bakedShadow:0, planerShadowEnabled:1, clusterEnabled:1, mergeDirectionalLightAndPointLight:1, renderQuality:3, computeSkinningEnabled:0, vertexBufferStreamEnabled:1, showFogInEditor:0, drawShadows:1, aoType:1, textureSizeFactorEnabled: 0, textureSizeFactor: 1.000.
+[2026-11-13 16_48_50_249][2] INFO: [Game:1]=============> StartGame - 2 <=============
+[2026-11-13 16_48_50_259][2] INFO: BXLOG:D:\BuildPC\NE_pd\Urho\engine\Source\ThirdParty\bgfx-all\bgfx\src\dxgi_ex.cpp (607): Resize swap chain Width: 1280, Height: 720
+
+[2026-11-13 16_48_50_277][4] INFO: [Game:1]NetManager::OnConnected: 000003C5CB920008.
+[2026-11-13 16_48_50_277][4] INFO: [Game:1]Host connection state: connected[0] status[connecting] reason[].
+[2026-11-13 16_48_50_277][4] INFO: set ping interval
+[2026-11-13 16_48_50_277][4] INFO: [Game:1]GamePlayOnline connect success.
+[2026-11-13 16_48_50_277][4] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_50_277][4] INFO: [Game:1]GamePlayOnline request login, userid: 38672742, username: 38672742
+[2026-11-13 16_48_50_277][4] INFO: [Game:1]SetGameUserId: 38672742.
+[2026-11-13 16_48_50_277][4] INFO: [Game:1]headless login map_name from -headless_project_id: [p_kykj] (lobby test map [])
+[2026-11-13 16_48_50_278][4] INFO: [Game:1]GamePlayOnline request login, saveReplay_:[0]
+[2026-11-13 16_48_50_278][4] INFO: [Game:1]GamePlayOnline request login, is_diagnostic_mode.
+[2026-11-13 16_48_50_278][4] INFO: [Game:1]send login request to server, messageID(1)
+[2026-11-13 16_48_50_278][4] INFO: 
+LoginRequest Begin: 0.028
+LoginRequest End
+
+[2026-11-13 16_48_50_310][6] INFO: [Game:1]Game host login result[0].
+[2026-11-13 16_48_50_310][6] INFO: [Game:1]Host connection state: connected[1] status[connected] reason[].
+[2026-11-13 16_48_50_310][6] INFO: [Game:1]TestModeInformUserID: 100.
+[2026-11-13 16_48_50_310][6] ERROR: [Game:1]SetGameInfo => gameName_(p_kykj) != mapName()
+[2026-11-13 16_48_50_310][6] INFO: [Game:1]gamePath_: D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8
+[2026-11-13 16_48_50_310][6] INFO: SetGameInfo game scenequality success:[0], SetRenderQuality to:[-1]
+[2026-11-13 16_48_50_310][6] INFO: ==> StateGame Open Wasmtime
+[2026-11-13 16_48_50_310][6] INFO: A wasm project.
+[2026-11-13 16_48_50_310][6] INFO: SetupPathSearcher => PathSearcher ptr = 000003C5C01E2E00
+[2026-11-13 16_48_50_310][6] INFO: PathSearcherClient::AddLibGameOptions, mapName:[p_kykj], currentEditorApi_:[2000], GetGameplayUUID:[1], GetAPIVerstion:[-1]
+[2026-11-13 16_48_50_311][6] INFO: PackageFile::Open, D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/global_default/85/global_default/global_default.pak, 0
+[2026-11-13 16_48_50_365][6] INFO: Added resource package global_default-85
+[2026-11-13 16_48_50_458][6] INFO: added package[D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/global_default/85/global_default/global_default.pak] with prefix[_m/maps/global_default/85/global_default]
+[2026-11-13 16_48_50_461][6] INFO: Loading font map for: 1
+[2026-11-13 16_48_50_473][6] ERROR: [Game:1]Can't find font family: ui/font/notoemoji
+[2026-11-13 16_48_50_511][6] ERROR: [Game:1]Can't find font family: ui/font/notoemoji
+[2026-11-13 16_48_50_512][6] ERROR: Could not open file D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/project/use_local_appbundle_config.txt
+[2026-11-13 16_48_50_512][6] INFO: WasmtimeStateGame::GetAppbundlePath - useGameBundle 0
+[2026-11-13 16_48_50_513][6] INFO: WasmtimeState::OpenWasmtimeState - memory reservation = [0]
+[2026-11-13 16_48_50_513][6] INFO: WasmtimeState::OpenWasmtimeState - wasmtime_seed = [-1], wasmtime_seed_str = [-1]
+[2026-11-13 16_48_50_517][6] INFO: Opening wasm file: D:/sce_new/version-2000/AppBundle/dotnet.wasm
+[2026-11-13 16_48_50_524][6] INFO: Reading wasm file: D:/sce_new/version-2000/AppBundle/dotnet.wasm, size: 3848954
+[2026-11-13 16_48_50_525][6] INFO: Loading wasm module(bytes_type:1)...
+[2026-11-13 16_48_51_329][6] INFO: Register export functions...
+[2026-11-13 16_48_51_329][6] INFO: Call default func...
+[2026-11-13 16_48_51_943][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameCore.dll
+[2026-11-13 16_48_51_965][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/Events.dll
+[2026-11-13 16_48_52_249][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameData.dll
+[2026-11-13 16_48_52_257][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameGraph.dll
+[2026-11-13 16_48_52_360][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameUI.dll
+[2026-11-13 16_48_52_515][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameEntry.dll
+[2026-11-13 16_48_52_599][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/TriggerEncapsulation.dll
+[2026-11-13 16_48_52_611][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameSparkCore.dll
+[2026-11-13 16_48_52_722][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/GameSystemUI.dll
+[2026-11-13 16_48_53_632][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.Reflection.Emit.ILGeneration.dll
+[2026-11-13 16_48_53_643][6] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.Reflection.Emit.Lightweight.dll
+[2026-11-13 16_48_54_138][6] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_139][6] INFO: [Game:1]Lua -> SendEvent: GE_GAME_LOADING, Content: 
+[2026-11-13 16_48_54_139][6] INFO: [Game:1]GamePlayBase::UpdateGameLoading end
+[2026-11-13 16_48_54_139][6] INFO: [Game:1]not jump from game
+[2026-11-13 16_48_54_139][6] INFO: 
+LoginResponse Begin: 3.829
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:global_default) Begin: 0.000
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:global_default) End
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:official_client_deps_dll_package) Begin: 0.000
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:official_client_deps_dll_package) End
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:official_dotnet_bcl_package) Begin: 0.001
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:official_dotnet_bcl_package) End
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:gameui) Begin: 0.000
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:gameui) End
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:gamesparkcore) Begin: 0.000
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:gamesparkcore) End
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:gamesystemui) Begin: 0.000
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:gamesystemui) End
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:p_kykj) Begin: 0.000
+	LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA6040)(libName:p_kykj) End
+	UpdateGameLoading Begin: 0.001
+	UpdateGameLoading End
+LoginResponse End
+
+[2026-11-13 16_48_54_142][6] INFO: Loaded cached compressed vertex shader ui(ROUND VERTEXCOLOR)
+[2026-11-13 16_48_54_142][6] INFO: Loaded cached compressed pixel shader ui(OPACITY ROUND VERTEXCOLOR)
+[2026-11-13 16_48_54_171][7] INFO: 
+StartGameLoading Begin: 0.000
+StartGameLoading End
+
+[2026-11-13 16_48_54_174][8] INFO: [Game:1]Lua -> SendEvent: GE_GAME_LOADING, Content: resource
+[2026-11-13 16_48_54_174][8] INFO: [Game:1]GamePlayBase::UpdateGameLoading end
+[2026-11-13 16_48_54_174][8] INFO: 
+UpdateGameLoading Begin: 0.000
+UpdateGameLoading End
+
+[2026-11-13 16_48_54_174][8] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_185][8] INFO: [Game:1]==> Begin loading table [p_kykj]. 
+[2026-11-13 16_48_54_185][8] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_185][8] INFO: InitBasepath[maps/]
+[2026-11-13 16_48_54_185][8] INFO: PathSearcher::_ExportAPI to L: 0xc0d03ac078
+[2026-11-13 16_48_54_185][8] INFO: PathSearcherClient::AddLibGameOptions, mapName:[p_kykj], currentEditorApi_:[2000], GetGameplayUUID:[0], GetAPIVerstion:[-1]
+[2026-11-13 16_48_54_189][8] INFO: ===> Begin Loading LNI ...
+[2026-11-13 16_48_54_200][8] INFO: ==> Begin Preprocess table ...
+[2026-11-13 16_48_54_200][8] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/game_hud/acbloodtemplate.json
+[2026-11-13 16_48_54_200][8] INFO: <== End preprocess table.
+[2026-11-13 16_48_54_200][8] INFO: <=== End Loading LNI.
+[2026-11-13 16_48_54_200][8] INFO: ==> Begin Preprocess table ...
+[2026-11-13 16_48_54_200][8] INFO: <== End preprocess table.
+[2026-11-13 16_48_54_203][8] INFO: [Game:1]<== Finish loading table [p_kykj]. 
+[2026-11-13 16_48_54_203][8] INFO: [Game:1]GameLoading_Resource, will start preload
+[2026-11-13 16_48_54_203][8] INFO: [Game:1]==> Begin preload.
+[2026-11-13 16_48_54_203][8] INFO: [Game:1]UI Render From Back To Front:1
+[2026-11-13 16_48_54_203][8] INFO: [Game:1]Check preload. MapName:p_kykj NeedPreload:true
+[2026-11-13 16_48_54_203][8] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_302][8] INFO: [Game:1]ref path => D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/ref/table.ref
+[2026-11-13 16_48_54_303][8] INFO: [Game:1]p_kykj ref is empty
+[2026-11-13 16_48_54_303][8] INFO: [Game:1]<== Finish preload. Image load time: 0.000s, Model load time: 0.000s, Particle load time: 0.000s
+[2026-11-13 16_48_54_303][8] INFO: [Game:1]Client report loading progress[30].
+[2026-11-13 16_48_54_303][8] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_303][8] INFO: [Game:1]==> Begin load scene.
+[2026-11-13 16_48_54_304][8] INFO: [Game:1]Lua -> SendEvent: GE_GAME_LOADING, Content: scene
+[2026-11-13 16_48_54_304][8] INFO: [Game:1]GamePlayBase::UpdateGameLoading end
+[2026-11-13 16_48_54_304][8] INFO: GameWorld => SetupViewport, mode:0
+[2026-11-13 16_48_54_304][8] ERROR: Could not find resource scene/random_scene.json
+[2026-11-13 16_48_54_304][8] ERROR: Failed to load random scene config[scene/random_scene.json].
+[2026-11-13 16_48_54_304][8] ERROR: Could not find resource scene/controlled_sync_units.dat
+[2026-11-13 16_48_54_304][8] ERROR: Failed to load controlled sync units config[scene/controlled_sync_units.dat].
+[2026-11-13 16_48_54_304][8] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/default/area_save.lua
+[2026-11-13 16_48_54_304][8] ERROR: Load combined scene trigger area info => failed to open file D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8//scene/default/area_save.lua.
+[2026-11-13 16_48_54_305][8] INFO: LoadMap progress => will init landscapeData_, path D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/default/HeightData.dat.
+[2026-11-13 16_48_54_305][8] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/default/heightdata.dat
+[2026-11-13 16_48_54_305][8] ERROR: Load height data error !
+[2026-11-13 16_48_54_305][8] ERROR: Failed to load height data: D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/default/HeightData.dat.
+[2026-11-13 16_48_54_305][8] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/default/scene_info.xml
+[2026-11-13 16_48_54_305][8] INFO: LoadMap progress => will init static collision info, path D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/default//Collision.dat.
+[2026-11-13 16_48_54_305][8] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/default/collision.dat
+[2026-11-13 16_48_54_305][8] ERROR: Collision data not found!
+[2026-11-13 16_48_54_305][8] INFO: LoadMap progress => will init navigation, path D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/default//Collision.dat.
+[2026-11-13 16_48_54_305][8] INFO: [StaticCollision::StaticCollision::StaticCollision] hegiht0 width0
+[2026-11-13 16_48_54_305][8] INFO: not find collision.
+[2026-11-13 16_48_54_305][8] ERROR: Navigation::NavigationMgr::Init static_collision init faild
+[2026-11-13 16_48_54_305][8] ERROR: [::GameWorld::LoadMapStaticData]init navigation faild
+[2026-11-13 16_48_54_305][8] INFO: Load Map Static Data Time[0.000201s]
+[2026-11-13 16_48_54_305][8] INFO: 
+GameLoading_Resource Begin: 0.132
+	ClearResources Begin: 0.010
+	ClearResources End
+	LoadMapTable Begin: 0.016
+	LoadMapTable End
+	PreLoadResources Begin: 0.103
+		PreLoadFinish Begin: 0.002
+			UpdateGameLoading Begin: 0.001
+			UpdateGameLoading End
+			GameLoading_Scene Begin: 0.001
+			GameLoading_Scene End
+		PreLoadFinish End
+	PreLoadResources End
+GameLoading_Resource End
+
+[2026-11-13 16_48_54_306][9] INFO: Finish all resources => CostTime: 0ms.
+[2026-11-13 16_48_54_306][9] INFO: [Game:1]Client report loading progress[45].
+[2026-11-13 16_48_54_306][9] INFO: [Game:1]<== Finish load scene.
+[2026-11-13 16_48_54_306][9] INFO: [Game:1]Lua -> SendEvent: GE_GAME_LOADING, Content: lua
+[2026-11-13 16_48_54_306][9] INFO: [Game:1]GamePlayBase::UpdateGameLoading end
+[2026-11-13 16_48_54_306][9] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_306][9] INFO: [Game:1]==> Begin load lua.
+[2026-11-13 16_48_54_306][9] INFO: ==> Begin Load Atlas
+[2026-11-13 16_48_54_307][9] INFO: load game hud atlas: [D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/game_hud/statusbar.png, D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/game_hud/statusbar.json]
+[2026-11-13 16_48_54_338][9] ERROR: [Game:1]Can't find font family: ui/font
+[2026-11-13 16_48_54_339][9] ERROR: [Game:1]Can't find font family: ui/font/notoemoji
+[2026-11-13 16_48_54_339][9] INFO: load game hud atlas: [D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/game_hud/floatingtext.png, D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/game_hud/floatingtext.json]
+[2026-11-13 16_48_54_356][9] ERROR: [Game:1]Can't find font family: ui/font/alimama
+[2026-11-13 16_48_54_356][9] ERROR: [Game:1]Can't find font family: ui/font/notoemoji
+[2026-11-13 16_48_54_356][9] ERROR: load game hud atlas failed: no atlas config found under [D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/game_hud]
+[2026-11-13 16_48_54_356][9] INFO: load game hud config: [D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/game_hud/minimaptemplate.json]
+[2026-11-13 16_48_54_356][9] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/game_hud/minimaptemplate.json
+[2026-11-13 16_48_54_356][9] INFO: <== End Load Atlas
+[2026-11-13 16_48_54_356][9] INFO: [Game:1]<=== End load lua.
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]Client report loading progress[95].
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]<== Finish load lua.
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]Send custome game attribute to lua.
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]SendToLuaAllCustomGameAttr: 0
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]==> Begin notify lua finish load scene.
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]<== Finish notify lua finish load scene.
+[2026-11-13 16_48_54_357][9] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]==> Begin notify lua start game.
+[2026-11-13 16_48_54_357][9] INFO: [Game:1]<== Finish notify lua start game.
+[2026-11-13 16_48_54_358][9] ERROR: Init camera settings without camera，it may be a pure UI scene.
+[2026-11-13 16_48_54_358][9] INFO: [Game:1]camera reset [c0204500]->[c020f900]
+[2026-11-13 16_48_54_358][9] INFO: [Game:1]Client report loading progress[100].
+[2026-11-13 16_48_54_358][9] INFO: [Game:1]Client report loading finish.
+[2026-11-13 16_48_54_358][9] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_358][9] INFO: [Game:1]CheckBakedShadow ==> SetBakedShadow(true).
+[2026-11-13 16_48_54_358][9] INFO: [Game:1]CheckBakedShadow ==> map size(0, 0) shadowmap size(64).
+[2026-11-13 16_48_54_358][9] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_48_54_358][9] INFO: [Game:1]Loading total times before shader prewarm: 4.048000s.
+[2026-11-13 16_48_54_358][9] INFO: 
+PreloadFinish_AfterLoadingScene Begin: 0.051
+	UpdateGameLoading Begin: 0.000
+	UpdateGameLoading End
+	GameLoading_ScriptFirst Begin: 0.051
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:global_default) Begin: 0.000
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:global_default) End
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:official_client_deps_dll_package) Begin: 0.001
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:official_client_deps_dll_package) End
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:official_dotnet_bcl_package) Begin: 0.000
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:official_dotnet_bcl_package) End
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:gameui) Begin: 0.000
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:gameui) End
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:gamesparkcore) Begin: 0.000
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:gamesparkcore) End
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:gamesystemui) Begin: 0.000
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:gamesystemui) End
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:p_kykj) Begin: 0.000
+		LoadingCostTime=>LoadLibAtlas(this:000003C5D4EA2940)(libName:p_kykj) End
+		LuaLoadFinished Begin: 0.002
+			GameLoading_ScriptLast Begin: 0.000
+			GameLoading_ScriptLast End
+		LuaLoadFinished End
+	GameLoading_ScriptFirst End
+PreloadFinish_AfterLoadingScene End
+
+[2026-11-13 16_48_54_358][9] ERROR: Create game play ui "MiniMap_MAIN_default" failed. There may be a problem with the config ?
+[2026-11-13 16_48_54_358][9] ERROR: CreateMiniMap => return nullptr.
+[2026-11-13 16_48_54_360][10] INFO: [Game:1]Loading total times: 4.050000s.
+[2026-11-13 16_48_54_360][10] INFO: Send stat[game_loading_time_stat] failed: send message error
+[2026-11-13 16_48_54_410][13] INFO: [Game:1]Game host notify loading finished.
+[2026-11-13 16_48_54_411][13] INFO: [Game:1]Game host notify start game.
+[2026-11-13 16_48_54_413][13] INFO: [Game:1]Game host notify start game.
+[2026-11-13 16_48_54_413][13] INFO: Start notify BroadcastToOtherDevice msg, Msg is {{172.25.80.1}}
+[2026-11-13 16_48_54_413][13] INFO: 
+NotifyStartGame Begin: 0.003
+NotifyStartGame End
+
+[2026-11-13 16_48_54_413][13] INFO: [Game:1]Receive SyncUnitAttibuteConfig.
+[2026-11-13 16_48_54_413][13] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/area_save.lua
+[2026-11-13 16_48_54_413][13] ERROR: Load combined scene trigger area info => failed to open file D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8//scene/new_scene/area_save.lua.
+[2026-11-13 16_48_54_414][13] INFO: LoadMap progress => will init landscapeData_, path D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene/HeightData.dat.
+[2026-11-13 16_48_54_415][13] INFO: LoadMap progress => will init static collision info, path D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene/ClientCollision.dat.
+[2026-11-13 16_48_54_415][13] INFO: LoadMap progress => will init nav3d, path D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene//map.nav.
+[2026-11-13 16_48_54_416][13] INFO: Loaded nav file D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene//map.nav in 0ms
+[2026-11-13 16_48_54_416][13] INFO: nav3d init end
+[2026-11-13 16_48_54_416][13] INFO: Finish loading map blocks :D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/block in 0ms
+[2026-11-13 16_48_54_416][13] INFO: Load Map Static Data Time[0.002544s]
+[2026-11-13 16_48_54_662][13] ERROR: Could not find resource characters/general/sk_basic2/anim/.ani
+[2026-11-13 16_48_54_677][13] ERROR: Could not find resource characters/general/sk_basic2/textures/m0_diffuse.tga
+[2026-11-13 16_48_54_677][13] ERROR: Could not find resource characters/general/sk_basic2/textures/m0_normal.tga
+[2026-11-13 16_48_54_733][13] ERROR: Could not find resource characters/general/sk_basic2/mdl.pa
+[2026-11-13 16_48_54_737][13] INFO: >> Polymesh: 66 vertices  43 polygons 270 detailVerts 205 tris
+[2026-11-13 16_48_54_737][13] INFO: Tile 1 0 build time: 2ms, memory used: 116.2988kB
+[2026-11-13 16_48_54_737][13] INFO: Loaded tile voxels at 1_0, cost: 2ms
+[2026-11-13 16_48_54_739][13] INFO: >> Polymesh: 80 vertices  48 polygons 214 detailVerts 118 tris
+[2026-11-13 16_48_54_739][13] INFO: Tile 2 0 build time: 1ms, memory used: 104.1641kB
+[2026-11-13 16_48_54_739][13] INFO: Loaded tile voxels at 2_0, cost: 2ms
+[2026-11-13 16_48_54_741][13] INFO: >> Polymesh: 24 vertices  11 polygons 167 detailVerts 150 tris
+[2026-11-13 16_48_54_741][13] INFO: Tile 2 1 build time: 2ms, memory used: 121.4258kB
+[2026-11-13 16_48_54_741][13] INFO: Loaded tile voxels at 2_1, cost: 2ms
+[2026-11-13 16_48_54_745][13] INFO: >> Polymesh: 153 vertices  101 polygons 501 detailVerts 304 tris
+[2026-11-13 16_48_54_745][13] INFO: Tile 1 1 build time: 4ms, memory used: 141.0137kB
+[2026-11-13 16_48_54_745][13] INFO: Loaded tile voxels at 1_1, cost: 4ms
+[2026-11-13 16_48_54_748][13] INFO: >> Polymesh: 145 vertices  91 polygons 456 detailVerts 276 tris
+[2026-11-13 16_48_54_748][13] INFO: Tile 0 1 build time: 3ms, memory used: 108.5664kB
+[2026-11-13 16_48_54_748][13] INFO: Loaded tile voxels at 0_1, cost: 3ms
+[2026-11-13 16_48_54_749][13] INFO: >> Polymesh: 72 vertices  44 polygons 184 detailVerts 96 tris
+[2026-11-13 16_48_54_749][13] INFO: Tile 0 0 build time: 2ms, memory used: 93.4170kB
+[2026-11-13 16_48_54_749][13] INFO: Loaded tile voxels at 0_0, cost: 2ms
+[2026-11-13 16_48_54_779][13] INFO: [Game:1]Game host sync player scene[new_scene].
+[2026-11-13 16_48_54_779][13] ERROR: Create game play ui "MiniMap_MAIN_new_scene" failed. There may be a problem with the config ?
+[2026-11-13 16_48_54_779][13] ERROR: CreateMiniMap => return nullptr.
+[2026-11-13 16_48_54_779][13] INFO: LoadMap progress => will load map: scene/new_scene/map.acmap.
+[2026-11-13 16_48_54_780][13] INFO: Map static scene is loaded, just skip.
+[2026-11-13 16_48_54_780][13] INFO: LoadMap progress => will load scene.
+[2026-11-13 16_48_54_830][13] INFO: Begin load D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene/map.acmap
+[2026-11-13 16_48_54_831][13] INFO: Map proto: type(1) size(47)
+[2026-11-13 16_48_54_831][13] INFO: Map proto: type(7) size(61)
+[2026-11-13 16_48_54_831][13] INFO: Map proto: type(19) size(343309)
+[2026-11-13 16_48_54_832][13] INFO: Map proto: type(6) size(782268)
+[2026-11-13 16_48_54_838][13] INFO: Map proto: type(4) size(5795)
+[2026-11-13 16_48_54_838][13] INFO: Map proto: type(33) size(3570)
+[2026-11-13 16_48_54_838][13] INFO: Map proto: type(54) size(355)
+[2026-11-13 16_48_54_838][13] INFO: Map proto: type(55) size(4)
+[2026-11-13 16_48_54_838][13] WARNING: CompressFormat:26 is not supported.
+[2026-11-13 16_48_54_838][13] INFO: lightgroup path: D:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/Atmosphere/default.lightgroup
+[2026-11-13 16_48_57_090][13] ERROR: Could not find resource deco/buildsystem/sm_buildsystem_road_e/model.prefab
+[2026-11-13 16_48_57_445][13] ERROR: Zero or negative texture array size
+[2026-11-13 16_48_57_445][13] ERROR: Texture array not created, can not set data
+[2026-11-13 16_48_57_445][13] ERROR: Texture array not created, can not set data
+[2026-11-13 16_48_57_445][13] INFO: [Game:1]camera reset [c020f900]->[c020fc00]
+[2026-11-13 16_48_57_448][13] INFO: [Game:1]camera[c020fc00] focus on unit(��T)[d9f82390]
+[2026-11-13 16_48_57_448][13] INFO: CameraFocusToUnit, unitId:[7]
+[2026-11-13 16_48_57_449][13] INFO: [Game:1]S2C_NotifySlotStateChange
+[2026-11-13 16_48_57_452][13] INFO: [Game:1]Game host notify start game.
+[2026-11-13 16_48_57_452][13] INFO: [Game:1]Game host notify start game.
+[2026-11-13 16_48_57_452][13] INFO: Start notify BroadcastToOtherDevice msg, Msg is {{172.25.80.1}}
+[2026-11-13 16_48_57_452][13] INFO: 
+NotifyStartGame Begin: 0.001
+NotifyStartGame End
+
+[2026-11-13 16_48_57_603][13] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.Net.Ping.dll
+[2026-11-13 16_48_57_648][13] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.Net.Primitives.dll
+[2026-11-13 16_48_57_708][13] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.IO.Hashing.dll
+[2026-11-13 16_48_57_753][13] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.Diagnostics.DiagnosticSource.dll
+[2026-11-13 16_48_57_800][13] ERROR: Could not open file D:/sce_new/version-2000/AppBundle/managed/System.ComponentModel.Annotations.dll
+[2026-11-13 16_48_57_851][13] INFO: [Game:1]Message(396):
+�mJ��{"messageType":"MailInboxSync","priority":"Normal","timestamp":"2026-11-13T08:48:56.2396320Z","messageId":"15eb8918-e343-48a8-b208-0e1e156baac9","data":"{\u0022requestId\u0022:\u002200000000-0000-0000-0000-000000000000\u0022,\u0022result\u0022:\u0022Success\u0022,\u0022reason\u0022:\u0022LoginPush\u0022,\u0022mails\u0022:[],\u0022unreadCount\u0022:0,\u0022unclaimedCount\u0022:0,\u0022timestamp\u0022:\u00222026-11-13T08:48:56.2391450Z\u0022,\u0022grantedRewards\u0022:[]}"}
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource eqpt/weapon/sm_dr_sword_04_02/mdl.pa
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource eqpt/weapon/sm_dr_sword_04_02/model/m_box.mdl
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/heightmap.png
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/landscape.xml
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/weightmap.png
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_02_01/textures/t_dg_guanmu_02_01_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_01_02/textures/t_dg_guanmu_01_02_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_03/textures/t_dg_guanmu_05_03_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_xiaozhiwu_06_03/textures/t_dg_xiaozhiwu_06_03_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_xiaozhiwu_06_02/textures/t_dg_xiaozhiwu_06_02_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_07/textures/t_dg_guanmu_05_07_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_08/textures/t_dg_guanmu_05_08_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_04/textures/t_dg_guanmu_05_04_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_dg_xiaozhiwu_06_04/textures/t_dg_xiaozhiwu_06_04_ao.tga
+[2026-11-13 16_48_57_867][13] ERROR: Could not find resource deco/dungeon/plant/sm_heye_10_06/textures/t_heye_10_06_ao.tga
+[2026-11-13 16_48_57_896][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_02_01/textures/t_dg_guanmu_02_01_ao.tga
+[2026-11-13 16_48_57_897][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_01_02/textures/t_dg_guanmu_01_02_ao.tga
+[2026-11-13 16_48_57_898][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_03/textures/t_dg_guanmu_05_03_ao.tga
+[2026-11-13 16_48_57_898][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_xiaozhiwu_06_03/textures/t_dg_xiaozhiwu_06_03_ao.tga
+[2026-11-13 16_48_57_898][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_xiaozhiwu_06_02/textures/t_dg_xiaozhiwu_06_02_ao.tga
+[2026-11-13 16_48_57_898][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_07/textures/t_dg_guanmu_05_07_ao.tga
+[2026-11-13 16_48_57_903][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_08/textures/t_dg_guanmu_05_08_ao.tga
+[2026-11-13 16_48_57_903][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_guanmu_05_04/textures/t_dg_guanmu_05_04_ao.tga
+[2026-11-13 16_48_57_904][14] ERROR: Could not find resource deco/dungeon/plant/sm_dg_xiaozhiwu_06_04/textures/t_dg_xiaozhiwu_06_04_ao.tga
+[2026-11-13 16_48_57_906][14] ERROR: Could not find resource deco/dungeon/plant/sm_heye_10_06/textures/t_heye_10_06_ao.tga
+[2026-11-13 16_48_57_913][14] INFO: Finish all resources => CostTime: 18ms.
+[2026-11-13 16_48_58_266][14] ERROR: Could not find resource characters/monster/sk_xxsqingwa_02/textures/t_guagua.tga
+[2026-11-13 16_48_58_362][14] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/weightmap.png
+[2026-11-13 16_48_58_362][14] ERROR: Failed to load weight map[D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene/weightmap.png].
+[2026-11-13 16_48_58_432][14] INFO: CurrentSceneInfo: width(8192) height(8192) light map count(0)  light map use dir(0)  light map dir(0.000000) light map scale0 size(0) light map scale1 size(0)
+[2026-11-13 16_48_58_433][14] ERROR: Could not find resource d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/unit_save.lua
+[2026-11-13 16_48_58_433][14] ERROR: Load unit lightmap info => failed to open file D:\sce_new\agent-worktrees\sce-run-evidence-4431882210a8/scene/new_scene//unit_save.lua.
+[2026-11-13 16_48_58_433][14] INFO: Load Map Time[3.654068s]
+[2026-11-13 16_48_58_433][14] INFO: [Game:1]CheckBakedShadow ==> SetBakedShadow(true).
+[2026-11-13 16_48_58_433][14] INFO: [Game:1]CheckBakedShadow ==> map size(8192, 8192) shadowmap size(2048).
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]Try release unused resources:
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/cracks_1_1_1_1_1_1_0_1a.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_1_1_1_1_1_1_0_1a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/cracks_0_1_0_1_1_0_0_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_0_1_0_1_1_0_0_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/cracks_1_0_0_1_1_0_0_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_1_0_0_1_1_0_0_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/cracks_0_1_0_1_1_0_0_1a.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_0_1_0_1_1_0_0_1a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/cracks_1_1_1_1_1_1_0_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_1_1_1_1_1_1_0_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_0_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_0_0_0_0/ground_0_0_0_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_0_0_0_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_0_128.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_0_128/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_1_1_1_0/ground_1_1_1_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_1_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_1_0/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/a/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_128_128_a.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_128_128_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_1_1_0_0_b/ground_1_1_0_0_b.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_b/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_0_0_b/005.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_02_01/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_01_02/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/chinoiserie/sm_ch_littlestone_e/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/b/001.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_05_03/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_128_128.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_128_128/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_0_0_c/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_1_1_0_0_d/ground_1_1_0_0_d.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_d/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/b/007.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_xiaozhiwu_06_03/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_xiaozhiwu_06_02/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_05_09/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_1_0/004.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/chinoiserie/sm_ch_littlestone_b/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/a/004.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_256_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_256_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/a/005.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_128_384_256.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_128_384_256/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_1_0_0_0/ground_1_0_0_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_0_1_0_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_0_0_0/001.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/chinoiserie/sm_ch_littlestone_c/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/c/007.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_05_10/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/e/006.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_05_04/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_256_256_a.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_256_256_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_1_1_0_0_c/ground_1_1_0_0_c.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_c/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_0_0_c/008.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/chinoiserie/sm_ch_littlestone_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/b_long/002.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/rainforest/sm_wudumilin_pashanhu_05_01/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_128_256.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_128_256/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_1_1_0_0_a/ground_1_1_0_0_a.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_0_0_a/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_256_128.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_256_128/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/c/002.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/b_long/004.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/rainforest/sm_wudumilin_pashanhu_01_01/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/rainforest/sm_wudumilin_pashanhu_02_01/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_xiaozhiwu_06_04/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_0_0_b/004.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/b/009.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_0_0_128_128_0_1_1_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/pathbase/ground/pathbase_0_0_128_128_0_1_1_0/pathbase_0_0_128_128_0_1_1_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_128_128_0_1_1_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_128_128_0_0_0_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_06/decal_path_06.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_0_1_1_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/path01/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_128_256_256.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_128_256_256/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_0_0_0/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/0/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_0_0_0_128_0_0_1_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/pathbase/ground/pathbase_0_0_0_128_0_0_1_0/pathbase_0_0_0_128_0_0_1_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_0_128_0_0_1_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_0_128_0_0_0_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_02/decal_path_02.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_0_0_0_128_0_0_1_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_0_0_0_256.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_0_256/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_1_0/006.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/a/003.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_256_0_256_384.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_256_0_256_384/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/planebase/ground_0_1_0_0/ground_0_1_0_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_0_0_0/009.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/d/000.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_0_0_128_128_0_0_1_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/pathbase/ground/pathbase_0_0_128_128_0_0_1_1/pathbase_0_0_128_128_0_0_1_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_128_128_0_0_1_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_05/decal_path_05.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_0_0_1_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_128_0_128_256_1_1_1_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_1_1_1_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_21/decal_path_21.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_1_1_1_1_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_128_0_128_256_1_1_1_0.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_1_1_1_0/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_1_1_0_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_20/decal_path_20.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_1_1_0_0_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_16/decal_path_16.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_0_0_1_0_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_0_0_0_128_0_0_1_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/pathbase/ground/pathbase_0_0_0_128_1_1_1_1/pathbase_0_0_0_128_1_1_1_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_0_128_1_1_1_1/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_17/decal_path_17.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_0_0_1_1_a/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_1_0/001.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_128_0_256_256.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_128_0_256_256/model.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]tiles/me_tiles_field/ground/path_128_0_128_256_1_0_0_1.prefab
+[2026-11-13 16_48_58_434][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_1_0_0_1/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_0_1_1_0/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_19/decal_path_19.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_1_0_0_0_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal_path/decal_path_15/decal_path_15.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_0_0_0_1_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/ground_1_1_1_0/008.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/chinoiserie/sm_ch_littlestone_d/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/a/002.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/ground/tile_128_0_128_128.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_128_0_128_128/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/planebase/water_0_1_0_0/water_0_1_0_0.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_1_0_0/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_w_0_1_0_0/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/water_1_0_0_0/008.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/chinoiserie/plant/sm_aquatic_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/d/009.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/planebase/water_1_1_0_0_b/water_1_1_0_0_b.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_w_1_1_0_0_b/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_w_0_0_0_0_material001/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/water_1_1_0_0_b/011.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/chinoiserie/sm_waterstone_03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/b/000.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/water_1_0_0_0/000.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/d/005.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/water_1_1_0_0_b/006.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/chinoiserie/sm_waterstone_02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/chinoiserie/plant/sm_aquatic_b_02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/dungeon/plant/sm_heye_10_06/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/b/003.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/planebase/water_0_0_0_0/water_0_0_0_0.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_w_0_0_0_0/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_0_0_0_0_material001/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/water_1_1_0_0_c/000.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/water_1_1_0_0_b/000.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/b/002.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]tiles/me_tiles_field/decal/d/001.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_f/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_e01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_e02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_e01_1/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_e01_2/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_e02_1/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_e02_2/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_f07/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_f04/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_floor_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_d/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_f03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_b/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_f05/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_e/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_road_f/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/low_poly/chufang/sm_qiangmen/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts_prop/sci_fi_base/sm_building_01_stairs_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts_prop/sci_fi_base/sm_concrete_wall1_stairs1_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts_prop/sci_fi_base/sm_catwalk1_stairs1_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts/sm_stairs01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts_prop/sci_fi_base/sm_building_04_stairs_long/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts_prop/sci_fi_base/sm_building_04_stairs_short/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts_prop/sci_fi_base/sm_metal_wall_sloping_ladder_a/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_str_256_11/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_a01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_c03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_a02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_a03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_c01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_b01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_b03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ds/sm_ds_stairs_stones_c02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_c/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_c01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_c02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_c03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_d/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_d01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_d02/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/buildsystem/sm_buildsystem_stairs_d03/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/ts/sm_ts_roadblock_b/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_05_05/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/dungeon/plant/sm_dg_guanmu_05_06/model.prefab
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]eqpt/weapon/sm_dr_sword_04_02/materials/sm_dr_sword_04_02.material
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]effect/eff_reverse/particle/map/ps_lazhuhuoyan_hong_1/particle.effect
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]effect/eff_reverse/particle/map/ps_huoju_1/particle.effect
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]eqpt/weapon/sm_dr_sword_04_02/textures/t_sword_basecolor4.tga
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]eqpt/weapon/sm_dr_sword_04_02/textures/t_sword_mix4.tga
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]eqpt/weapon/sm_dr_sword_04_02/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_1_1_1_1_1_1_0_1a/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_0_1_0_1_1_0_0_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_1_0_0_1_1_0_0_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_0_1_0_1_1_0_0_1a/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/cracks/cracks_1_1_1_1_1_1_0_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_0_0_0_0/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_0_128/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_1_0/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_128_128_a/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_b/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_128_128/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_d/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_256_0/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_128_384_256/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_0_1_0_0/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_256_256_a/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_c/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_128_256/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_g_1_1_0_0_a/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_256_128/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_128_128_0_0_0_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_128_256_256/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_0_128_0_0_0_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_0_0_256/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_256_0_256_384/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_1_1_1_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_1_1_0_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_0_0_0_128_1_1_1_1/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_128_0_256_256/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/path/path_128_0_128_256_0_1_1_0/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_128_0_128_128/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_0_1_0_0/model/m.mdl
+[2026-11-13 16_48_58_435][14] INFO: [Game:1]deco/tiles/me_basemesh_hope/ground/tile_w_0_0_0_0/model/m.mdl
+[2026-11-13 16_48_58_445][14] INFO: [Game:1]1 frame after Game host notify start game.
+[2026-11-13 16_48_58_445][14] INFO: [Game:1]after GE_ENTER_GAME event.
+[2026-11-13 16_48_58_445][14] INFO: [Game:1]1 frame after Game host notify start game.
+[2026-11-13 16_48_58_445][14] INFO: [Game:1]after GE_ENTER_GAME event.
+[2026-11-13 16_48_58_446][14] INFO: [Game:1]camera[c020fc00] focus on unit(��T)[d9f82390]
+[2026-11-13 16_48_58_446][14] INFO: CameraFocusToUnit, unitId:[7]
+[2026-11-13 16_48_58_483][14] INFO: ============> ShaderPrewarm - Begin <============
+[2026-11-13 16_48_58_499][14] INFO: Loaded cached compressed vertex shader tileblend(AO BLEND1 DIRLIGHT MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_500][14] INFO: Loaded cached compressed pixel shader tileblend(AMBIENT AO BLEND1 CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_500][14] INFO: Loaded cached compressed vertex shader tileblend(AO BLEND3 DIRLIGHT MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_500][14] INFO: Loaded cached compressed pixel shader tileblend(AMBIENT AO BLEND3 CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_501][14] INFO: Loaded cached compressed vertex shader tilecliff(AO CLIFF1 DIRLIGHT MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_501][14] INFO: Loaded cached compressed pixel shader tilecliff(AMBIENT AO CLIFF1 CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_501][14] INFO: Loaded cached compressed vertex shader tilecliff(AO CLIFF2 DIRLIGHT MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_502][14] INFO: Loaded cached compressed pixel shader tilecliff(AMBIENT AO CLIFF2 CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_502][14] INFO: Loaded cached compressed vertex shader tilecliff(AO CLIFF2 CLIFF2_BLEND DIRLIGHT MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_502][14] INFO: Loaded cached compressed pixel shader tilecliff(AMBIENT AO CLIFF2 CLIFF2_BLEND CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_503][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(AO DIRLIGHT NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_504][14] INFO: Loaded cached compressed pixel shader grayleveltwops(ALPHAMASK ALPHAMASK_DIFF_A AMBIENT AO CHEAP_AO CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_504][14] INFO: Loaded cached compressed pixel shader defaultps(AMBIENT AO CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_505][14] INFO: Loaded cached compressed pixel shader defaultps(ALPHAMASK ALPHAMASK_DIFF_A AMBIENT AO CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_505][14] INFO: Loaded cached compressed pixel shader staticobjectps(AMBIENT AO CLOUD_SHADOW CLUSTER DIRLIGHT EMISSIVECOLOR ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_506][14] INFO: Loaded cached compressed pixel shader graylevelfiveps(AMBIENT AO CHEAP_AO CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO USE_DETAILTEX)
+[2026-11-13 16_48_58_506][14] INFO: Loaded cached compressed pixel shader graylevelfiveps(AMBIENT AO CHEAP_AO CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO USE_DETAILTEX USE_ID0)
+[2026-11-13 16_48_58_506][14] INFO: Loaded cached compressed pixel shader graylevelfiveps(AMBIENT AO CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO USE_DETAILTEX USE_ID0)
+[2026-11-13 16_48_58_507][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(DIRLIGHT PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_507][14] INFO: Loaded cached compressed pixel shader defaultlambertps(AMBIENT CLOUD_SHADOW CLUSTER DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_507][14] INFO: Loaded cached compressed pixel shader defaultps(AMBIENT AO CLOUD_SHADOW CLUSTER DIRLIGHT EMISSIVECOLOR ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_507][14] INFO: Loaded cached compressed pixel shader defaultlambertps(AMBIENT CLOUD_SHADOW CLUSTER DIFFMAP DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_507][14] INFO: Loaded cached compressed vertex shader tileblend(AO BLEND1 DIRLIGHT INSTANCED MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader tileblend(AO BLEND3 DIRLIGHT INSTANCED MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader tilecliff(AO CLIFF1 DIRLIGHT INSTANCED MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader tilecliff(AO CLIFF2 DIRLIGHT INSTANCED MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader tilecliff(AO CLIFF2 CLIFF2_BLEND DIRLIGHT INSTANCED MAX_MIX_MATERIAL=82 NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(AO DIRLIGHT INSTANCED NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(DIRLIGHT INSTANCED PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed vertex shader planershadow(RENDER_QUALITY=3)
+[2026-11-13 16_48_58_508][14] INFO: Loaded cached compressed pixel shader planershadow(RENDER_QUALITY=3)
+[2026-11-13 16_48_58_509][14] INFO: Loaded cached compressed vertex shader planershadow(INSTANCED RENDER_QUALITY=3)
+[2026-11-13 16_48_58_509][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/05A9EFC7
+[2026-11-13 16_48_58_509][14] INFO: Loaded cached compressed vertex shader depth(RENDER_QUALITY=3 SSAO)
+[2026-11-13 16_48_58_509][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/A3D64CAC
+[2026-11-13 16_48_58_509][14] INFO: Loaded cached compressed pixel shader depth()
+[2026-11-13 16_48_58_509][14] INFO: Loaded cached compressed pixel shader depth(ALPHAMASK ALPHAMASK_DIFF_A)
+[2026-11-13 16_48_58_509][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/7D9A5F4B
+[2026-11-13 16_48_58_509][14] INFO: Loaded cached compressed vertex shader depth(INSTANCED RENDER_QUALITY=3 SSAO)
+[2026-11-13 16_48_58_509][14] INFO: Loaded cached compressed vertex shader water(DIRLIGHT PERPIXEL RENDER_QUALITY=3 SHADOW SSAO TERRAIN_TILE WATER_SHADOWD)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed pixel shader water(AMBIENT BAKE_REFRACTION CLOUD_SHADOW CLUSTER DIFFMAP DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG METALLIC_WORKFLOW PBR PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SPECMAP SSAO WATER WATER_SHADOWD WORLD_UV)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed vertex shader water(DIRLIGHT INSTANCED PERPIXEL RENDER_QUALITY=3 SHADOW SSAO TERRAIN_TILE WATER_SHADOWD)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(RENDER_QUALITY=3 SSAO)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed pixel shader xrayps(FOGOFWAR HEIGHTFOG)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(INSTANCED RENDER_QUALITY=3 SSAO)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed vertex shader unlitparticle(BILLBOARD BILLBOARD_ROTATEAXIS SSAO USEEMITTERTIME VERTEXCOLOR)
+[2026-11-13 16_48_58_510][14] INFO: Loaded cached compressed pixel shader unlitparticle(CLOUD_SHADOW DIFFMAP HEIGHTFOG SSAO VERTEXCOLOR)
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed vertex shader unlitparticle(BILLBOARD SSAO USEEMITTERTIME VERTEXCOLOR)
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed vertex shader highlight(RENDER_QUALITY=3 SSAO)
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed pixel shader highlight()
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed vertex shader highlight(INSTANCED RENDER_QUALITY=3 SSAO)
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed vertex shader gamestroke()
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed pixel shader gamestroke()
+[2026-11-13 16_48_58_511][14] INFO: Loaded cached compressed vertex shader gamestroke(INSTANCED)
+[2026-11-13 16_48_58_532][14] INFO: Loaded cached compressed pixel shader tileblend(AMBIENT AO BLEND1 CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_532][14] INFO: Loaded cached compressed pixel shader tileblend(AMBIENT AO BLEND3 CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_533][14] INFO: Loaded cached compressed pixel shader tilecliff(AMBIENT AO CLIFF1 CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_533][14] INFO: Loaded cached compressed pixel shader tilecliff(AMBIENT AO CLIFF2 CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_533][14] INFO: Loaded cached compressed pixel shader tilecliff(AMBIENT AO CLIFF2 CLIFF2_BLEND CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG MAX_MIX_MATERIAL=82 NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_534][14] INFO: Loaded cached compressed pixel shader grayleveltwops(ALPHAMASK ALPHAMASK_DIFF_A AMBIENT AO CHEAP_AO CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_534][14] INFO: Loaded cached compressed pixel shader defaultps(AMBIENT AO CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_534][14] INFO: Loaded cached compressed pixel shader defaultps(ALPHAMASK ALPHAMASK_DIFF_A AMBIENT AO CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_535][14] INFO: Loaded cached compressed pixel shader staticobjectps(AMBIENT AO CLOUD_SHADOW DIRLIGHT EMISSIVECOLOR ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_535][14] INFO: Loaded cached compressed pixel shader graylevelfiveps(AMBIENT AO CHEAP_AO CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO USE_DETAILTEX)
+[2026-11-13 16_48_58_535][14] INFO: Loaded cached compressed pixel shader graylevelfiveps(AMBIENT AO CHEAP_AO CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO USE_DETAILTEX USE_ID0)
+[2026-11-13 16_48_58_536][14] INFO: Loaded cached compressed pixel shader graylevelfiveps(AMBIENT AO CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO USE_DETAILTEX USE_ID0)
+[2026-11-13 16_48_58_536][14] INFO: Loaded cached compressed pixel shader defaultlambertps(AMBIENT CLOUD_SHADOW DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_536][14] INFO: Loaded cached compressed pixel shader defaultps(AMBIENT AO CLOUD_SHADOW DIRLIGHT EMISSIVECOLOR ENVCUBE FOGOFWAR HEIGHTFOG NORMALMAP PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_536][14] INFO: Loaded cached compressed pixel shader defaultlambertps(AMBIENT CLOUD_SHADOW DIFFMAP DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG PACKEDNORMAL PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SSAO)
+[2026-11-13 16_48_58_537][14] INFO: Loaded cached compressed pixel shader water(AMBIENT BAKE_REFRACTION CLOUD_SHADOW DIFFMAP DIRLIGHT ENVCUBE FOGOFWAR HEIGHTFOG METALLIC_WORKFLOW PBR PCF_SHADOW PERPIXEL RENDER_QUALITY=3 SHADOW SPECMAP SSAO WATER WATER_SHADOWD WORLD_UV)
+[2026-11-13 16_48_58_538][14] INFO: ============> ShaderPrewarm - End - CostTime: 55ms <============
+[2026-11-13 16_48_58_539][14] INFO: Loaded cached compressed compute shader cs_clustered_clusterbuilding()
+[2026-11-13 16_48_58_539][14] INFO: Loaded cached compressed compute shader cs_clustered_reset_counter()
+[2026-11-13 16_48_58_539][14] INFO: Loaded cached compressed compute shader cs_clustered_lightculling(NONPUNCTUAL_LIGHTING)
+[2026-11-13 16_48_58_539][14] INFO: Loaded cached compressed vertex shader shadow(RENDER_QUALITY=3)
+[2026-11-13 16_48_58_539][14] INFO: Loaded cached compressed pixel shader shadow(RENDER_QUALITY=3)
+[2026-11-13 16_48_58_540][14] INFO: Loaded cached compressed vertex shader shadow(INSTANCED RENDER_QUALITY=3)
+[2026-11-13 16_48_58_540][14] INFO: Loaded cached compressed pixel shader shadow(ALPHAMASK ALPHAMASK_DIFF_A RENDER_QUALITY=3)
+[2026-11-13 16_48_58_540][14] INFO: Loaded cached compressed vertex shader depth(FLOAT_TEXTURE RENDER_QUALITY=3 SKIN_MATRIX_TEXTURE SSAO)
+[2026-11-13 16_48_58_540][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/39138292
+[2026-11-13 16_48_58_540][14] INFO: Loaded cached compressed vertex shader resolvedepthbuffer()
+[2026-11-13 16_48_58_540][14] INFO: Loaded cached compressed pixel shader resolvedepthbuffer(DISABLE_MOBILE_PRECISION)
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_prepare_depths_and_normals()
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_prepare_depth_mip()
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_generate_q3base()
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_generate_importance_map()
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_postprocess_importance_map_a()
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_load_counter_clear()
+[2026-11-13 16_48_58_542][14] INFO: Loaded cached compressed compute shader cs_assao_postprocess_importance_map_b()
+[2026-11-13 16_48_58_543][14] INFO: Loaded cached compressed compute shader cs_assao_generate_q3()
+[2026-11-13 16_48_58_543][14] INFO: Loaded cached compressed compute shader cs_assao_smart_blur()
+[2026-11-13 16_48_58_543][14] INFO: Loaded cached compressed compute shader cs_assao_apply()
+[2026-11-13 16_48_58_543][14] INFO: Loaded cached compressed vertex shader pbrpiplinevs(AO DIRLIGHT FLOAT_TEXTURE NORMALMAP PERPIXEL RENDER_QUALITY=3 SHADOW SKIN_MATRIX_TEXTURE SSAO)
+[2026-11-13 16_48_58_543][14] INFO: Loaded cached compressed vertex shader planershadow(FLOAT_TEXTURE RENDER_QUALITY=3 SKIN_MATRIX_TEXTURE)
+[2026-11-13 16_48_58_544][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/8A6F6ABA
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed vertex shader bloomhdr(BRIGHT)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(BRIGHT2)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(BRIGHT4)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(BRIGHT8)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(BRIGHT16)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(BRIGHT32)
+[2026-11-13 16_48_58_544][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/8A6F6ABA
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed vertex shader bloomhdr(COMBINE32)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(COMBINE32)
+[2026-11-13 16_48_58_544][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/8A6F6ABA
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed vertex shader bloomhdr(COMBINE16)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(COMBINE16)
+[2026-11-13 16_48_58_544][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/8A6F6ABA
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed vertex shader bloomhdr(COMBINE8)
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed pixel shader bloomhdr(COMBINE8)
+[2026-11-13 16_48_58_544][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/8A6F6ABA
+[2026-11-13 16_48_58_544][14] INFO: Loaded cached compressed vertex shader bloomhdr(COMBINE2)
+[2026-11-13 16_48_58_545][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/A30EB89E
+[2026-11-13 16_48_58_545][14] INFO: Loaded cached compressed pixel shader bloomhdr(COMBINE2 GAMMA_IN_SHADERING)
+[2026-11-13 16_48_58_545][14] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/DA2DE439
+[2026-11-13 16_48_58_545][14] INFO: Loaded cached compressed vertex shader ui(DIFFMAP GAMMA_IN_SHADERING MIXCOLOR VERTEXCOLOR)
+[2026-11-13 16_48_58_545][14] INFO: Loaded cached compressed pixel shader ui(DIFFMAP GAMMA_IN_SHADERING MIXCOLOR OPACITY VERTEXCOLOR)
+[2026-11-13 16_48_58_635][15] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/DA2DE439
+[2026-11-13 16_48_58_636][15] INFO: Loaded cached compressed vertex shader ui(DIFFMAP MIXCOLOR VERTEXCOLOR)
+[2026-11-13 16_48_58_636][15] INFO: Loaded cached compressed pixel shader ui(DIFFMAP MIXCOLOR OPACITY VERTEXCOLOR)
+[2026-11-13 16_48_59_523][69] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 16_49_17_283][1123] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_49_48_312][2965] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_49_48_345][2967] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: MemoryStat => UsedPhysicalMemory(1270149120) UsedVirtualMemory(1891581952) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1270149120).
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: msgPerStat send failed, stat count: 15
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_49_54_369][3325] INFO: Send stat[shader_used_stat] failed: send message error
+[2026-11-13 16_50_19_353][4810] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_50_48_914][6567] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_50_50_414][6656] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: MemoryStat => UsedPhysicalMemory(1274499072) UsedVirtualMemory(1896456192) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1274499072).
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_50_54_378][6892] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_51_21_465][8501] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_51_49_493][10166] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_51_52_520][10346] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_51_54_378][10456] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_51_54_378][10456] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_51_54_379][10456] INFO: MemoryStat => UsedPhysicalMemory(1277747200) UsedVirtualMemory(1900470272) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1277747200).
+[2026-11-13 16_51_54_379][10456] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_51_54_379][10456] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_51_54_379][10456] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_51_54_379][10456] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_51_54_379][10456] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_51_54_379][10456] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_51_54_379][10456] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_52_23_585][12192] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_52_50_064][13766] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_52_54_394][14023] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_52_54_394][14023] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_52_54_394][14023] INFO: MemoryStat => UsedPhysicalMemory(1285574656) UsedVirtualMemory(1909198848) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1285574656).
+[2026-11-13 16_52_54_394][14023] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_52_54_395][14023] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_52_54_395][14023] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_52_54_395][14023] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_52_54_395][14023] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_52_54_395][14023] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_52_54_395][14023] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_52_54_647][14038] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_53_25_690][15882] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_53_50_656][17365] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: MemoryStat => UsedPhysicalMemory(1289125888) UsedVirtualMemory(1912561664) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1289125888).
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_53_54_407][17588] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_53_56_747][17727] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_54_27_800][19573] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_54_51_186][20964] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_54_54_420][21156] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: MemoryStat => UsedPhysicalMemory(1293352960) UsedVirtualMemory(1904631808) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1293352960).
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_54_54_421][21156] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_54_58_850][21419] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_55_29_907][23265] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_55_51_767][24564] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: MemoryStat => UsedPhysicalMemory(1295986688) UsedVirtualMemory(1908756480) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1295986688).
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_55_54_427][24722] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_56_00_946][25110] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_56_31_991][26954] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_56_52_337][28163] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_56_54_438][28288] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_56_54_438][28288] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_56_54_438][28288] INFO: MemoryStat => UsedPhysicalMemory(1303040000) UsedVirtualMemory(1916358656) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1303040000).
+[2026-11-13 16_56_54_438][28288] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_56_54_438][28288] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_56_54_439][28288] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_56_54_439][28288] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_56_54_439][28288] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_56_54_439][28288] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_56_54_439][28288] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_57_03_035][28799] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_57_34_132][30649] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_57_39_294][30957] INFO: Show Nav Mesh: 0
+[2026-11-13 16_57_52_847][31763] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: MemoryStat => UsedPhysicalMemory(1306062848) UsedVirtualMemory(1923133440) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1306062848).
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_57_54_445][31858] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_58_05_208][32498] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_58_36_243][34342] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_58_53_405][35363] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: MemoryStat => UsedPhysicalMemory(1309143040) UsedVirtualMemory(1927102464) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1309143040).
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_58_54_452][35425] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 16_59_07_311][36190] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_59_38_358][38035] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 16_59_53_963][38963] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: MemoryStat => UsedPhysicalMemory(1312133120) UsedVirtualMemory(1931587584) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1312133120).
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 16_59_54_468][38993] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_00_09_415][39883] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_00_40_474][41727] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: MemoryStat => UsedPhysicalMemory(1320189952) UsedVirtualMemory(1940430848) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1320189952).
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_00_54_483][42560] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_01_11_516][43572] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_01_42_588][45419] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: MemoryStat => UsedPhysicalMemory(1323089920) UsedVirtualMemory(1944584192) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1323089920).
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: msgPerStat send failed, stat count: 2
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_01_54_499][46127] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_01_55_034][46159] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_01_55_994][46215] INFO: Loaded cached compressed vertex shader basic(RENDER_QUALITY=3 SSAO VERTEXCOLOR)
+[2026-11-13 17_01_55_995][46215] INFO: Loaded cached compressed pixel shader basic(CLOUD_SHADOW ENVCUBE FOGOFWAR HEIGHTFOG RENDER_QUALITY=3 SSAO VERTEXCOLOR)
+[2026-11-13 17_01_55_995][46215] INFO: Loaded shader bytecode from overlay [shadercache_editor_dxbc_extra]: _m/shadercache_editor_dxbc_extra/23/shadercache_editor_dxbc_extra/dx11/DA2DE439
+[2026-11-13 17_01_55_995][46215] INFO: Loaded cached compressed vertex shader text()
+[2026-11-13 17_01_55_995][46215] INFO: Loaded cached compressed pixel shader text(ALPHAMAP HEIGHTFOG)
+[2026-11-13 17_02_01_576][46548] INFO: Show Nav Mesh: 0
+[2026-11-13 17_02_13_661][47267] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_02_44_701][49111] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: MemoryStat => UsedPhysicalMemory(1327054848) UsedVirtualMemory(1949265920) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1327054848).
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: msgPerStat send failed, stat count: 6
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_02_54_511][49695] INFO: Send stat[shader_used_stat] failed: send message error
+[2026-11-13 17_02_55_592][49759] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_03_15_776][50959] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_03_46_856][52808] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: MemoryStat => UsedPhysicalMemory(1333796864) UsedVirtualMemory(1956749312) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1333796864).
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_03_54_515][53264] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_03_56_108][53359] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_04_17_939][54659] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_04_49_023][56510] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: MemoryStat => UsedPhysicalMemory(1336758272) UsedVirtualMemory(1961017344) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1336758272).
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_04_54_522][56837] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_04_56_554][56958] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_05_20_097][58359] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_05_51_175][60209] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_05_54_533][60409] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_05_54_533][60409] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_05_54_533][60409] INFO: MemoryStat => UsedPhysicalMemory(1339527168) UsedVirtualMemory(1965027328) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1339527168).
+[2026-11-13 17_05_54_533][60409] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_05_54_533][60409] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_05_54_533][60409] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_05_54_533][60409] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_05_54_534][60409] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_05_54_534][60409] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_05_54_534][60409] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_05_57_026][60557] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_06_22_260][62059] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_06_53_319][63908] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_06_54_545][63981] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_06_54_545][63981] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_06_54_546][63981] INFO: MemoryStat => UsedPhysicalMemory(1342345216) UsedVirtualMemory(1968443392) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1342345216).
+[2026-11-13 17_06_54_546][63981] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_06_54_546][63981] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_06_54_546][63981] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_06_54_546][63981] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_06_54_546][63981] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_06_54_546][63981] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_06_54_546][63981] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_06_57_504][64157] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_07_24_392][65756] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: MemoryStat => UsedPhysicalMemory(1349791744) UsedVirtualMemory(1977450496) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1349791744).
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_07_54_549][67549] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_07_55_459][67603] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_07_58_046][67757] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_08_26_536][69451] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: MemoryStat => UsedPhysicalMemory(1352581120) UsedVirtualMemory(1981386752) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1352581120).
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_08_54_562][71120] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_08_57_622][71302] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_08_58_564][71358] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_09_28_679][73148] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: MemoryStat => UsedPhysicalMemory(1355522048) UsedVirtualMemory(1984970752) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1355522048).
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_09_54_563][74687] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_09_59_129][74958] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_09_59_734][74994] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_10_30_815][76842] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_10_54_570][78253] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_10_54_570][78253] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_10_54_570][78253] INFO: MemoryStat => UsedPhysicalMemory(1357774848) UsedVirtualMemory(1988452352) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1357774848).
+[2026-11-13 17_10_54_570][78253] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_10_54_570][78253] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_10_54_570][78253] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_10_54_570][78253] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_10_54_571][78253] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_10_54_571][78253] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_10_54_571][78253] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_10_59_709][78558] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_11_01_862][78686] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_11_32_929][80533] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_11_54_584][81821] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: MemoryStat => UsedPhysicalMemory(1365123072) UsedVirtualMemory(1997111296) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1365123072).
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_11_54_585][81821] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_12_00_250][82158] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_12_04_001][82381] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_12_35_067][84228] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_12_54_588][85389] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: MemoryStat => UsedPhysicalMemory(1367982080) UsedVirtualMemory(2000592896) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1367982080).
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_12_54_589][85389] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_13_00_798][85758] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_13_06_131][86075] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_13_37_180][87920] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: MemoryStat => UsedPhysicalMemory(1371119616) UsedVirtualMemory(2004795392) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1371119616).
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_13_54_594][88955] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_14_01_382][89358] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_14_08_204][89763] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_14_39_258][91609] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[game_profile_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[gpu_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: MemoryStat => UsedPhysicalMemory(1373949952) UsedVirtualMemory(2008801280) PeakUsedPhysicalMemory(1605144576) PeakUsedVirtualMemory(2241888256) OldProcessUsedMemory(1373949952).
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[memory_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[msg_per_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: msgPerStat send failed, stat count: 4
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[host_ping_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[game_jank_lag_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[battery_stat] failed: send message error
+[2026-11-13 17_14_54_603][92521] INFO: Send stat[update_element_stat] failed: send message error
+[2026-11-13 17_15_01_935][92958] INFO: Send stat[client_net_stat] failed: send message error
+[2026-11-13 17_15_10_317][93456] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_15_27_436][94474] ERROR: Could not find resource anim/human/barehanded_anim/hand_07/jump_qi.ani
+[2026-11-13 17_15_27_436][94474] ERROR: Could not find resource anim/human/barehanded_anim/hand_07/jump_qi.ani
+[2026-11-13 17_15_27_436][94474] ERROR: ModelComponent::PlayAnimParams failed. actorId=7, actorEntry=��T, anim=anim/human/barehanded_anim/hand_07/jump_qi.ani, resourceExists=0, prefab=characters/general/sk_basic2/model.prefab, controllerNode=, params={customHandle=0, layer=2(logic=0, priority=2), bodyPart=All, looped=0, speed=1.0000, beginTime=-1.0000, endTime=0.0000, blendTime=0.0600, blendInTime=-1.0000, blendOutTime=0.1500, softeningSame=0}. Resource is missing from ResourceCache. For humanoid .ani in editor debug, regenerate baked humanoid animations/resource statistics and ensure project res/anim contains the baked output.
+[2026-11-13 17_15_27_442][94475] ERROR: Could not find resource anim/human/barehanded_anim/hand_07/jump_kong.ani
+[2026-11-13 17_15_27_443][94475] ERROR: Could not find resource anim/human/barehanded_anim/hand_07/jump_kong.ani
+[2026-11-13 17_15_27_443][94475] ERROR: ModelComponent::PlayAnimParams failed. actorId=7, actorEntry=��T, anim=anim/human/barehanded_anim/hand_07/jump_kong.ani, resourceExists=0, prefab=characters/general/sk_basic2/model.prefab, controllerNode=, params={customHandle=0, layer=2(logic=0, priority=2), bodyPart=All, looped=1, speed=1.0000, beginTime=-1.0000, endTime=0.0000, blendTime=0.1000, blendInTime=-1.0000, blendOutTime=0.1500, softeningSame=0}. Resource is missing from ResourceCache. For humanoid .ani in editor debug, regenerate baked humanoid animations/resource statistics and ensure project res/anim contains the baked output.
+[2026-11-13 17_15_41_310][95154] INFO: Send stat[entrance_net_stat] failed: send message error
+[2026-11-13 17_15_50_672][95679] INFO: System Event ===> app quit.
+[2026-11-13 17_15_50_672][95679] INFO: Send stat[user_behavior] failed: send message error
+[2026-11-13 17_15_50_673][95679] INFO: GameApplication::Stop begin
+[2026-11-13 17_15_50_710][95679] INFO: GUIImageSearcher ==> Dump texture:
+[2026-11-13 17_15_50_718][95679] INFO: GameApplication::Stop script runtime cleared
+[2026-11-13 17_15_50_761][95679] INFO: 
+Message Performance Statistics: 
+| MessageID | AverTime(us) | MaxTime(us) | TotalTime(us) | Count |
+| 0x1824 | 000000245 | 000007152 | 000108042 | 000440 |
+| 0x31007 | 000000006 | 000000297 | 000001722 | 000280 |
+| 0x1108 | 000000008 | 000000017 | 000000435 | 000053 |
+| 0x6103 | 000000017 | 000000025 | 000000584 | 000034 |
+| 0x1996 | 000000092 | 000000165 | 000000185 | 000002 |
+| 0x1103 | 000000114 | 000000194 | 000000457 | 000004 |
+| 0x7007 | 000000547 | 000000779 | 000001095 | 000002 |
+| 0x1102 | 000000022 | 000000022 | 000000022 | 000001 |
+
+[2026-11-13 17_15_50_761][95679] INFO: GameWorld => DestroyViewport
+[2026-11-13 17_15_50_763][95679] INFO: GUIImageSearcher ==> Dump texture:
+[2026-11-13 17_15_50_763][95679] INFO: _m/gameui/52/gameui/ui/image/wasicore/wasicore-loading-wordmark.png
+[2026-11-13 17_15_50_763][95679] INFO: _m/gameui/52/gameui/ui/image/keyboard/w_off.png
+[2026-11-13 17_15_50_763][95679] INFO: _m/gameui/52/gameui/ui/image/keyboard/s_off.png
+[2026-11-13 17_15_50_763][95679] INFO: _m/gameui/52/gameui/ui/image/keyboard/a_off.png
+[2026-11-13 17_15_50_763][95679] INFO: _m/gameui/52/gameui/ui/image/keyboard/d_off.png
+Used resources:
+editor/textures/engine/default_white.png
+editor/textures/engine/default_mix03.png
+editor/textures/enginematerials/t_default_m.tga
+editor/textures/engine/default_mix_n.tga
+editor/textures/enginematerials/t_default_grid.tga
+characters/general/sk_basic2/textures/m0_diffuse.tga
+characters/general/sk_basic2/textures/m0_normal.tga
+characters/general/sk_basic2/textures/m1_diffuse.tga
+characters/general/sk_basic2/textures/m1_normal.tga
+characters/general/sk_basic2/textures/m1_specular.tga
+characters/general/sk_basic2/textures/m1_emissive.tga
+deco/dungeon/plant/sm_dg_guanmu_02_01/textures/t_dg_xiaozhiwu_01_01_m.tga
+deco/dungeon/plant/sm_dg_guanmu_02_01/textures/t_dg_guanmu_02_01_ao.tga
+deco/dungeon/plant/sm_dg_guanmu_01_02/textures/t_dg_guanmu_01_02_ao.tga
+deco/chinoiserie/sm_ch_littlestone_a/textures/t_ch_littlestone_a.tga
+deco/chinoiserie/sm_ch_littlestone_a/textures/t_ch_littlestone_mix.tga
+editor/textures/materiallibrary/t_rock_a_mix.tga
+deco/chinoiserie/sm_ch_littlestone_e/textures/t_ch_littlestone_e_ao.tga
+deco/dungeon/plant/sm_dg_guanmu_05_03/textures/t_dg_xiaozhiwu_04_01_m.tga
+deco/dungeon/plant/sm_dg_guanmu_05_03/textures/t_dg_guanmu_05_03_ao.tga
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_01/textures/t_dg_xiaozhiwu_06_01_d.tga
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_01/textures/t_dg_xiaozhiwu_06_01_m.tga
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_03/textures/t_dg_xiaozhiwu_06_03_ao.tga
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_02/textures/t_dg_xiaozhiwu_06_02_ao.tga
+deco/dungeon/plant/sm_dg_guanmu_05_07/textures/t_dg_guanmu_05_07_ao.tga
+deco/chinoiserie/sm_ch_littlestone_b/textures/t_ch_littlestone_b_ao.tga
+deco/chinoiserie/sm_ch_littlestone_c/textures/t_ch_littlestone_c_ao.tga
+deco/dungeon/plant/sm_dg_guanmu_05_08/textures/t_dg_guanmu_05_08_ao.tga
+deco/dungeon/plant/sm_dg_guanmu_05_04/textures/t_dg_guanmu_05_04_ao.tga
+deco/chinoiserie/sm_ch_littlestone_a/textures/t_ch_littlestone_a_ao.tga
+deco/rainforest/sm_wudumilin_pashanhu_01_01/textures/t_wudumilin_pashanhu_01_01_d.tga
+deco/rainforest/sm_wudumilin_pashanhu_01_01/textures/t_wudumilin_pashanhu_01_01_m.tga
+deco/rainforest/sm_wudumilin_pashanhu_05_01/textures/t_wudumilin_pashanhu_05_01_ao.tga
+deco/rainforest/sm_wudumilin_pashanhu_01_01/textures/t_wudumilin_pashanhu_01_01_ao.tga
+deco/rainforest/sm_wudumilin_pashanhu_02_01/textures/t_wudumilin_pashanhu_02_01_ao.tga
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_04/textures/t_dg_xiaozhiwu_06_04_ao.tga
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_1_1_1_0/textures/t_rock_b_basecolor.tga
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_1_1_1_0/textures/t_rock_b_mix.tga
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_1_1_1_0/textures/t_rock_a_basecolor.tga
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_1_1_1_0/textures/t_rock_a_mix.tga
+deco/field/sm_candle_a/textures/t_candle_mix.tga
+deco/field/sm_candle_a/textures/t_candle_normal.tga
+deco/field/sm_candle_a/textures/t_candle_a_ao.tga
+texture/effect/t_old/tex_glow.png
+texture/effect/t_old/orientparticle_2.png
+texture/effect/t_old/t_lazhu.png
+deco/dungeon/sm_huopen_a/textures/t_huopen_mix.tga
+deco/dungeon/sm_huopen_a/textures/t_huopen_mask.png
+deco/dungeon/sm_huopen_a/textures/t_huopen_a_ao.tga
+texture/effect/t_old/temptexture0_15.png
+texture/effect/t_old/5cc71697-9312-40f1-9c01-f2719b295c0f.png
+texture/effect/t_old/fx_c_fire_013_cl.png
+texture/effect/t_old/fx_a_cloud_1.png
+deco/chinoiserie/sm_ch_littlestone_d/textures/t_ch_littlestone_d_ao.tga
+editor/textures/engine/waterrefraction.tga
+editor/textures/engine/waternormal.png
+editor/textures/engine/waterreflection.dds
+editor/textures/engine/default_mix_r1m0.tga
+deco/snowy_landscape/sm_stone_b/textures/t_stone_b_mix.tga
+editor/textures/materiallibrary/t_rock_a_b.tga
+deco/snowy_landscape/sm_stone_d/textures/t_stone_d_mix.tga
+deco/dungeon/plant/sm_hehua_10_03/textures/t_heye_a_basecolor.tga
+deco/dungeon/plant/sm_hehua_10_03/textures/t_heye_a_m.tga
+deco/dungeon/plant/sm_heye_10_06/textures/t_heye_10_06_ao.tga
+deco/buildsystem/sm_buildsystem_wall_b/textures/t_stoneplain01_bc.tga
+deco/buildsystem/sm_buildsystem_wall_b/textures/t_stoneplain01_mix.tga
+deco/buildsystem/sm_buildsystem_wall_b/textures/2048_defaultmaterial_color.tga
+deco/buildsystem/sm_buildsystem_wall_b/textures/2048_defaultmaterial_normal.tga
+deco/buildsystem/sm_buildsystem_wall_b/textures/t_trim01_bc.tga
+deco/buildsystem/sm_buildsystem_wall_b/textures/t_trim01_mix.tga
+editor/textures/materiallibrary/t_brick_01a_mix.tga
+deco/buildsystem/sm_buildsystem_floor_a/textures/t_floor01_bc.tga
+deco/buildsystem/sm_buildsystem_floor_a/textures/t_floor01_mix.tga
+editor/textures/materiallibrary/t_floor_tiles_01_normal.tga
+deco/ts_prop/sci_fi_base/sm_radiator_big_a/textures/t_radiator_big_a_b.tga
+deco/ts_prop/sci_fi_base/sm_radiator_big_a/textures/t_radiator_big_a_mix.tga
+deco/ts_prop/sci_fi_base/sm_concrete_wall1_a/textures/t_concrete_blocks1_stripes_b02.tga
+deco/ts_prop/sci_fi_base/sm_concrete_wall1_a/textures/t_concrete_blocks1_stripes_mix.tga
+deco/ts_prop/sci_fi_base/sm_catwalk_a/textures/t_wall_panel6_b.tga
+deco/ts_prop/sci_fi_base/sm_catwalk_a/textures/t_wall_panel6_mix.tga
+deco/ts/sm_stairs01/textures/t_trims01_d.tga
+deco/ts/sm_stairs01/textures/t_trims01_mix.tga
+deco/ts_prop/sci_fi_base/sm_barrier_solid_01_a/textures/t_barrier_solid_01_a_b.tga
+deco/ts_prop/sci_fi_base/sm_barrier_solid_01_a/textures/t_barrier_solid_01_a_mix.tga
+deco/ds/sm_ds_fushou_12/textures/t_dg_stairs_str_256_11_b.tga
+deco/tiles/me_basemesh_dg/decal/sm_dg_fushou_11/textures/t_dg_stairs_str_256_11_m.tga
+deco/ts/sm_ts_roadblock_a/textures/t_ts_roadblock_a_b.tga
+deco/ts/sm_ts_roadblock_a/textures/t_ts_roadblock_a_m.tga
+editor/textures/materiallibrary/t_defaultbase_2.png
+deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/textures/t_xingchenhuayecai_a_01.png
+tiles/textures/mix/basecolor_terrain.png
+tiles/textures/mix/mixcolor_terrain.png
+editor/weather/ramp_water.tga
+editor/weather/ramp_water_bottom.tga
+characters/monster/sk_xxsqingwa_02/textures/t_guagua.tga
+d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/scene/new_scene/weightmap.png
+cube/day/daydiffusehdr.dds
+cube/day/dayspecularhdr.dds
+cube/day/daywaterreflection.dds
+eqpt/weapon/sm_dr_sword_04_02/textures/t_sword_basecolor4.tga
+eqpt/weapon/sm_dr_sword_04_02/textures/t_sword_mix4.tga
+engineres/techniques/notexture.xml
+engineres/particle/common/techniques/diffunlitparticlealpha.xml
+engineres/particle/common/techniques/diffunlitmeshparticlealpha.xml
+engineres/techniques/diffunlit.xml
+editor/techniques/pbr_packednormal/defaultmetallicroughness.xml
+editor/techniques/pbr_packednormal/graylevelfive.xml
+editor/techniques/pbr_packednormal/grayleveltwo.xml
+editor/techniques/pbr_packednormal/staticobject.xml
+editor/techniques/water.xml
+editor/techniques/lambert/defaultlambert.xml
+editor/techniques/pbr_packednormal/tileblendonepackednormal.xml
+editor/techniques/pbr_packednormal/tileblendtwopackednormal.xml
+editor/techniques/pbr_packednormal/tileblendthreepackednormal.xml
+editor/techniques/pbr_packednormal/tileblendninepackednormal.xml
+editor/techniques/pbr_packednormal/tilecliffpackednormal.xml
+editor/techniques/pbr_packednormal/tilecliff2packednormal.xml
+editor/techniques/pbr_packednormal/landscapeblend.xml
+editor/techniques/pbr_packednormal/landscapeblendex.xml
+editor/techniques/pbr_packednormal/landscapeblenddrawable.xml
+editor/techniques/singlelayerwater.xml
+engineres/techniques/basicnotexturevcolunlitalpha.xml
+engineres/renderpaths/cemapssao.xml
+engineres/postprocess/gamepostprocess.xml
+engineres/postprocess/gamebloomhdr.xml
+engineres/postprocess/guassianblur.xml
+d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/atmosphere/default.lightgroup
+shaders/blgl/uncompileddisplay/vs_display.glsl
+shaders/blgl/uncompileddisplay/ps_display.glsl
+shaders/blgl/ui.glsl
+shaders/blgl/shaderlab/internalpass/shadow.glsl
+shaders/blgl/planershadow.glsl
+shaders/blgl/shaderlab/terrain/tilecliff.glsl
+shaders/blgl/shaderlab/terrain/tileblend.glsl
+shaders/blgl/pbrpiplinevs.glsl
+shaders/blgl/shaderlab/model/graylevelfiveps.glsl
+shaders/blgl/translucent/water.glsl
+shaders/blgl/shaderlab/model/defaultps.glsl
+shaders/blgl/shaderlab/model/grayleveltwops.glsl
+shaders/blgl/shaderlab/internalpass/depth.glsl
+shaders/blgl/shaderlab/model/staticobjectps.glsl
+shaders/blgl/shaderlab/model/defaultlambertps.glsl
+shaders/blgl/shaderlab/model/xrayps.glsl
+shaders/blgl/highlight.glsl
+shaders/blgl/stroke/gamestroke.glsl
+shaders/blgl/unlitparticle.glsl
+shaders/blgl/cluster/cs_clustered_clusterbuilding.glsl
+shaders/blgl/cluster/cs_clustered_reset_counter.glsl
+shaders/blgl/cluster/cs_clustered_lightculling.glsl
+shaders/blgl/common/resolvedepthbuffer.glsl
+shaders/blgl/ssao/cs_assao_prepare_depths.glsl
+shaders/blgl/ssao/cs_assao_prepare_depths_and_normals.glsl
+shaders/blgl/ssao/cs_assao_prepare_depths_half.glsl
+shaders/blgl/ssao/cs_assao_prepare_depths_and_normals_half.glsl
+shaders/blgl/ssao/cs_assao_prepare_depth_mip.glsl
+shaders/blgl/ssao/cs_assao_generate_q0.glsl
+shaders/blgl/ssao/cs_assao_generate_q1.glsl
+shaders/blgl/ssao/cs_assao_generate_q2.glsl
+shaders/blgl/ssao/cs_assao_generate_q3.glsl
+shaders/blgl/ssao/cs_assao_generate_q3base.glsl
+shaders/blgl/ssao/cs_assao_smart_blur.glsl
+shaders/blgl/ssao/cs_assao_smart_blur_wide.glsl
+shaders/blgl/ssao/cs_assao_non_smart_blur.glsl
+shaders/blgl/ssao/cs_assao_apply.glsl
+shaders/blgl/ssao/cs_assao_non_smart_apply.glsl
+shaders/blgl/ssao/cs_assao_non_smart_half_apply.glsl
+shaders/blgl/ssao/cs_assao_generate_importance_map.glsl
+shaders/blgl/ssao/cs_assao_postprocess_importance_map_a.glsl
+shaders/blgl/ssao/cs_assao_postprocess_importance_map_b.glsl
+shaders/blgl/ssao/cs_assao_load_counter_clear.glsl
+shaders/blgl/bloomhdr.glsl
+shaders/blgl/text.glsl
+shaders/blgl/basic.glsl
+d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/project/map_settings.json
+tiles/tile_config/config_v1.json
+editor/texturestyle/field.json
+editor/texturestyle/temple.json
+editor/texturestyle/chinoiserie.json
+editor/texturestyle/ts.json
+editor/texturestyle/dg.json
+editor/texturestyle/ds.json
+editor/texturestyle/snow.json
+editor/texturestyle/water.json
+tiles/tile_config/texture_group.json
+engineres/particle/common/materials/alphamaterial.material
+engineres/particle/common/materials/alphamesh.material
+engineres/particle/common/materials/defaultmesh.material
+engineres/particle/common/materials/defaultmeshrgba.material
+engineres/particle/common/materials/defaultsprite.material
+engineres/particle/common/materials/empty.material
+editor/materials/engine/lostmaterialuse.material
+editor/materials/engine/gridmaterial.material
+editor/materials/engine/default.material
+characters/general/sk_basic2/materials/m0.material
+characters/general/sk_basic2/materials/m1.material
+deco/dungeon/plant/sm_dg_guanmu_02_01/materials/m_dg_guanmu_02_01_b.material
+deco/dungeon/plant/sm_dg_guanmu_01_02/materials/sm_dg_guanmu_01_02.material
+deco/chinoiserie/sm_ch_littlestone_e/materials/sm_ch_littlestone_e.material
+deco/dungeon/plant/sm_dg_guanmu_05_03/materials/m_dg_guanmu_05_03.material
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_03/materials/sm_dg_xiaozhiwu_06_03.material
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_02/materials/sm_dg_xiaozhiwu_06_02.material
+deco/dungeon/plant/sm_dg_guanmu_05_09/materials/sm_dg_guanmu_05_09.material
+deco/chinoiserie/sm_ch_littlestone_b/materials/sm_ch_littlestone_b.material
+deco/chinoiserie/sm_ch_littlestone_c/materials/sm_ch_littlestone_c.material
+deco/dungeon/plant/sm_dg_guanmu_05_10/materials/sm_dg_guanmu_05_10.material
+deco/dungeon/plant/sm_dg_guanmu_05_04/materials/sm_dg_guanmu_05_04.material
+deco/chinoiserie/sm_ch_littlestone_a/materials/sm_ch_littlestone_a.material
+deco/rainforest/sm_wudumilin_pashanhu_05_01/materials/sm_wudumilin_pashanhu_05_01.material
+deco/rainforest/sm_wudumilin_pashanhu_01_01/materials/m_wudumilin_pashanhu_01_01.material
+deco/rainforest/sm_wudumilin_pashanhu_02_01/materials/sm_wudumilin_pashanhu_02_01.material
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_04/materials/sm_dg_xiaozhiwu_06_04.material
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_1_1_1_0/materials/m_rock_a.material
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_1_1_1_0/materials/m_rock_b.material
+deco/field/sm_candle_a/materials/m_candle_a.material
+deco/dungeon/sm_huopen_a/materials/m_huopen_a.material
+deco/chinoiserie/sm_ch_littlestone_d/materials/sm_ch_littlestone_d.material
+editor/materials/engine/water.material
+deco/chinoiserie/plant/sm_aquatic_a/materials/m_aquatic_a.material
+deco/chinoiserie/sm_waterstone_03/materials/m_waterstone_03.material
+deco/chinoiserie/sm_waterstone_02/materials/m_waterstone_02.material
+deco/dungeon/plant/sm_heye_10_06/materials/sm_heye_10_06.material
+deco/buildsystem/sm_buildsystem_wall_b/materials/sm_buildsystem_wall_b03.material
+deco/buildsystem/sm_buildsystem_wall_b/materials/sm_buildsystem_wall_b02.material
+deco/buildsystem/sm_buildsystem_stairs_c01/materials/sm_buildsystem_stairs_c01.material
+deco/buildsystem/sm_buildsystem_wall_b/materials/sm_buildsystem_wall_b.material
+deco/buildsystem/sm_buildsystem_floor_a/materials/sm_buildsystem_floor_a.material
+deco/low_poly/chufang/sm_qiangmen/materials/sm_qiangmen.material
+deco/low_poly/chufang/sm_qiangmen/materials/sm_qiangmen1.material
+deco/low_poly/chufang/sm_qiangmen/materials/sm_qiangmen2.material
+deco/ts_prop/sci_fi_base/sm_radiator_big_a/materials/m_radiator_big_a01.material
+deco/ts_prop/sci_fi_base/sm_concrete_wall1_a/materials/m_concrete_wall1_a.material
+deco/ts_prop/sci_fi_base/sm_catwalk_a/materials/m_catwalk_a01.material
+deco/ts/sm_stairs02/materials/m_stairs02.material
+deco/ts_prop/sci_fi_base/sm_barrier_solid_01_a/materials/m_barrier_solid_01_a.material
+deco/ds/sm_ds_stairs_stones_a01/materials/m_ds_stairs_stones_a01.material
+deco/buildsystem/sm_buildsystem_stairs_c02/materials/sm_buildsystem_wall_b.material
+deco/buildsystem/sm_buildsystem_stairs_d02/materials/sm_buildsystem_wall_b.material
+deco/ts/sm_ts_roadblock_a/materials/sm_ts_roadblock_a.material
+deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/materials/sm_xingchenhuayecai_a_01.material
+deco/dungeon/plant/sm_dg_guanmu_05_03/materials/m_dg_guanmu_05_04.material
+deco/dungeon/plant/sm_dg_guanmu_05_06/materials/sm_dg_guanmu_05_06.material
+tiles/material/mix/tileblendone_terrain.material
+tiles/material/mix/tileblendtwo_terrain.material
+tiles/material/mix/tileblendthree_terrain.material
+tiles/material/mix/tileblendnine_terrain.material
+tiles/material/mix/tilecliff_terrain.material
+tiles/material/mix/tilecliff2_terrain.material
+tiles/material/mix/landscapeblend_terrain.material
+tiles/material/mix/landscapeblendex_terrain.material
+tiles/material/mix/landscapeblenddrawable_terrain.material
+editor/materials/engine/singlelayerwater.material
+editor/materials/engine/landscape.material
+eqpt/weapon/sm_dr_sword_04_02/materials/sm_dr_sword_04_02.material
+fonts/updatfont.otf
+ui/font/regular/regular.otf[-1]
+ui/font/regular/regularbold.otf[-1]
+ui/font/regular/regular.otf
+ui/font/regular/regularbold.otf
+ui/font/sourcehanserif/sourcehanserif.otf
+ui/font/sourcehanserif/sourcehanserifbold.otf
+ui/font/firamono/firamono.ttf
+startup/ui/image/progres_bg.png
+startup/ui/image/scelogo.png
+startup/ui/image/空.png
+startup/ui/image/taptaplogo.png
+startup/ui/image/scebattleloading.png
+startup/ui/image/loading.png
+_m/gameui/52/gameui/ui/image/wasicore/wasicore-loading-wordmark.png
+_m/gameui/52/gameui/ui/image/keyboard/w_off.png
+_m/gameui/52/gameui/ui/image/keyboard/s_off.png
+_m/gameui/52/gameui/ui/image/keyboard/a_off.png
+_m/gameui/52/gameui/ui/image/keyboard/d_off.png
+d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/game_hud/statusbar.png
+_m/shadercache_editor_dxbc/8/shadercache_editor_dxbc/dx11/shaderfeatures.json
+startup/ui/image/scegameboxcursor.png
+startup/ui/image/progres_bg.png.json
+startup/ui/image/scelogo.png.json
+startup/ui/image/空.png.json
+startup/ui/image/taptaplogo.png.json
+startup/ui/image/scebattleloading.png.json
+startup/ui/image/loading.png.json
+d:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/game_hud/statusbar.png.json
+characters/general/sk_basic2/model.prefab
+eqpt/weapon/sm_dr_sword_04_02/model.prefab
+tiles/me_tiles_field/decal/path01/005.prefab
+deco/field/prefab/sm_candle_a/model.prefab
+deco/field/sm_candle_a/model.prefab
+tiles/me_tiles_field/decal/path01/001.prefab
+deco/dungeon/prefab/pre_huopen_a/model.prefab
+deco/dungeon/sm_huopen_a/model.prefab
+characters/general/sk_basic2/anim/.ani
+characters/general/sk_basic2/anim/idle.ani
+anim/human/barehanded_anim/hand_07/jump_qi.ani
+anim/human/barehanded_anim/hand_07/jump_kong.ani
+characters/general/sk_basic2/model/m.mdl
+deco/dungeon/plant/sm_dg_guanmu_02_01/model/m.mdl
+deco/dungeon/plant/sm_dg_guanmu_01_02/model/m.mdl
+deco/chinoiserie/sm_ch_littlestone_e/model/m.mdl
+deco/dungeon/plant/sm_dg_guanmu_05_03/model/m.mdl
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_03/model/m.mdl
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_02/model/m.mdl
+deco/dungeon/plant/sm_dg_guanmu_05_07/model/m.mdl
+deco/chinoiserie/sm_ch_littlestone_b/model/m.mdl
+deco/chinoiserie/sm_ch_littlestone_c/model/m.mdl
+deco/dungeon/plant/sm_dg_guanmu_05_08/model/m.mdl
+deco/dungeon/plant/sm_dg_guanmu_05_04/model/m.mdl
+deco/chinoiserie/sm_ch_littlestone_a/model/m.mdl
+deco/rainforest/sm_wudumilin_pashanhu_05_01/model/m.mdl
+deco/rainforest/sm_wudumilin_pashanhu_01_01/model/m.mdl
+deco/rainforest/sm_wudumilin_pashanhu_02_01/model/m.mdl
+deco/dungeon/plant/sm_dg_xiaozhiwu_06_04/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_0_1_1_0/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_0_128_0_0_1_0/model/m.mdl
+deco/field/sm_candle_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_0_0_128_128_0_0_1_1/model/m.mdl
+deco/dungeon/sm_huopen_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_1_1_1_1_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_1_1_0_0_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_0_0_1_0_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_0_0_1_1_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_1_0_0_0_a/model/m.mdl
+deco/tiles/me_basemesh_hope/path/path_rock_128_0_128_256_0_0_0_1_a/model/m.mdl
+deco/chinoiserie/sm_ch_littlestone_d/model/m.mdl
+deco/zhuangshiwu/plants_22a/model/m.mdl
+deco/snowy_landscape/sm_stone_b/model/m.mdl
+deco/snowy_landscape/sm_stone_d/model/m.mdl
+deco/zhuangshiwu/plants_22c/model/m.mdl
+deco/dungeon/plant/sm_heye_10_06/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_e01/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_e02/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_e01_1/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_e01_2/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_e02_1/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_e02_2/model/m.mdl
+deco/buildsystem/sm_buildsystem_floor_a/model/m.mdl
+deco/buildsystem/sm_buildsystem_road_d/model/m.mdl
+deco/buildsystem/sm_buildsystem_road_b/model/m.mdl
+deco/low_poly/chufang/sm_qiangmen/model/m.mdl
+deco/ts_prop/sci_fi_base/sm_building_01_stairs_a/model/m.mdl
+deco/ts_prop/sci_fi_base/sm_concrete_wall1_stairs1_a/model/m.mdl
+deco/ts_prop/sci_fi_base/sm_catwalk1_stairs1_a/model/m.mdl
+deco/ts/sm_stairs01/model/m.mdl
+deco/ts_prop/sci_fi_base/sm_building_04_stairs_long/model/m.mdl
+deco/ts_prop/sci_fi_base/sm_building_04_stairs_short/model/m.mdl
+deco/ts_prop/sci_fi_base/sm_metal_wall_sloping_ladder_a/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_a01/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_c03/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_a02/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_a03/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_c01/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_b01/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_b03/model/m.mdl
+deco/tiles/me_basemesh_dg/decal/sm_dg_stairs_stones_c02/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_c01/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_c02/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_c03/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_d01/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_d02/model/m.mdl
+deco/buildsystem/sm_buildsystem_stairs_d03/model/m.mdl
+deco/ts/sm_ts_roadblock_b/model/m.mdl
+deco/low_poly/nongchang/sm_xingchenhuayecai_a_01/model/m.mdl
+eqpt/weapon/sm_dr_sword_04_02/model/m.mdl
+characters/general/sk_basic2/mdl.pa
+editor/valueanimation/blendmaterialanimation3.xml
+anim/human/barehanded_anim/hand_07/jump_qi.ani
+anim/human/barehanded_anim/hand_07/jump_kong.ani
+[2026-11-13 17_15_50_765][95679] INFO: 
+Message Performance Statistics: 
+| MessageID | AverTime(us) | MaxTime(us) | TotalTime(us) | Count |
+
+[2026-11-13 17_15_50_766][95679] INFO: GUIImageSearcher ==> Dump texture:
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/知道了.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/loading_white.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/loading.png
+[2026-11-13 17_15_50_766][95679] INFO: _m/gameui/52/gameui/ui/image/toast.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/scebattleloading.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/scelogo.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/bg3.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/空.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/progres_bg.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/taptaplogo.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/checkbox/normal.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/checkbox/selected.png
+[2026-11-13 17_15_50_766][95679] INFO: startup/ui/image/save.png
+[2026-11-13 17_15_50_768][95679] INFO: deconstruction gamesettings
+[2026-11-13 17_15_50_768][95679] INFO: Saving configs
+[2026-11-13 17_15_50_769][95679] INFO: GameApplication::Stop subsystems removed
+[2026-11-13 17_15_50_770][95679] INFO: GameApplication::Stop web env removed
+[2026-11-13 17_15_50_824][95679] INFO: GameApplication::Stop http manager joined
+[2026-11-13 17_15_50_923][95679] INFO: GameApplication::Stop timer manager joined
+[2026-11-13 17_15_50_924][95679] INFO: GameApplication::Stop event loop joined
+[2026-11-13 17_15_50_925][95679] INFO: GameApplication::Stop crash upload deinit done

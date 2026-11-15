@@ -1,0 +1,1744 @@
+{
+  "tool": "motor.snapshot",
+  "capacity": 128,
+  "subscribed": true,
+  "requested_unit_id": 7,
+  "subscribed_unit_id": 7,
+  "snapshot_interval_ms": 100,
+  "dropped": 0.0,
+  "coordinate_space": "server",
+  "query_unit_id": 7,
+  "status": "ok",
+  "retryable": false,
+  "count": 32,
+  "samples": [
+    {
+      "unit_id": 7,
+      "logic_frame": 24407.0,
+      "physics_frame": 48331,
+      "server_time_ms": 807879,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24410.0,
+      "physics_frame": 48337,
+      "server_time_ms": 807979,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24413.0,
+      "physics_frame": 48343,
+      "server_time_ms": 808081,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24416.0,
+      "physics_frame": 48349,
+      "server_time_ms": 808181,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24420.0,
+      "physics_frame": 48357,
+      "server_time_ms": 808313,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24424.0,
+      "physics_frame": 48365,
+      "server_time_ms": 808445,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24427.0,
+      "physics_frame": 48371,
+      "server_time_ms": 808545,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24431.0,
+      "physics_frame": 48379,
+      "server_time_ms": 808678,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24435.0,
+      "physics_frame": 48387,
+      "server_time_ms": 808810,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24439.0,
+      "physics_frame": 48395,
+      "server_time_ms": 808943,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24442.0,
+      "physics_frame": 48401,
+      "server_time_ms": 809043,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24446.0,
+      "physics_frame": 48409,
+      "server_time_ms": 809175,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24450.0,
+      "physics_frame": 48417,
+      "server_time_ms": 809307,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24454.0,
+      "physics_frame": 48425,
+      "server_time_ms": 809439,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24458.0,
+      "physics_frame": 48433,
+      "server_time_ms": 809571,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24462.0,
+      "physics_frame": 48441,
+      "server_time_ms": 809704,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24466.0,
+      "physics_frame": 48449,
+      "server_time_ms": 809836,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24470.0,
+      "physics_frame": 48457,
+      "server_time_ms": 809972,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24474.0,
+      "physics_frame": 48465,
+      "server_time_ms": 810104,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24478.0,
+      "physics_frame": 48473,
+      "server_time_ms": 810236,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24482.0,
+      "physics_frame": 48481,
+      "server_time_ms": 810368,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24486.0,
+      "physics_frame": 48489,
+      "server_time_ms": 810500,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939811825752258,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24490.0,
+      "physics_frame": 48496,
+      "server_time_ms": 810632,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24494.0,
+      "physics_frame": 48504,
+      "server_time_ms": 810765,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24498.0,
+      "physics_frame": 48512,
+      "server_time_ms": 810897,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24502.0,
+      "physics_frame": 48520,
+      "server_time_ms": 811029,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24505.0,
+      "physics_frame": 48526,
+      "server_time_ms": 811129,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24508.0,
+      "physics_frame": 48532,
+      "server_time_ms": 811229,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24512.0,
+      "physics_frame": 48540,
+      "server_time_ms": 811361,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24516.0,
+      "physics_frame": 48548,
+      "server_time_ms": 811493,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24520.0,
+      "physics_frame": 48556,
+      "server_time_ms": 811625,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    },
+    {
+      "unit_id": 7,
+      "logic_frame": 24523.0,
+      "physics_frame": 48562,
+      "server_time_ms": 811725,
+      "position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 90.0,
+        "has_z": true
+      },
+      "previous_position": {
+        "x": 2673.027587890625,
+        "y": 1869.6390380859375,
+        "z": 89.99999237060547,
+        "has_z": true
+      },
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.00045776364277116954,
+        "has_z": true
+      },
+      "desired_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "has_z": true
+      },
+      "radius": 40.0,
+      "height": 180.0,
+      "step_height": 45.0,
+      "max_slope_degrees": 45.0,
+      "grounded": true,
+      "collision_layer": 1,
+      "collision_mask": -1,
+      "selected_ground": {
+        "point": {
+          "x": 2673.02783203125,
+          "y": 1869.6390380859375,
+          "z": 0.040004730224609375,
+          "has_z": true
+        },
+        "normal": {
+          "x": -3.0517580853484105e-06,
+          "y": 0.0,
+          "z": 0.9999999403953552,
+          "has_z": true
+        },
+        "fraction": 0.9939808249473572,
+        "character_collision_role": 1,
+        "character_collision_role_name": "WalkableSurface"
+      }
+    }
+  ]
+}
