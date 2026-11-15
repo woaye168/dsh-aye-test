@@ -1,0 +1,67 @@
+[2026-11-13 16:48:50.513][50140][info][6]WasmtimeState::OpenWasmtimeState - appbundlePath = [D:/sce_new/version-2000/AppBundle], appbundleAbsPath = [D:/sce_new/version-2000/AppBundle]
+[2026-11-13 16:48:50.513][50140][debug][WasmLoad] id=1 stage=initializing event=session_begin stage_ms=0 total_ms=0
+[2026-11-13 16:48:50.513][50140][debug][WasmLoad] id=1 stage=create_engine_store event=begin stage_ms=0 total_ms=0
+[2026-11-13 16:48:50.513][50140][info][6]WASI user_files main preopen: host[D:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/ui/AppBundle/user_files], writable[1]
+[2026-11-13 16:48:50.515][50140][debug][WasmLoad] id=1 stage=create_engine_store event=success stage_ms=1 total_ms=1
+[2026-11-13 16:48:50.515][50140][debug][WasmLoad] id=1 stage=register_imports event=begin stage_ms=0 total_ms=1
+[2026-11-13 16:48:50.517][50140][debug][WasmLoad] id=1 stage=register_imports event=success stage_ms=1 total_ms=3
+[2026-11-13 16:48:50.517][50140][debug][WasmLoad] id=1 stage=read_module event=begin stage_ms=0 total_ms=3
+[2026-11-13 16:48:50.525][50140][debug][WasmLoad] id=1 stage=read_module event=success stage_ms=8 total_ms=11
+[2026-11-13 16:48:50.525][50140][debug][WasmLoad] input bytes_type=1 bytes=3848954 appbundle=D:/sce_new/version-2000/AppBundle seed=-1
+[2026-11-13 16:48:50.525][50140][debug][WasmLoad] id=1 stage=compile_wasm event=begin stage_ms=0 total_ms=11
+[2026-11-13 16:48:51.327][50140][debug][WasmLoad] id=1 stage=compile_wasm event=success stage_ms=801 total_ms=813
+[2026-11-13 16:48:51.327][50140][debug][WasmLoad] id=1 stage=instantiate_module event=begin stage_ms=0 total_ms=813
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=instantiate_module event=success stage_ms=2 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=link_instance event=begin stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=link_instance event=success stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=resolve_memory event=begin stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=resolve_memory event=success stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=register_exports event=begin stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=register_exports event=success stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.329][50140][debug][WasmLoad] id=1 stage=call_default_func event=begin stage_ms=0 total_ms=816
+[2026-11-13 16:48:51.952][50140][info][6]load dll[GameCore.dll] success, file_size: 1607168, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_client_deps_dll_package/79/official_client_deps_dll_package/ui/AppBundle/managed/GameCore.dll
+[2026-11-13 16:48:51.972][50140][info][6]load dll[Events.dll] success, file_size: 24576, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_client_deps_dll_package/79/official_client_deps_dll_package/ui/AppBundle/managed/Events.dll
+[2026-11-13 16:48:52.255][50140][info][6]load dll[GameData.dll] success, file_size: 21504, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_client_deps_dll_package/79/official_client_deps_dll_package/ui/AppBundle/managed/GameData.dll
+[2026-11-13 16:48:52.271][50140][info][6]load dll[GameGraph.dll] success, file_size: 716288, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_client_deps_dll_package/79/official_client_deps_dll_package/ui/AppBundle/managed/GameGraph.dll
+[2026-11-13 16:48:52.374][50140][info][6]load dll[GameUI.dll] success, file_size: 881152, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_client_deps_dll_package/79/official_client_deps_dll_package/ui/AppBundle/managed/GameUI.dll
+[2026-11-13 16:48:52.598][50140][info][6]load dll[GameEntry.dll] success, file_size: 73728, fullname: D:/sce_new/agent-worktrees/sce-run-evidence-4431882210a8/ui/AppBundle/managed/GameEntry.dll
+[2026-11-13 16:48:52.607][50140][info][6]load dll[TriggerEncapsulation.dll] success, file_size: 220672, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_client_deps_dll_package/79/official_client_deps_dll_package/ui/AppBundle/managed/TriggerEncapsulation.dll
+[2026-11-13 16:48:52.721][50140][info][6]load dll[GameSparkCore.dll] success, file_size: 339968, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/gamesparkcore/33/gamesparkcore/ui/AppBundle/managed/GameSparkCore.dll
+[2026-11-13 16:48:53.137][50140][info][6]load dll[GameSystemUI.dll] success, file_size: 757760, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/gamesystemui/37/gamesystemui/ui/AppBundle/managed/GameSystemUI.dll
+[2026-11-13 16:48:53.640][50140][info][6]load dll[System.Reflection.Emit.ILGeneration.dll] success, file_size: 5632, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.Reflection.Emit.ILGeneration.dll
+[2026-11-13 16:48:53.650][50140][info][6]load dll[System.Reflection.Emit.Lightweight.dll] success, file_size: 5632, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.Reflection.Emit.Lightweight.dll
+[2026-11-13 16:48:53.730][50140][info][6]Game runtime initialization started. Session: 7707575269935939588
+[2026-11-13 16:48:53.731][50140][info][6]Client initialization: binary version 213, capability version 11.
+[2026-11-13 16:48:53.872][50140][info][6]🎮 Debug Cheat System initializing...
+[2026-11-13 16:48:53.872][50140][info][6]✅ Debug Cheat System initialized successfully
+[2026-11-13 16:48:53.872][50140][info][6]🎯 Debug Cheat System auto-initialized
+[2026-11-13 16:48:53.872][50140][info][6]🎮 Debug Cheat System Initializer registered
+[2026-11-13 16:48:53.873][50140][info][6]📋 QuestSystem registered
+[2026-11-13 16:48:53.882][50140][info][6]TypedMessageHandler initialized with 0 message types
+[2026-11-13 16:48:53.946][50140][info][6]🎨 正在初始化基本形状系统...
+[2026-11-13 16:48:53.957][50140][info][6]✅ 基本形状系统初始化完成，共创建 9 种形状
+[2026-11-13 16:48:53.957][50140][info][6]📋 QuestManager initialized
+[2026-11-13 16:48:53.960][50140][info][6]📚 ChapterManager client initialized
+[2026-11-13 16:48:53.960][50140][info][6]📋 QuestSystem initialized (with ChapterManager)
+[2026-11-13 16:48:54.067][50140][info][6]3D unit movement controller locomotion patch applied at GameDataInitialization: model=$gamesparkcore.ScopeData.GameDataUnit.Controlled3DHeroSample.HeroModel, profile=$GameEntry.ScopeData.GameDataUnitLocomotionAnimationProfile.Controlled3DHeroSamplePatch.Root.
+[2026-11-13 16:48:54.127][50140][info][6]Scene 默认场景 registered
+[2026-11-13 16:48:54.130][50140][info][6]Game Mode: GameLink<GameDataGameMode>: $GameEntry.ScopeData.GameDataGameMode.MapGameMode.Root OnGameTriggerInitialization
+[2026-11-13 16:48:54.138][50140][debug][WasmLoad] id=1 stage=call_default_func event=success stage_ms=2808 total_ms=3624
+[2026-11-13 16:48:54.138][50140][debug][WasmLoad] id=1 stage=call_default_func event=session_success stage_ms=2808 total_ms=3624
+[2026-11-13 16:48:54.420][50140][info][13]GamePropertyActor is set.
+[2026-11-13 16:48:54.421][50140][info][13]PlayerPropertyActor 0 is set.
+[2026-11-13 16:48:54.421][50140][info][13]PlayerPropertyActor 1 is set.
+[2026-11-13 16:48:54.421][50140][info][13]PlayerPropertyActor 2 is set.
+[2026-11-13 16:48:54.421][50140][info][13]PlayerPropertyActor 3 is set.
+[2026-11-13 16:48:54.421][50140][info][13]PlayerPropertyActor 4 is set.
+[2026-11-13 16:48:54.421][50140][info][13]Game Starting...
+[2026-11-13 16:48:54.424][50140][info][13]Hello World!
+[2026-11-13 16:48:54.424][50140][info][13]This is running on the client side.
+[2026-11-13 16:48:54.434][50140][info][13]3D unit movement controller UI created: buttons plus T/Space/O/G shortcuts.
+[2026-11-13 16:48:54.779][50140][info][13]Client scene load started: scene=默认场景, hash=-472682756
+[2026-11-13 16:48:57.646][50140][info][13]load dll[System.Net.Ping.dll] success, file_size: 16896, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.Net.Ping.dll
+[2026-11-13 16:48:57.706][50140][info][13]load dll[System.Net.Primitives.dll] success, file_size: 95232, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.Net.Primitives.dll
+[2026-11-13 16:48:57.751][50140][info][13]load dll[System.IO.Hashing.dll] success, file_size: 55560, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.IO.Hashing.dll
+[2026-11-13 16:48:57.798][50140][info][13]load dll[System.Diagnostics.DiagnosticSource.dll] success, file_size: 192000, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.Diagnostics.DiagnosticSource.dll
+[2026-11-13 16:48:57.806][50140][info][13]load dll[System.ComponentModel.Annotations.dll] success, file_size: 91648, fullname: D:/sce_new/Update/editor-pd.spark.xd.com/Res/_m/maps/official_dotnet_bcl_package/8/official_dotnet_bcl_package/ui/AppBundle/managed/System.ComponentModel.Annotations.dll
+[2026-11-13 16:48:58.436][50140][info][14]Client scene load completed: scene=默认场景, hash=-472682756

@@ -1,0 +1,5 @@
+[remote][16:48:31_531][info][0][c++]load wasm :/work/bin/AppBundle
+[remote][16:48:37_960][info][70][c++]scene[new_scene] static mesh colliders loaded: meshes=123, colliders=254, roleMetadata=1, roles=Unknown=0, WalkableSurface=178, Obstacle=3, DecorationNoCharacterCollision=73, PhysicsOnly=0, QueryOnly=0
+[remote][16:48:54_158][debug][559][c++]玩家加入游戏: 槽位=1 用户ID=100 昵称= 地址= 连接ID=7
+[remote][16:48:54_158][debug][559][c++]玩家重连: 槽位=1 用户ID=100 昵称= 地址= 连接ID=7
+[remote][17:17:53_464][debug][53143][c++]玩家断开连接: 槽位=1 用户ID=100 昵称= 地址= 连接ID=7 原因=unknown(3)
